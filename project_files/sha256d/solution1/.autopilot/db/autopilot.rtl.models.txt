@@ -1,11 +1,7 @@
-sha256_prepare_1_bkb
-sha256_transform_cud
-sha256_transform_dEe
-sha256_prepare_2_eOg
-sha256d_hash1_V_2
+sha256d_K_V
+sha256d_state_V
+sha256d_data1_V
+sha256d_m_V
 sha256d_hash1_V
-sha256_prepare_1
-sha256_transform
-sha256_prepare_2
-sha256_transform_1
+sha256d_data2_V
 sha256d

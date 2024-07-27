@@ -53,140 +53,44 @@ set NewPortList {[
  	{ "name": "output_V_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "output_V", "role": "d0" }}  ]}
 
 set RtlHierarchyInfo {[
-	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "9", "12", "14"],
+	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "7", "8"],
 		"CDFG" : "sha256d",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1698", "EstimateLatencyMax" : "1698",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1559", "EstimateLatencyMax" : "1559",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
 		"HasSubDataflow" : "0",
 		"InDataflowNetwork" : "0",
 		"HasNonBlockingOperation" : "0",
-		"WaitState" : [
-			{"State" : "ap_ST_fsm_state6", "FSM" : "ap_CS_fsm", "SubInstance" : "grp_sha256_transform_fu_313"},
-			{"State" : "ap_ST_fsm_state8", "FSM" : "ap_CS_fsm", "SubInstance" : "grp_sha256_transform_fu_313"},
-			{"State" : "ap_ST_fsm_state15", "FSM" : "ap_CS_fsm", "SubInstance" : "grp_sha256_transform_1_fu_324"},
-			{"State" : "ap_ST_fsm_state4", "FSM" : "ap_CS_fsm", "SubInstance" : "grp_sha256_prepare_1_fu_332"},
-			{"State" : "ap_ST_fsm_state13", "FSM" : "ap_CS_fsm", "SubInstance" : "grp_sha256_prepare_2_fu_339"}],
 		"Port" : [
-			{"Name" : "input_V", "Type" : "Memory", "Direction" : "I",
-				"SubConnect" : [
-					{"ID" : "12", "SubInstance" : "grp_sha256_prepare_1_fu_332", "Port" : "input_V"}]},
+			{"Name" : "input_V", "Type" : "Memory", "Direction" : "I"},
 			{"Name" : "output_V", "Type" : "Memory", "Direction" : "O"},
-			{"Name" : "K_V", "Type" : "Memory", "Direction" : "I",
-				"SubConnect" : [
-					{"ID" : "6", "SubInstance" : "grp_sha256_transform_fu_313", "Port" : "K_V"},
-					{"ID" : "9", "SubInstance" : "grp_sha256_transform_1_fu_324", "Port" : "K_V"}]}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.hash1_V_2_U", "Parent" : "0"},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.data_V_1_U", "Parent" : "0"},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.hash1_V_1_U", "Parent" : "0"},
+			{"Name" : "K_V", "Type" : "Memory", "Direction" : "I"}]},
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.K_V_U", "Parent" : "0"},
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.state_V_U", "Parent" : "0"},
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.data1_V_U", "Parent" : "0"},
 	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.data_V_U", "Parent" : "0"},
-	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.hash1_V_U", "Parent" : "0"},
-	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sha256_transform_fu_313", "Parent" : "0", "Child" : ["7", "8"],
-		"CDFG" : "sha256_transform",
-		"Protocol" : "ap_ctrl_hs",
-		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1",
-		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
-		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "314", "EstimateLatencyMax" : "314",
-		"Combinational" : "0",
-		"Datapath" : "0",
-		"ClockEnable" : "0",
-		"HasSubDataflow" : "0",
-		"InDataflowNetwork" : "0",
-		"HasNonBlockingOperation" : "0",
-		"Port" : [
-			{"Name" : "state_V", "Type" : "Memory", "Direction" : "IO"},
-			{"Name" : "data_V", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "data_V_offset", "Type" : "None", "Direction" : "I"},
-			{"Name" : "K_V", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "7", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sha256_transform_fu_313.K_V_U", "Parent" : "6"},
-	{"ID" : "8", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sha256_transform_fu_313.m_V_U", "Parent" : "6"},
-	{"ID" : "9", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sha256_transform_1_fu_324", "Parent" : "0", "Child" : ["10", "11"],
-		"CDFG" : "sha256_transform_1",
-		"Protocol" : "ap_ctrl_hs",
-		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1",
-		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
-		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "314", "EstimateLatencyMax" : "314",
-		"Combinational" : "0",
-		"Datapath" : "0",
-		"ClockEnable" : "0",
-		"HasSubDataflow" : "0",
-		"InDataflowNetwork" : "0",
-		"HasNonBlockingOperation" : "0",
-		"Port" : [
-			{"Name" : "state_V", "Type" : "Memory", "Direction" : "IO"},
-			{"Name" : "data_V", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "K_V", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "10", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sha256_transform_1_fu_324.K_V_U", "Parent" : "9"},
-	{"ID" : "11", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sha256_transform_1_fu_324.m_V_U", "Parent" : "9"},
-	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sha256_prepare_1_fu_332", "Parent" : "0", "Child" : ["13"],
-		"CDFG" : "sha256_prepare_1",
-		"Protocol" : "ap_ctrl_hs",
-		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1",
-		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
-		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "476", "EstimateLatencyMax" : "476",
-		"Combinational" : "0",
-		"Datapath" : "0",
-		"ClockEnable" : "0",
-		"HasSubDataflow" : "0",
-		"InDataflowNetwork" : "0",
-		"HasNonBlockingOperation" : "0",
-		"Port" : [
-			{"Name" : "input_V", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "data_V", "Type" : "Memory", "Direction" : "O"}]},
-	{"ID" : "13", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sha256_prepare_1_fu_332.data1_V_U", "Parent" : "12"},
-	{"ID" : "14", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sha256_prepare_2_fu_339", "Parent" : "0", "Child" : ["15"],
-		"CDFG" : "sha256_prepare_2",
-		"Protocol" : "ap_ctrl_hs",
-		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1",
-		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
-		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "234", "EstimateLatencyMax" : "234",
-		"Combinational" : "0",
-		"Datapath" : "0",
-		"ClockEnable" : "0",
-		"HasSubDataflow" : "0",
-		"InDataflowNetwork" : "0",
-		"HasNonBlockingOperation" : "0",
-		"Port" : [
-			{"Name" : "input_V", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "data_V", "Type" : "Memory", "Direction" : "O"}]},
-	{"ID" : "15", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sha256_prepare_2_fu_339.data1_V_U", "Parent" : "14"}]}
+	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.m_V_U", "Parent" : "0"},
+	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.hash1_V_U", "Parent" : "0"},
+	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.data2_V_U", "Parent" : "0"},
+	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.m_V_1_U", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	sha256d {
-		input_V {Type I LastRead 1 FirstWrite -1}
-		output_V {Type O LastRead -1 FirstWrite 15}
-		K_V {Type I LastRead -1 FirstWrite -1}}
-	sha256_transform {
-		state_V {Type IO LastRead 6 FirstWrite 7}
-		data_V {Type I LastRead 1 FirstWrite -1}
-		data_V_offset {Type I LastRead 0 FirstWrite -1}
-		K_V {Type I LastRead -1 FirstWrite -1}}
-	sha256_transform_1 {
-		state_V {Type IO LastRead 6 FirstWrite 7}
-		data_V {Type I LastRead 1 FirstWrite -1}
-		K_V {Type I LastRead -1 FirstWrite -1}}
-	sha256_prepare_1 {
-		input_V {Type I LastRead 1 FirstWrite -1}
-		data_V {Type O LastRead -1 FirstWrite 5}}
-	sha256_prepare_2 {
-		input_V {Type I LastRead 1 FirstWrite -1}
-		data_V {Type O LastRead -1 FirstWrite 5}}}
+		input_V {Type I LastRead 4 FirstWrite -1}
+		output_V {Type O LastRead -1 FirstWrite 21}
+		K_V {Type I LastRead -1 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "1698", "Max" : "1698"}
-	, {"Name" : "Interval", "Min" : "1699", "Max" : "1699"}
+	{"Name" : "Latency", "Min" : "1559", "Max" : "1559"}
+	, {"Name" : "Interval", "Min" : "1560", "Max" : "1560"}
 ]}
 
 set PipelineEnableSignalInfo {[

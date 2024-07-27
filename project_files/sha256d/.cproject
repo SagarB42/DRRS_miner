@@ -60,6 +60,8 @@
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/win64/tools/auto_cc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/win64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="C:/DRRS_miner/project_files"/>
                                     								
                                 </option>
                                 								
@@ -94,6 +96,8 @@
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/win64/tools/auto_cc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/win64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="C:/DRRS_miner/project_files"/>
                                     								
                                 </option>
                                 								
@@ -159,7 +163,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding="solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding="solution1|solution2|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				
@@ -228,6 +232,8 @@
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/win64/tools/auto_cc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/win64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="C:/DRRS_miner/project_files"/>
                                     								
                                 </option>
                                 								
@@ -252,6 +258,8 @@
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/win64/tools/auto_cc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="C:/Xilinx/Vivado/2020.1/win64/tools/systemc/include"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="C:/DRRS_miner/project_files"/>
                                     								
                                 </option>
                                 								
@@ -307,7 +315,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding="solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding="solution1|solution2|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				
