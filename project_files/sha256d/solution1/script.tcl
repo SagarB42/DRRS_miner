@@ -4,6 +4,7 @@
 ## Copyright (C) 1986-2020 Xilinx, Inc. All Rights Reserved.
 ############################################################
 open_project sha256d
+set_top main
 add_files sha256d/sha256.c
 add_files -tb sha256d/sha256_test.c
 open_solution "solution1"
