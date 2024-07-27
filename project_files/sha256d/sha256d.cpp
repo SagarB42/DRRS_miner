@@ -1,4 +1,4 @@
-typedef unsigned int uint32_t;
+#include "sha256d.h"
 
 // SHA-256 constants
 static const uint32_t K[] = {
@@ -30,7 +30,7 @@ static const uint32_t K[] = {
 #define SIG1(x) (ROTRIGHT(x,17) ^ ROTRIGHT(x,19) ^ ((x) >> 10))
 
 // SHA-256 transformation function
-void sha256_transform(uint32_t state[8], const uint8_t data[]) {
+void sha256_transform(uint32_t state[8], const uint8_t data[64]) {
     uint32_t a, b, c, d, e, f, g, h, i, j, t1, t2, m[64];
 
     for (i = 0, j = 0; i < 16; ++i, j += 4)
@@ -83,7 +83,7 @@ void sha256_init(uint32_t state[8]) {
 }
 
 // SHA-256 update function for a single block (80 bytes)
-void sha256_update(uint32_t state[8], const uint8_t data[]) {
+void sha256_update(uint32_t state[8], const uint8_t data[80]) {
     uint8_t block[64];
 
     // Copy the first 64 bytes of data into the block
@@ -113,7 +113,7 @@ void sha256_update(uint32_t state[8], const uint8_t data[]) {
 }
 
 // SHA-256 final function
-void sha256_final(uint32_t state[8], uint8_t hash[]) {
+void sha256_final(uint32_t state[8], uint8_t hash[32]) {
     for (int i = 0; i < 8; ++i) {
         hash[i * 4] = (state[i] >> 24) & 0xff;
         hash[i * 4 + 1] = (state[i] >> 16) & 0xff;
@@ -123,7 +123,7 @@ void sha256_final(uint32_t state[8], uint8_t hash[]) {
 }
 
 // SHA-256 main function
-void sha256(const uint8_t data[], uint8_t hash[]) {
+void sha256(const uint8_t data[80], uint8_t hash[32]) {
     uint32_t state[8];
     sha256_init(state);
     sha256_update(state, data);
@@ -131,20 +131,8 @@ void sha256(const uint8_t data[], uint8_t hash[]) {
 }
 
 // SHA256D function
-void sha256d(const uint8_t input[], uint8_t output[]) {
+void sha256d(const uint8_t input[80], uint8_t output[32]) {
     uint8_t hash1[32];
     sha256(input, hash1); // First SHA-256 hash
     sha256(hash1, output); // Second SHA-256 hash
-}
-
-// Example memory-mapped I/O
-volatile uint8_t input_memory[80];   // Input memory location
-volatile uint8_t output_memory[32];  // Output memory location
-
-int main() {
-    // Assuming input_memory is filled with the input data by the FPGA
-    sha256d(input_memory, output_memory);
-
-    // The output is now stored in output_memory, which can be accessed by the FPGA
-    return 0;
 }
