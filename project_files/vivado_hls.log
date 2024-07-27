@@ -1,0 +1,146 @@
+INFO: Applying HLS Y2K22 patch v1.2 for IP revision
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'Rajdeep Singh' on host 'laptop-5im3uc4n' (Windows NT_amd64 version 6.2) on Sat Jul 27 10:39:52 +1000 2024
+INFO: [HLS 200-10] In directory 'C:/DRRS_miner/project_files'
+Sourcing Tcl script 'C:/DRRS_miner/project_files/sha256d/solution1/csynth.tcl'
+INFO: [HLS 200-10] Opening project 'C:/DRRS_miner/project_files/sha256d'.
+INFO: [HLS 200-10] Adding design file 'sha256d/sha256.c' to the project
+INFO: [HLS 200-10] Adding test bench file 'sha256d/sha256_test.c' to the project
+INFO: [HLS 200-10] Opening solution 'C:/DRRS_miner/project_files/sha256d/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xqzu5ev-ffrb900-1-i'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'sha256d/sha256.c' ... 
+ERROR: [HLS 200-70] Compilation errors found: In file included from sha256d/sha256.c:1:
+sha256d/sha256.c:33:48: error: unknown type name 'uint8_t'; did you mean 'uint32_t'?
+void sha256_transform(uint32_t state[8], const uint8_t data[]) {
+                                               ^~~~~~~
+                                               uint32_t
+sha256d/sha256.c:1:22: note: 'uint32_t' declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:86:45: error: unknown type name 'uint8_t'; did you mean 'uint32_t'?
+void sha256_update(uint32_t state[8], const uint8_t data[]) {
+                                            ^~~~~~~
+                                            uint32_t
+sha256d/sha256.c:1:22: note: 'uint32_t' declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:87:5: error: unknown type name 'uint8_t'; did you mean 'uint32_t'?
+    uint8_t block[64];
+    ^~~~~~~
+    uint32_t
+sha256d/sha256.c:1:22: note: 'uint32_t' declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:96:14: error: redefinition of 'i'
+    for (int i = 0; i < 64; i++) {
+             ^
+sha256d/sha256.c:90:14: note: previous definition is here
+    for (int i = 0; i < 64; i++) {
+             ^
+sha256d/sha256.c:99:14: error: redefinition of 'i'
+    for (int i = 0; i < 16; i++) {
+             ^
+sha256d/sha256.c:90:14: note: previous definition is here
+    for (int i = 0; i < 64; i++) {
+             ^
+sha256d/sha256.c:105:14: error: redefinition of 'i'
+    for (int i = 17; i < 56; i++) {
+             ^
+sha256d/sha256.c:90:14: note: previous definition is here
+    for (int i = 0; i < 64; i++) {
+             ^
+sha256d/sha256.c:108:5: error: unknown type name 'uint64_t'; did you mean 'uint32_t'?
+    uint64_t len_be = __builtin_bswap64(80 * 8);
+    ^~~~~~~~
+    uint32_t
+sha256d/sha256.c:1:22: note: 'uint32_t' declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:109:14: error: redefinition of 'i'
+    for (int i = 0; i < 8; i++) {
+             ^
+sha256d/sha256.c:90:14: note: previous definition is here
+    for (int i = 0; i < 64; i++) {
+             ^
+sha256d/sha256.c:116:38: error: unknown type name 'uint8_t'; did you mean 'uint32_t'?
+void sha256_final(uint32_t state[8], uint8_t hash[]) {
+                                     ^~~~~~~
+                                     uint32_t
+sha256d/sha256.c:1:22: note: 'uint32_t' declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:126:19: error: unknown type name 'uint8_t'; did you mean 'uint32_t'?
+void sha256(const uint8_t data[], uint8_t hash[]) {
+                  ^~~~~~~
+                  uint32_t
+sha256d/sha256.c:1:22: note: 'uint32_t' declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:126:35: error: unknown type name 'uint8_t'; did you mean 'uint32_t'?
+void sha256(const uint8_t data[], uint8_t hash[]) {
+                                  ^~~~~~~
+                                  uint32_t
+sha256d/sha256.c:1:22: note: 'uint32_t' declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:134:20: error: unknown type name 'uint8_t'; did you mean 'uint32_t'?
+void sha256d(const uint8_t input[], uint8_t output[]) {
+                   ^~~~~~~
+                   uint32_t
+sha256d/sha256.c:1:22: note: 'uint32_t' declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:134:37: error: unknown type name 'uint8_t'; did you mean 'uint32_t'?
+void sha256d(const uint8_t input[], uint8_t output[]) {
+                                    ^~~~~~~
+                                    uint32_t
+sha256d/sha256.c:1:22: note: 'uint32_t' declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:135:5: error: unknown type name 'uint8_t'; did you mean 'uint32_t'?
+    uint8_t hash1[32];
+    ^~~~~~~
+    uint32_t
+sha256d/sha256.c:1:22: note: 'uint32_t' declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:141:10: error: unknown type name 'uint8_t'; did you mean 'uint32_t'?
+volatile uint8_t input_memory[80];
+         ^~~~~~~
+         uint32_t
+sha256d/sha256.c:1:22: note: 'uint32_t' declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:142:10: error: unknown type name 'uint8_t'; did you mean 'uint32_t'?
+volatile uint8_t output_memory[32];
+         ^~~~~~~
+         uint32_t
+sha256d/sha256.c:1:22: note: 'uint32_t' declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:146:13: warning: passing 'volatile uint32_t [80]' to parameter of type 'const uint32_t *' (aka 'const unsigned int *') discards qualifiers [-Wincompatible-pointer-types]
+    sha256d(input_memory, output_memory);
+            ^~~~~~~~~~~~
+sha256d/sha256.c:134:28: note: passing argument to parameter 'input' here
+void sha256d(const uint8_t input[], uint8_t output[]) {
+                           ^
+sha256d/sha256.c:146:27: warning: passing 'volatile uint32_t [32]' to parameter of type 'uint32_t *' (aka 'unsigned int *') discards qualifiers [-Wincompatible-pointer-types]
+    sha256d(input_memory, output_memory);
+                          ^~~~~~~~~~~~~
+sha256d/sha256.c:134:45: note: passing argument to parameter 'output' here
+void sha256d(const uint8_t input[], uint8_t output[]) {
+                                            ^
+2 warnings and 16 errors generated.
+Failed during preprocessing.
+    while executing
+"source C:/DRRS_miner/project_files/sha256d/solution1/csynth.tcl"
+    invoked from within
+"hls::main C:/DRRS_miner/project_files/sha256d/solution1/csynth.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"

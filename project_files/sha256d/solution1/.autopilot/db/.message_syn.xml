@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_631" tag="SCHEDULE" content="Option &apos;relax_ii_for_timing&apos; is enabled, will increase II to preserve clock frequency constraints."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1312" tag="" content="Analyzing design file &apos;sha256d/sha256.c&apos; ..."/>
+	<Message severity="ERROR" prefix="[HLS 200-70]" key="HLS_70_1454" tag="" content="Compilation errors found: In file included from sha256d/sha256.c:1:
+sha256d/sha256.c:33:48: error: unknown type name &apos;uint8_t&apos;; did you mean &apos;uint32_t&apos;?
+void sha256_transform(uint32_t state[8], const uint8_t data[]) {
+                                               ^~~~~~~
+                                               uint32_t
+sha256d/sha256.c:1:22: note: &apos;uint32_t&apos; declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:86:45: error: unknown type name &apos;uint8_t&apos;; did you mean &apos;uint32_t&apos;?
+void sha256_update(uint32_t state[8], const uint8_t data[]) {
+                                            ^~~~~~~
+                                            uint32_t
+sha256d/sha256.c:1:22: note: &apos;uint32_t&apos; declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:87:5: error: unknown type name &apos;uint8_t&apos;; did you mean &apos;uint32_t&apos;?
+    uint8_t block[64];
+    ^~~~~~~
+    uint32_t
+sha256d/sha256.c:1:22: note: &apos;uint32_t&apos; declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:96:14: error: redefinition of &apos;i&apos;
+    for (int i = 0; i &lt; 64; i++) {
+             ^
+sha256d/sha256.c:90:14: note: previous definition is here
+    for (int i = 0; i &lt; 64; i++) {
+             ^
+sha256d/sha256.c:99:14: error: redefinition of &apos;i&apos;
+    for (int i = 0; i &lt; 16; i++) {
+             ^
+sha256d/sha256.c:90:14: note: previous definition is here
+    for (int i = 0; i &lt; 64; i++) {
+             ^
+sha256d/sha256.c:105:14: error: redefinition of &apos;i&apos;
+    for (int i = 17; i &lt; 56; i++) {
+             ^
+sha256d/sha256.c:90:14: note: previous definition is here
+    for (int i = 0; i &lt; 64; i++) {
+             ^
+sha256d/sha256.c:108:5: error: unknown type name &apos;uint64_t&apos;; did you mean &apos;uint32_t&apos;?
+    uint64_t len_be = __builtin_bswap64(80 * 8);
+    ^~~~~~~~
+    uint32_t
+sha256d/sha256.c:1:22: note: &apos;uint32_t&apos; declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:109:14: error: redefinition of &apos;i&apos;
+    for (int i = 0; i &lt; 8; i++) {
+             ^
+sha256d/sha256.c:90:14: note: previous definition is here
+    for (int i = 0; i &lt; 64; i++) {
+             ^
+sha256d/sha256.c:116:38: error: unknown type name &apos;uint8_t&apos;; did you mean &apos;uint32_t&apos;?
+void sha256_final(uint32_t state[8], uint8_t hash[]) {
+                                     ^~~~~~~
+                                     uint32_t
+sha256d/sha256.c:1:22: note: &apos;uint32_t&apos; declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:126:19: error: unknown type name &apos;uint8_t&apos;; did you mean &apos;uint32_t&apos;?
+void sha256(const uint8_t data[], uint8_t hash[]) {
+                  ^~~~~~~
+                  uint32_t
+sha256d/sha256.c:1:22: note: &apos;uint32_t&apos; declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:126:35: error: unknown type name &apos;uint8_t&apos;; did you mean &apos;uint32_t&apos;?
+void sha256(const uint8_t data[], uint8_t hash[]) {
+                                  ^~~~~~~
+                                  uint32_t
+sha256d/sha256.c:1:22: note: &apos;uint32_t&apos; declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:134:20: error: unknown type name &apos;uint8_t&apos;; did you mean &apos;uint32_t&apos;?
+void sha256d(const uint8_t input[], uint8_t output[]) {
+                   ^~~~~~~
+                   uint32_t
+sha256d/sha256.c:1:22: note: &apos;uint32_t&apos; declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:134:37: error: unknown type name &apos;uint8_t&apos;; did you mean &apos;uint32_t&apos;?
+void sha256d(const uint8_t input[], uint8_t output[]) {
+                                    ^~~~~~~
+                                    uint32_t
+sha256d/sha256.c:1:22: note: &apos;uint32_t&apos; declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:135:5: error: unknown type name &apos;uint8_t&apos;; did you mean &apos;uint32_t&apos;?
+    uint8_t hash1[32];
+    ^~~~~~~
+    uint32_t
+sha256d/sha256.c:1:22: note: &apos;uint32_t&apos; declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:141:10: error: unknown type name &apos;uint8_t&apos;; did you mean &apos;uint32_t&apos;?
+volatile uint8_t input_memory[80];
+         ^~~~~~~
+         uint32_t
+sha256d/sha256.c:1:22: note: &apos;uint32_t&apos; declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:142:10: error: unknown type name &apos;uint8_t&apos;; did you mean &apos;uint32_t&apos;?
+volatile uint8_t output_memory[32];
+         ^~~~~~~
+         uint32_t
+sha256d/sha256.c:1:22: note: &apos;uint32_t&apos; declared here
+typedef unsigned int uint32_t;
+                     ^
+sha256d/sha256.c:146:13: warning: passing &apos;volatile uint32_t [80]&apos; to parameter of type &apos;const uint32_t *&apos; (aka &apos;const unsigned int *&apos;) discards qualifiers [-Wincompatible-pointer-types]
+    sha256d(input_memory, output_memory);
+            ^~~~~~~~~~~~
+sha256d/sha256.c:134:28: note: passing argument to parameter &apos;input&apos; here
+void sha256d(const uint8_t input[], uint8_t output[]) {
+                           ^
+sha256d/sha256.c:146:27: warning: passing &apos;volatile uint32_t [32]&apos; to parameter of type &apos;uint32_t *&apos; (aka &apos;unsigned int *&apos;) discards qualifiers [-Wincompatible-pointer-types]
+    sha256d(input_memory, output_memory);
+                          ^~~~~~~~~~~~~
+sha256d/sha256.c:134:45: note: passing argument to parameter &apos;output&apos; here
+void sha256d(const uint8_t input[], uint8_t output[]) {
+                                            ^
+2 warnings and 16 errors generated."/>
+</Messages>

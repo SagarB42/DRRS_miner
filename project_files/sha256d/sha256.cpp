@@ -1,4 +1,4 @@
-#include <stdint.h>
+typedef unsigned int uint32_t;
 
 // SHA-256 constants
 static const uint32_t K[] = {
