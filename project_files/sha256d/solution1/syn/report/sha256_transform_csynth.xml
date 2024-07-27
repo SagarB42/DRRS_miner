@@ -251,7 +251,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>6</Bits>
+<Bits>7</Bits>
 <Attribute>address</Attribute>
 </RtlPorts>
 <RtlPorts>
@@ -274,6 +274,17 @@
 <IOConfig></IOConfig>
 <Dir>in</Dir>
 <Bits>8</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>data_V_offset</name>
+<Object>data_V_offset</Object>
+<Type>scalar</Type>
+<Scope></Scope>
+<IOProtocol>ap_none</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>in</Dir>
+<Bits>1</Bits>
 <Attribute>data</Attribute>
 </RtlPorts>
 </InterfaceSummary>

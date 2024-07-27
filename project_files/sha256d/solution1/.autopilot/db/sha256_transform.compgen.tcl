@@ -1,9 +1,9 @@
 # This script segment is generated automatically by AutoPilot
 
 # Memory (RAM/ROM)  definition:
-set ID 1
+set ID 4
 set hasByteEnable 0
-set MemName sha256_transform_bkb
+set MemName sha256_transform_cud
 set CoreName ap_simcore_mem
 set PortList { 1 }
 set DataWd 32
@@ -84,9 +84,9 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 2
+set ID 5
 set hasByteEnable 0
-set MemName sha256_transform_cud
+set MemName sha256_transform_dEe
 set CoreName ap_simcore_mem
 set PortList { 2 2 }
 set DataWd 32
@@ -179,7 +179,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 3 \
+    id 6 \
     name state_V \
     reset_level 1 \
     sync_rst true \
@@ -198,20 +198,35 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 4 \
+    id 7 \
     name data_V \
     reset_level 1 \
     sync_rst true \
     dir I \
     corename data_V \
     op interface \
-    ports { data_V_address0 { O 6 vector } data_V_ce0 { O 1 bit } data_V_q0 { I 8 vector } } \
+    ports { data_V_address0 { O 7 vector } data_V_ce0 { O 1 bit } data_V_q0 { I 8 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'data_V'"
 }
 }
 
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 8 \
+    name data_V_offset \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_data_V_offset \
+    op interface \
+    ports { data_V_offset { I 1 vector } } \
+} "
+}
 
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {

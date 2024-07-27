@@ -43,7 +43,7 @@ set TargetInfo xqzu5ev:-ffrb900:-1-i
 set SourceFiles {sc {} c ../sha256d.cpp}
 set SourceFlags {sc {} c {{}}}
 set DirectiveFile C:/DRRS_miner/project_files/sha256d/solution1/solution1.directive
-set TBFiles {verilog ../sha256d_test.cpp bc ../sha256d_test.cpp vhdl ../sha256d_test.cpp sc ../sha256d_test.cpp cas ../sha256d_test.cpp c {}}
+set TBFiles {verilog {} bc {} vhdl {} sc {} cas {} c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
@@ -51,7 +51,7 @@ set TBTops {verilog {} bc {} vhdl {} sc {} cas {} c {}}
 set TBInstNames {verilog {} bc {} vhdl {} sc {} cas {} c {}}
 set XDCFiles {}
 set ExtraGlobalOptions {"area_timing" 1 "clock_gate" 1 "impl_flow" map "power_gate" 0}
-set TBTVFileNotFound {}
+set TBTVFileNotFound ../../sha256d_test.cpp
 set AppFile ../vivado_hls.app
 set ApsFile solution1.aps
 set AvePath ../..

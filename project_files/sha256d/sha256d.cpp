@@ -21,7 +21,9 @@ static const uint32_t K[] = {
 };
 
 // SHA-256 functions
+#define ROTLEFT(a,b) (((a) << (b)) | ((a) >> (32-(b))))
 #define ROTRIGHT(a,b) (((a) >> (b)) | ((a) << (32-(b))))
+
 #define CH(x,y,z) (((x) & (y)) ^ (~(x) & (z)))
 #define MAJ(x,y,z) (((x) & (y)) ^ ((x) & (z)) ^ ((y) & (z)))
 #define EP0(x) (ROTRIGHT(x,2) ^ ROTRIGHT(x,13) ^ ROTRIGHT(x,22))
@@ -82,57 +84,88 @@ void sha256_init(uint32_t state[8]) {
     state[7] = 0x5be0cd19;
 }
 
-// SHA-256 update function for a single block (80 bytes)
-void sha256_update(uint32_t state[8], const uint8_t data[80]) {
-    uint8_t block[64];
-
-    // Copy the first 64 bytes of data into the block
-    for (int i = 0; i < 64; i++) {
-        block[i] = data[i];
+// SHA-256 prepare function
+void sha256_prepare_1(const uint8_t input[80], uint8_t data[2][64]) {
+    //append the bit '1' to the message
+    uint8_t data1[128];
+    for (int i = 0; i < 80; i++) {
+        data1[i] = input[i];
     }
-    sha256_transform(state, block);
+    data1[80] = 0x80;
 
-    // Clear the block and copy the remaining 16 bytes
-    for (int i = 0; i < 64; i++) {
-        block[i] = 0;
-    }
-    for (int i = 0; i < 16; i++) {
-        block[i] = data[64 + i];
+    //319 bit  '0'
+    for (int i = 81; i < 128; i++) {
+        data1[i] = 0x00;
     }
 
-    // Padding and length
-    block[16] = 0x80;
-    for (int i = 17; i < 56; i++) {
-        block[i] = 0;
-    }
-    uint64_t len_be = __builtin_bswap64(80 * 8);
+    //append the original length
+    uint64_t length = 640;
     for (int i = 0; i < 8; i++) {
-        block[56 + i] = (len_be >> (56 - 8 * i)) & 0xFF;
+        data1[127 - i] = (length >> (i * 8)) & 0xff;
     }
-    sha256_transform(state, block);
-}
 
-// SHA-256 final function
-void sha256_final(uint32_t state[8], uint8_t hash[32]) {
-    for (int i = 0; i < 8; ++i) {
-        hash[i * 4] = (state[i] >> 24) & 0xff;
-        hash[i * 4 + 1] = (state[i] >> 16) & 0xff;
-        hash[i * 4 + 2] = (state[i] >> 8) & 0xff;
-        hash[i * 4 + 3] = state[i] & 0xff;
+    //prepare the data
+    for (int i = 0; i < 64; i++) {
+        data[0][i] = data1[i];
     }
-}
-
-// SHA-256 main function
-void sha256(const uint8_t data[80], uint8_t hash[32]) {
-    uint32_t state[8];
-    sha256_init(state);
-    sha256_update(state, data);
-    sha256_final(state, hash);
+    for (int i = 0; i < 64; i++) {
+        data[1][i] = data1[i + 64];
+    }
 }
 
 // SHA256D function
-void sha256d(const uint8_t input[80], uint8_t output[32]) {
-    uint8_t hash1[32];
-    sha256(input, hash1); // First SHA-256 hash
-    sha256(hash1, output); // Second SHA-256 hash
+void sha256_1(const uint8_t input[80], uint32_t output[8]) {
+    uint32_t hash1[8];
+    sha256_init(hash1);
+    uint8_t data[2][64];
+    sha256_prepare_1(input, data);
+    sha256_transform(hash1, data[0]);
+    sha256_transform(hash1, data[1]);
+
+    for (int i = 0; i < 8; i++) {
+        output[i] = hash1[i];
+    }
+}
+
+// SHA256D prepare function
+void sha256_prepare_2(const uint32_t input[8], uint8_t data[64]) {
+    //append the bit '1' to the message
+    uint8_t data1[64];
+    for (int i = 0; i < 32; i++) {
+        data1[i] = (input[i / 4] >> (24 - 8 * (i % 4))) & 0xff;
+    }
+    data1[32] = 0x80;
+
+    // add 192 zero bits
+    for (int i = 33; i < 63; i++) {
+        data1[i] = 0x00;
+    }
+
+    //append the original length
+    uint64_t length = 256;
+    for (int i = 0; i < 8; i++) {
+        data1[63 - i] = (length >> (i * 8)) & 0xff;
+    }
+    //prepare the data
+    for (int i = 0; i < 64; i++) {
+        data[i] = data1[i];
+    }
+}
+
+void sha256_2(const uint32_t input[8], uint32_t output[8]) {
+    uint32_t hash1[8];
+    sha256_init(hash1);
+    uint8_t data[64];
+    sha256_prepare_2(input, data);
+    sha256_transform(hash1, data);
+
+    for (int i = 0; i < 8; i++) {
+        output[i] = hash1[i];
+    }
+}
+
+void sha256d(const uint8_t input[80], uint32_t output[8]) {
+    uint32_t hash1[8];
+    sha256_1(input, hash1);
+    sha256_2(hash1, output);
 }

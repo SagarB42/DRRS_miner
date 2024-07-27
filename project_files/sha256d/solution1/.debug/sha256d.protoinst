@@ -13,7 +13,7 @@
 						"AP_START": { "actual": "ap_start"}
 					}
 				},
-				"grp_sha256_update_1_fu_381/grp_sha256_transform_fu_186/grp_sha256_transform_fu_186_activity": {
+				"grp_sha256_prepare_1_fu_332/grp_sha256_prepare_1_fu_332_activity": {
 					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
 					"ports": {
 						"AP_CLK": { "actual": "ap_clk"},
@@ -23,7 +23,7 @@
 						"AP_START": { "actual": "ap_start"}
 					}
 				},
-				"grp_sha256_update_1_fu_381/grp_sha256_update_1_fu_381_activity": {
+				"grp_sha256_prepare_2_fu_339/grp_sha256_prepare_2_fu_339_activity": {
 					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
 					"ports": {
 						"AP_CLK": { "actual": "ap_clk"},
@@ -33,7 +33,7 @@
 						"AP_START": { "actual": "ap_start"}
 					}
 				},
-				"grp_sha256_update_fu_372/grp_sha256_transform_fu_186/grp_sha256_transform_fu_186_activity": {
+				"grp_sha256_transform_1_fu_324/grp_sha256_transform_1_fu_324_activity": {
 					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
 					"ports": {
 						"AP_CLK": { "actual": "ap_clk"},
@@ -43,7 +43,7 @@
 						"AP_START": { "actual": "ap_start"}
 					}
 				},
-				"grp_sha256_update_fu_372/grp_sha256_update_fu_372_activity": {
+				"grp_sha256_transform_fu_313/grp_sha256_transform_fu_313_activity": {
 					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
 					"ports": {
 						"AP_CLK": { "actual": "ap_clk"},

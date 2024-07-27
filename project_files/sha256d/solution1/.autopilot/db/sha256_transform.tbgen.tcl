@@ -15,13 +15,15 @@ set C_modelName {sha256_transform}
 set C_modelType { void 0 }
 set C_modelArgList {
 	{ state_V int 32 regular {array 8 { 2 2 } 1 1 }  }
-	{ data_V int 8 regular {array 64 { 1 3 } 1 1 }  }
+	{ data_V int 8 regular {array 128 { 1 3 } 1 1 }  }
+	{ data_V_offset int 1 regular  }
 }
 set C_modelArgMapList {[ 
 	{ "Name" : "state_V", "interface" : "memory", "bitwidth" : 32, "direction" : "READWRITE"} , 
- 	{ "Name" : "data_V", "interface" : "memory", "bitwidth" : 8, "direction" : "READONLY"} ]}
+ 	{ "Name" : "data_V", "interface" : "memory", "bitwidth" : 8, "direction" : "READONLY"} , 
+ 	{ "Name" : "data_V_offset", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY"} ]}
 # RTL Port declarations: 
-set portNum 19
+set portNum 20
 set portList { 
 	{ ap_clk sc_in sc_logic 1 clock -1 } 
 	{ ap_rst sc_in sc_logic 1 reset -1 active_high_sync } 
@@ -39,9 +41,10 @@ set portList {
 	{ state_V_we1 sc_out sc_logic 1 signal 0 } 
 	{ state_V_d1 sc_out sc_lv 32 signal 0 } 
 	{ state_V_q1 sc_in sc_lv 32 signal 0 } 
-	{ data_V_address0 sc_out sc_lv 6 signal 1 } 
+	{ data_V_address0 sc_out sc_lv 7 signal 1 } 
 	{ data_V_ce0 sc_out sc_logic 1 signal 1 } 
 	{ data_V_q0 sc_in sc_lv 8 signal 1 } 
+	{ data_V_offset sc_in sc_lv 1 signal 2 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
@@ -60,9 +63,10 @@ set NewPortList {[
  	{ "name": "state_V_we1", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "state_V", "role": "we1" }} , 
  	{ "name": "state_V_d1", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "state_V", "role": "d1" }} , 
  	{ "name": "state_V_q1", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "state_V", "role": "q1" }} , 
- 	{ "name": "data_V_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":6, "type": "signal", "bundle":{"name": "data_V", "role": "address0" }} , 
+ 	{ "name": "data_V_address0", "direction": "out", "datatype": "sc_lv", "bitwidth":7, "type": "signal", "bundle":{"name": "data_V", "role": "address0" }} , 
  	{ "name": "data_V_ce0", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "data_V", "role": "ce0" }} , 
- 	{ "name": "data_V_q0", "direction": "in", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "data_V", "role": "q0" }}  ]}
+ 	{ "name": "data_V_q0", "direction": "in", "datatype": "sc_lv", "bitwidth":8, "type": "signal", "bundle":{"name": "data_V", "role": "q0" }} , 
+ 	{ "name": "data_V_offset", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "data_V_offset", "role": "default" }}  ]}
 
 set RtlHierarchyInfo {[
 	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2"],
@@ -81,6 +85,7 @@ set RtlHierarchyInfo {[
 		"Port" : [
 			{"Name" : "state_V", "Type" : "Memory", "Direction" : "IO"},
 			{"Name" : "data_V", "Type" : "Memory", "Direction" : "I"},
+			{"Name" : "data_V_offset", "Type" : "None", "Direction" : "I"},
 			{"Name" : "K_V", "Type" : "Memory", "Direction" : "I"}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.K_V_U", "Parent" : "0"},
 	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.m_V_U", "Parent" : "0"}]}
@@ -90,6 +95,7 @@ set ArgLastReadFirstWriteLatency {
 	sha256_transform {
 		state_V {Type IO LastRead 6 FirstWrite 7}
 		data_V {Type I LastRead 1 FirstWrite -1}
+		data_V_offset {Type I LastRead 0 FirstWrite -1}
 		K_V {Type I LastRead -1 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
@@ -104,5 +110,6 @@ set PipelineEnableSignalInfo {[
 
 set Spec2ImplPortList { 
 	state_V { ap_memory {  { state_V_address0 mem_address 1 3 }  { state_V_ce0 mem_ce 1 1 }  { state_V_we0 mem_we 1 1 }  { state_V_d0 mem_din 1 32 }  { state_V_q0 mem_dout 0 32 }  { state_V_address1 MemPortADDR2 1 3 }  { state_V_ce1 MemPortCE2 1 1 }  { state_V_we1 MemPortWE2 1 1 }  { state_V_d1 MemPortDIN2 1 32 }  { state_V_q1 MemPortDOUT2 0 32 } } }
-	data_V { ap_memory {  { data_V_address0 mem_address 1 6 }  { data_V_ce0 mem_ce 1 1 }  { data_V_q0 mem_dout 0 8 } } }
+	data_V { ap_memory {  { data_V_address0 mem_address 1 7 }  { data_V_ce0 mem_ce 1 1 }  { data_V_q0 mem_dout 0 8 } } }
+	data_V_offset { ap_none {  { data_V_offset in_data 0 1 } } }
 }

@@ -2,45 +2,95 @@
 -- Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2020.1 (64-bit)
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- ==============================================================
---
 library ieee; 
 use ieee.std_logic_1164.all; 
 use ieee.std_logic_unsigned.all;
 
-entity sha256_transform_cud_ram is 
+entity sha256_transform_cud_rom is 
     generic(
-            MEM_TYPE    : string := "block"; 
-            DWIDTH     : integer := 32; 
-            AWIDTH     : integer := 6; 
-            MEM_SIZE    : integer := 64
+             DWIDTH     : integer := 32; 
+             AWIDTH     : integer := 6; 
+             MEM_SIZE    : integer := 64
     ); 
     port (
-          addr0     : in std_logic_vector(AWIDTH-1 downto 0); 
+          addr0      : in std_logic_vector(AWIDTH-1 downto 0); 
           ce0       : in std_logic; 
-          d0        : in std_logic_vector(DWIDTH-1 downto 0); 
-          we0       : in std_logic; 
-          q0        : out std_logic_vector(DWIDTH-1 downto 0);
-          addr1     : in std_logic_vector(AWIDTH-1 downto 0); 
-          ce1       : in std_logic; 
-          d1        : in std_logic_vector(DWIDTH-1 downto 0); 
-          we1       : in std_logic; 
-          q1        : out std_logic_vector(DWIDTH-1 downto 0);
-          clk        : in std_logic 
+          q0         : out std_logic_vector(DWIDTH-1 downto 0);
+          clk       : in std_logic
     ); 
 end entity; 
 
 
-architecture rtl of sha256_transform_cud_ram is 
+architecture rtl of sha256_transform_cud_rom is 
 
 signal addr0_tmp : std_logic_vector(AWIDTH-1 downto 0); 
-signal addr1_tmp : std_logic_vector(AWIDTH-1 downto 0); 
 type mem_array is array (0 to MEM_SIZE-1) of std_logic_vector (DWIDTH-1 downto 0); 
-shared variable ram : mem_array;
+signal mem : mem_array := (
+    0 => "01000010100010100010111110011000", 
+    1 => "01110001001101110100010010010001", 
+    2 => "10110101110000001111101111001111", 
+    3 => "11101001101101011101101110100101", 
+    4 => "00111001010101101100001001011011", 
+    5 => "01011001111100010001000111110001", 
+    6 => "10010010001111111000001010100100", 
+    7 => "10101011000111000101111011010101", 
+    8 => "11011000000001111010101010011000", 
+    9 => "00010010100000110101101100000001", 
+    10 => "00100100001100011000010110111110", 
+    11 => "01010101000011000111110111000011", 
+    12 => "01110010101111100101110101110100", 
+    13 => "10000000110111101011000111111110", 
+    14 => "10011011110111000000011010100111", 
+    15 => "11000001100110111111000101110100", 
+    16 => "11100100100110110110100111000001", 
+    17 => "11101111101111100100011110000110", 
+    18 => "00001111110000011001110111000110", 
+    19 => "00100100000011001010000111001100", 
+    20 => "00101101111010010010110001101111", 
+    21 => "01001010011101001000010010101010", 
+    22 => "01011100101100001010100111011100", 
+    23 => "01110110111110011000100011011010", 
+    24 => "10011000001111100101000101010010", 
+    25 => "10101000001100011100011001101101", 
+    26 => "10110000000000110010011111001000", 
+    27 => "10111111010110010111111111000111", 
+    28 => "11000110111000000000101111110011", 
+    29 => "11010101101001111001000101000111", 
+    30 => "00000110110010100110001101010001", 
+    31 => "00010100001010010010100101100111", 
+    32 => "00100111101101110000101010000101", 
+    33 => "00101110000110110010000100111000", 
+    34 => "01001101001011000110110111111100", 
+    35 => "01010011001110000000110100010011", 
+    36 => "01100101000010100111001101010100", 
+    37 => "01110110011010100000101010111011", 
+    38 => "10000001110000101100100100101110", 
+    39 => "10010010011100100010110010000101", 
+    40 => "10100010101111111110100010100001", 
+    41 => "10101000000110100110011001001011", 
+    42 => "11000010010010111000101101110000", 
+    43 => "11000111011011000101000110100011", 
+    44 => "11010001100100101110100000011001", 
+    45 => "11010110100110010000011000100100", 
+    46 => "11110100000011100011010110000101", 
+    47 => "00010000011010101010000001110000", 
+    48 => "00011001101001001100000100010110", 
+    49 => "00011110001101110110110000001000", 
+    50 => "00100111010010000111011101001100", 
+    51 => "00110100101100001011110010110101", 
+    52 => "00111001000111000000110010110011", 
+    53 => "01001110110110001010101001001010", 
+    54 => "01011011100111001100101001001111", 
+    55 => "01101000001011100110111111110011", 
+    56 => "01110100100011111000001011101110", 
+    57 => "01111000101001010110001101101111", 
+    58 => "10000100110010000111100000010100", 
+    59 => "10001100110001110000001000001000", 
+    60 => "10010000101111101111111111111010", 
+    61 => "10100100010100000110110011101011", 
+    62 => "10111110111110011010001111110111", 
+    63 => "11000110011100010111100011110010" );
 
-attribute syn_ramstyle : string; 
-attribute syn_ramstyle of ram : variable is "block_ram";
-attribute ram_style : string;
-attribute ram_style of ram : variable is MEM_TYPE;
 
 begin 
 
@@ -57,42 +107,14 @@ begin
 --synthesis translate_on
 end process;
 
-p_memory_access_0: process (clk)  
+p_rom_access: process (clk)  
 begin 
     if (clk'event and clk = '1') then
         if (ce0 = '1') then 
-            q0 <= ram(CONV_INTEGER(addr0_tmp));
-            if (we0 = '1') then 
-                ram(CONV_INTEGER(addr0_tmp)) := d0; 
-            end if;
+            q0 <= mem(CONV_INTEGER(addr0_tmp)); 
         end if;
     end if;
 end process;
-
-memory_access_guard_1: process (addr1) 
-begin
-      addr1_tmp <= addr1;
---synthesis translate_off
-      if (CONV_INTEGER(addr1) > mem_size-1) then
-           addr1_tmp <= (others => '0');
-      else 
-           addr1_tmp <= addr1;
-      end if;
---synthesis translate_on
-end process;
-
-p_memory_access_1: process (clk)  
-begin 
-    if (clk'event and clk = '1') then
-        if (ce1 = '1') then 
-            q1 <= ram(CONV_INTEGER(addr1_tmp));
-            if (we1 = '1') then 
-                ram(CONV_INTEGER(addr1_tmp)) := d1; 
-            end if;
-        end if;
-    end if;
-end process;
-
 
 end rtl;
 
@@ -109,48 +131,27 @@ entity sha256_transform_cud is
         clk : IN STD_LOGIC;
         address0 : IN STD_LOGIC_VECTOR(AddressWidth - 1 DOWNTO 0);
         ce0 : IN STD_LOGIC;
-        we0 : IN STD_LOGIC;
-        d0 : IN STD_LOGIC_VECTOR(DataWidth - 1 DOWNTO 0);
-        q0 : OUT STD_LOGIC_VECTOR(DataWidth - 1 DOWNTO 0);
-        address1 : IN STD_LOGIC_VECTOR(AddressWidth - 1 DOWNTO 0);
-        ce1 : IN STD_LOGIC;
-        we1 : IN STD_LOGIC;
-        d1 : IN STD_LOGIC_VECTOR(DataWidth - 1 DOWNTO 0);
-        q1 : OUT STD_LOGIC_VECTOR(DataWidth - 1 DOWNTO 0));
+        q0 : OUT STD_LOGIC_VECTOR(DataWidth - 1 DOWNTO 0));
 end entity;
 
 architecture arch of sha256_transform_cud is
-    component sha256_transform_cud_ram is
+    component sha256_transform_cud_rom is
         port (
             clk : IN STD_LOGIC;
             addr0 : IN STD_LOGIC_VECTOR;
             ce0 : IN STD_LOGIC;
-            we0 : IN STD_LOGIC;
-            d0 : IN STD_LOGIC_VECTOR;
-            q0 : OUT STD_LOGIC_VECTOR;
-            addr1 : IN STD_LOGIC_VECTOR;
-            ce1 : IN STD_LOGIC;
-            we1 : IN STD_LOGIC;
-            d1 : IN STD_LOGIC_VECTOR;
-            q1 : OUT STD_LOGIC_VECTOR);
+            q0 : OUT STD_LOGIC_VECTOR);
     end component;
 
 
 
 begin
-    sha256_transform_cud_ram_U :  component sha256_transform_cud_ram
+    sha256_transform_cud_rom_U :  component sha256_transform_cud_rom
     port map (
         clk => clk,
         addr0 => address0,
         ce0 => ce0,
-        we0 => we0,
-        d0 => d0,
-        q0 => q0,
-        addr1 => address1,
-        ce1 => ce1,
-        we1 => we1,
-        d1 => d1,
-        q1 => q1);
+        q0 => q0);
 
 end architecture;
 

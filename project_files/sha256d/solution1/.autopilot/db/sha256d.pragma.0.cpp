@@ -6357,7 +6357,7 @@ inline bool operator!=(
 # 3 "sha256d/sha256d.h" 2
 
 
-typedef ap_uint<32> uint64_t;
+typedef ap_uint<64> uint64_t;
 typedef ap_uint<32> uint32_t;
 typedef ap_uint<8> uint8_t;
 # 2 "sha256d/sha256d.cpp" 2
@@ -6381,7 +6381,7 @@ static const uint32_t K[] = {
     0x748f82ee, 0x78a5636f, 0x84c87814, 0x8cc70208,
     0x90befffa, 0xa4506ceb, 0xbef9a3f7, 0xc67178f2
 };
-# 33 "sha256d/sha256d.cpp"
+# 35 "sha256d/sha256d.cpp"
 void sha256_transform(uint32_t state[8], const uint8_t data[64]) {_ssdm_SpecArrayDimSize(state, 8);_ssdm_SpecArrayDimSize(data, 64);
     uint32_t a, b, c, d, e, f, g, h, i, j, t1, t2, m[64];
 
@@ -6435,56 +6435,87 @@ void sha256_init(uint32_t state[8]) {_ssdm_SpecArrayDimSize(state, 8);
 }
 
 
-void sha256_update(uint32_t state[8], const uint8_t data[80]) {_ssdm_SpecArrayDimSize(state, 8);_ssdm_SpecArrayDimSize(data, 80);
-    uint8_t block[64];
+void sha256_prepare_1(const uint8_t input[80], uint8_t data[2][64]) {_ssdm_SpecArrayDimSize(input, 80);_ssdm_SpecArrayDimSize(data, 2);
 
-
-    for (int i = 0; i < 64; i++) {
-        block[i] = data[i];
+    uint8_t data1[128];
+    for (int i = 0; i < 80; i++) {
+        data1[i] = input[i];
     }
-    sha256_transform(state, block);
+    data1[80] = 0x80;
 
 
-    for (int i = 0; i < 64; i++) {
-        block[i] = 0;
-    }
-    for (int i = 0; i < 16; i++) {
-        block[i] = data[64 + i];
+    for (int i = 81; i < 128; i++) {
+        data1[i] = 0x00;
     }
 
 
-    block[16] = 0x80;
-    for (int i = 17; i < 56; i++) {
-        block[i] = 0;
-    }
-    uint64_t len_be = __builtin_bswap64(80 * 8);
+    uint64_t length = 640;
     for (int i = 0; i < 8; i++) {
-        block[56 + i] = (len_be >> (56 - 8 * i)) & 0xFF;
+        data1[127 - i] = (length >> (i * 8)) & 0xff;
     }
-    sha256_transform(state, block);
-}
 
 
-void sha256_final(uint32_t state[8], uint8_t hash[32]) {_ssdm_SpecArrayDimSize(state, 8);_ssdm_SpecArrayDimSize(hash, 32);
-    for (int i = 0; i < 8; ++i) {
-        hash[i * 4] = (state[i] >> 24) & 0xff;
-        hash[i * 4 + 1] = (state[i] >> 16) & 0xff;
-        hash[i * 4 + 2] = (state[i] >> 8) & 0xff;
-        hash[i * 4 + 3] = state[i] & 0xff;
+    for (int i = 0; i < 64; i++) {
+        data[0][i] = data1[i];
+    }
+    for (int i = 0; i < 64; i++) {
+        data[1][i] = data1[i + 64];
     }
 }
 
 
-void sha256(const uint8_t data[80], uint8_t hash[32]) {_ssdm_SpecArrayDimSize(data, 80);_ssdm_SpecArrayDimSize(hash, 32);
-    uint32_t state[8];
-    sha256_init(state);
-    sha256_update(state, data);
-    sha256_final(state, hash);
+void sha256_1(const uint8_t input[80], uint32_t output[8]) {_ssdm_SpecArrayDimSize(input, 80);_ssdm_SpecArrayDimSize(output, 8);
+    uint32_t hash1[8];
+    sha256_init(hash1);
+    uint8_t data[2][64];
+    sha256_prepare_1(input, data);
+    sha256_transform(hash1, data[0]);
+    sha256_transform(hash1, data[1]);
+
+    for (int i = 0; i < 8; i++) {
+        output[i] = hash1[i];
+    }
 }
 
 
-void sha256d(const uint8_t input[80], uint8_t output[32]) {_ssdm_SpecArrayDimSize(input, 80);_ssdm_SpecArrayDimSize(output, 32);
-    uint8_t hash1[32];
-    sha256(input, hash1);
-    sha256(hash1, output);
+void sha256_prepare_2(const uint32_t input[8], uint8_t data[64]) {_ssdm_SpecArrayDimSize(input, 8);_ssdm_SpecArrayDimSize(data, 64);
+
+    uint8_t data1[64];
+    for (int i = 0; i < 32; i++) {
+        data1[i] = (input[i / 4] >> (24 - 8 * (i % 4))) & 0xff;
+    }
+    data1[32] = 0x80;
+
+
+    for (int i = 33; i < 63; i++) {
+        data1[i] = 0x00;
+    }
+
+
+    uint64_t length = 256;
+    for (int i = 0; i < 8; i++) {
+        data1[63 - i] = (length >> (i * 8)) & 0xff;
+    }
+
+    for (int i = 0; i < 64; i++) {
+        data[i] = data1[i];
+    }
+}
+
+void sha256_2(const uint32_t input[8], uint32_t output[8]) {_ssdm_SpecArrayDimSize(input, 8);_ssdm_SpecArrayDimSize(output, 8);
+    uint32_t hash1[8];
+    sha256_init(hash1);
+    uint8_t data[64];
+    sha256_prepare_2(input, data);
+    sha256_transform(hash1, data);
+
+    for (int i = 0; i < 8; i++) {
+        output[i] = hash1[i];
+    }
+}
+
+void sha256d(const uint8_t input[80], uint32_t output[8]) {_ssdm_SpecArrayDimSize(input, 80);_ssdm_SpecArrayDimSize(output, 8);
+    uint32_t hash1[8];
+    sha256_1(input, hash1);
+    sha256_2(hash1, output);
 }

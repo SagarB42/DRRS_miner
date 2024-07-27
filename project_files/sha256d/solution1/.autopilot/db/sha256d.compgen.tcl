@@ -1,9 +1,9 @@
 # This script segment is generated automatically by AutoPilot
 
 # Memory (RAM/ROM)  definition:
-set ID 10
+set ID 14
 set hasByteEnable 0
-set MemName sha256d_state_V_1
+set MemName sha256d_hash1_V_2
 set CoreName ap_simcore_mem
 set PortList { 2 2 }
 set DataWd 32
@@ -86,14 +86,14 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_RAM] == "::AESL_LIB_VIRTEX::xil_gen_RA
 
 
 # Memory (RAM/ROM)  definition:
-set ID 11
+set ID 15
 set hasByteEnable 0
 set MemName sha256d_hash1_V
 set CoreName ap_simcore_mem
-set PortList { 2 0 }
-set DataWd 8
-set AddrRange 32
-set AddrWd 5
+set PortList { 2 3 }
+set DataWd 32
+set AddrRange 8
+set AddrWd 3
 set impl_style block
 set TrueReset 0
 set HasInitializer 0
@@ -182,7 +182,7 @@ set axilite_register_dict [dict create]
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 12 \
+    id 16 \
     name input_V \
     reset_level 1 \
     sync_rst true \
@@ -201,14 +201,14 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 13 \
+    id 17 \
     name output_V \
     reset_level 1 \
     sync_rst true \
     dir O \
     corename output_V \
     op interface \
-    ports { output_V_address0 { O 5 vector } output_V_ce0 { O 1 bit } output_V_we0 { O 1 bit } output_V_d0 { O 8 vector } output_V_address1 { O 5 vector } output_V_ce1 { O 1 bit } output_V_we1 { O 1 bit } output_V_d1 { O 8 vector } } \
+    ports { output_V_address0 { O 3 vector } output_V_ce0 { O 1 bit } output_V_we0 { O 1 bit } output_V_d0 { O 32 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'output_V'"

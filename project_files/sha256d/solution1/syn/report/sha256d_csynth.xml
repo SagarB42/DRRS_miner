@@ -21,34 +21,34 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>1872</Best-caseLatency>
-<Average-caseLatency>1872</Average-caseLatency>
-<Worst-caseLatency>1872</Worst-caseLatency>
-<Best-caseRealTimeLatency>18.720 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>18.720 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>18.720 us</Worst-caseRealTimeLatency>
-<Interval-min>1873</Interval-min>
-<Interval-max>1873</Interval-max>
+<Best-caseLatency>1698</Best-caseLatency>
+<Average-caseLatency>1698</Average-caseLatency>
+<Worst-caseLatency>1698</Worst-caseLatency>
+<Best-caseRealTimeLatency>16.980 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>16.980 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>16.980 us</Worst-caseRealTimeLatency>
+<Interval-min>1699</Interval-min>
+<Interval-max>1699</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <Loop1>
 <TripCount>8</TripCount>
-<Latency>24</Latency>
-<IterationLatency>3</IterationLatency>
+<Latency>16</Latency>
+<IterationLatency>2</IterationLatency>
 </Loop1>
 <Loop2>
 <TripCount>8</TripCount>
-<Latency>24</Latency>
-<IterationLatency>3</IterationLatency>
+<Latency>16</Latency>
+<IterationLatency>2</IterationLatency>
 </Loop2>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>11</BRAM_18K>
-<FF>1961</FF>
-<LUT>4798</LUT>
+<BRAM_18K>12</BRAM_18K>
+<FF>2000</FF>
+<LUT>4774</LUT>
 <URAM>0</URAM>
 <DSP48E>0</DSP48E>
 </Resources>
@@ -172,7 +172,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>5</Bits>
+<Bits>3</Bits>
 <Attribute>address</Attribute>
 <CType>int</CType>
 </RtlPorts>
@@ -208,55 +208,7 @@
 <IOProtocol>ap_memory</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>out</Dir>
-<Bits>8</Bits>
-<Attribute>data</Attribute>
-<CType>int</CType>
-</RtlPorts>
-<RtlPorts>
-<name>output_V_address1</name>
-<Object>output_V</Object>
-<Type>array</Type>
-<Scope></Scope>
-<IOProtocol>ap_memory</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>5</Bits>
-<Attribute>address</Attribute>
-<CType>int</CType>
-</RtlPorts>
-<RtlPorts>
-<name>output_V_ce1</name>
-<Object>output_V</Object>
-<Type>array</Type>
-<Scope></Scope>
-<IOProtocol>ap_memory</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-<CType>int</CType>
-</RtlPorts>
-<RtlPorts>
-<name>output_V_we1</name>
-<Object>output_V</Object>
-<Type>array</Type>
-<Scope></Scope>
-<IOProtocol>ap_memory</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>control</Attribute>
-<CType>int</CType>
-</RtlPorts>
-<RtlPorts>
-<name>output_V_d1</name>
-<Object>output_V</Object>
-<Type>array</Type>
-<Scope></Scope>
-<IOProtocol>ap_memory</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>8</Bits>
+<Bits>32</Bits>
 <Attribute>data</Attribute>
 <CType>int</CType>
 </RtlPorts>
