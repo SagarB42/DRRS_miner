@@ -51,7 +51,7 @@
     "ClockPeriod": "10",
     "IsCombLogic": "0",
     "II": "x",
-    "Latency": "1698",
+    "Latency": "1559",
     "Uncertainty": "1.25"
   },
   "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 10.000 [get_ports ap_clk]"]},
@@ -69,30 +69,22 @@
   "Files": {
     "CSource": ["..\/sha256d.cpp"],
     "Vhdl": [
-      "impl\/vhdl\/sha256_prepare_1.vhd",
-      "impl\/vhdl\/sha256_prepare_1_bkb.vhd",
-      "impl\/vhdl\/sha256_prepare_2.vhd",
-      "impl\/vhdl\/sha256_prepare_2_eOg.vhd",
-      "impl\/vhdl\/sha256_transform.vhd",
-      "impl\/vhdl\/sha256_transform_1.vhd",
-      "impl\/vhdl\/sha256_transform_cud.vhd",
-      "impl\/vhdl\/sha256_transform_dEe.vhd",
+      "impl\/vhdl\/sha256d_data1_V.vhd",
+      "impl\/vhdl\/sha256d_data2_V.vhd",
       "impl\/vhdl\/sha256d_hash1_V.vhd",
-      "impl\/vhdl\/sha256d_hash1_V_2.vhd",
+      "impl\/vhdl\/sha256d_K_V.vhd",
+      "impl\/vhdl\/sha256d_m_V.vhd",
+      "impl\/vhdl\/sha256d_state_V.vhd",
       "impl\/vhdl\/sha256d.vhd"
     ],
     "Verilog": [
-      "impl\/verilog\/sha256_prepare_1.v",
-      "impl\/verilog\/sha256_prepare_1_bkb.v",
-      "impl\/verilog\/sha256_prepare_2.v",
-      "impl\/verilog\/sha256_prepare_2_eOg.v",
-      "impl\/verilog\/sha256_transform.v",
-      "impl\/verilog\/sha256_transform_1.v",
-      "impl\/verilog\/sha256_transform_cud.v",
-      "impl\/verilog\/sha256_transform_cud_rom.dat",
-      "impl\/verilog\/sha256_transform_dEe.v",
+      "impl\/verilog\/sha256d_data1_V.v",
+      "impl\/verilog\/sha256d_data2_V.v",
       "impl\/verilog\/sha256d_hash1_V.v",
-      "impl\/verilog\/sha256d_hash1_V_2.v",
+      "impl\/verilog\/sha256d_K_V.v",
+      "impl\/verilog\/sha256d_K_V_rom.dat",
+      "impl\/verilog\/sha256d_m_V.v",
+      "impl\/verilog\/sha256d_state_V.v",
       "impl\/verilog\/sha256d.v"
     ],
     "Misc": ["impl\/misc\/logo.png"],
@@ -230,78 +222,27 @@
     }
   },
   "ModuleInfo": {
-    "Hierarchy": {
-      "ModuleName": "sha256d",
-      "Instances": [
-        {
-          "ModuleName": "sha256_transform",
-          "InstanceName": "grp_sha256_transform_fu_313"
-        },
-        {
-          "ModuleName": "sha256_transform_1",
-          "InstanceName": "grp_sha256_transform_1_fu_324"
-        },
-        {
-          "ModuleName": "sha256_prepare_1",
-          "InstanceName": "grp_sha256_prepare_1_fu_332"
-        },
-        {
-          "ModuleName": "sha256_prepare_2",
-          "InstanceName": "grp_sha256_prepare_2_fu_339"
-        }
-      ]
-    },
-    "Info": {
-      "sha256_prepare_1": {
+    "Hierarchy": {"ModuleName": "sha256d"},
+    "Info": {"sha256d": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "1",
         "isPipelined": "0",
         "isCombinational": "0",
         "isOneStateSeq": "0"
-      },
-      "sha256_transform": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "1",
-        "isPipelined": "0",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "sha256_prepare_2": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "1",
-        "isPipelined": "0",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "sha256_transform_1": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "1",
-        "isPipelined": "0",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "sha256d": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "1",
-        "isPipelined": "0",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      }
-    },
-    "Metrics": {
-      "sha256_prepare_1": {
+      }},
+    "Metrics": {"sha256d": {
         "Latency": {
-          "LatencyBest": "476",
-          "LatencyAvg": "476",
-          "LatencyWorst": "476",
-          "PipelineII": "476",
+          "LatencyBest": "1559",
+          "LatencyAvg": "1559",
+          "LatencyWorst": "1559",
+          "PipelineII": "1560",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
         "Timing": {
           "Target": "10.00",
           "Uncertainty": "1.25",
-          "Estimate": "2.704"
+          "Estimate": "4.796"
         },
         "Loops": [
           {
@@ -338,182 +279,88 @@
             "Latency": "128",
             "PipelineII": "",
             "PipelineDepth": "2"
-          }
-        ],
-        "Area": {
-          "BRAM_18K": "1",
-          "FF": "77",
-          "LUT": "350",
-          "URAM": "0",
-          "DSP48E": "0"
-        }
-      },
-      "sha256_transform": {
-        "Latency": {
-          "LatencyBest": "314",
-          "LatencyAvg": "314",
-          "LatencyWorst": "314",
-          "PipelineII": "314",
-          "PipelineDepth": "",
-          "PipelineType": "none"
-        },
-        "Timing": {
-          "Target": "10.00",
-          "Uncertainty": "1.25",
-          "Estimate": "4.796"
-        },
-        "Loops": [
+          },
           {
-            "Name": "Loop 1",
-            "TripCount": "16",
-            "Latency": "32",
+            "Name": "Loop 6",
+            "TripCount": "2",
+            "Latency": "630",
+            "PipelineII": "",
+            "PipelineDepth": "315",
+            "Loops": [
+              {
+                "Name": "Loop 6.1",
+                "TripCount": "16",
+                "Latency": "32",
+                "PipelineII": "",
+                "PipelineDepth": "2"
+              },
+              {
+                "Name": "Loop 6.2",
+                "TripCount": "48",
+                "Latency": "144",
+                "PipelineII": "",
+                "PipelineDepth": "3"
+              },
+              {
+                "Name": "Loop 6.3",
+                "TripCount": "64",
+                "Latency": "128",
+                "PipelineII": "",
+                "PipelineDepth": "2"
+              }
+            ]
+          },
+          {
+            "Name": "Loop 7",
+            "TripCount": "8",
+            "Latency": "16",
             "PipelineII": "",
             "PipelineDepth": "2"
           },
           {
-            "Name": "Loop 2",
-            "TripCount": "48",
-            "Latency": "144",
-            "PipelineII": "",
-            "PipelineDepth": "3"
-          },
-          {
-            "Name": "Loop 3",
-            "TripCount": "64",
-            "Latency": "128",
-            "PipelineII": "",
-            "PipelineDepth": "2"
-          }
-        ],
-        "Area": {
-          "BRAM_18K": "3",
-          "FF": "866",
-          "LUT": "1677",
-          "URAM": "0",
-          "DSP48E": "0"
-        }
-      },
-      "sha256_prepare_2": {
-        "Latency": {
-          "LatencyBest": "234",
-          "LatencyAvg": "234",
-          "LatencyWorst": "234",
-          "PipelineII": "234",
-          "PipelineDepth": "",
-          "PipelineType": "none"
-        },
-        "Timing": {
-          "Target": "10.00",
-          "Uncertainty": "1.25",
-          "Estimate": "3.122"
-        },
-        "Loops": [
-          {
-            "Name": "Loop 1",
+            "Name": "Loop 8",
             "TripCount": "32",
             "Latency": "64",
             "PipelineII": "",
             "PipelineDepth": "2"
           },
           {
-            "Name": "Loop 2",
+            "Name": "Loop 9",
             "TripCount": "30",
             "Latency": "30",
             "PipelineII": "",
             "PipelineDepth": "1"
           },
           {
-            "Name": "Loop 3",
+            "Name": "Loop 10",
             "TripCount": "8",
             "Latency": "8",
             "PipelineII": "",
             "PipelineDepth": "1"
           },
           {
-            "Name": "Loop 4",
-            "TripCount": "64",
-            "Latency": "128",
-            "PipelineII": "",
-            "PipelineDepth": "2"
-          }
-        ],
-        "Area": {
-          "BRAM_18K": "0",
-          "FF": "66",
-          "LUT": "388",
-          "URAM": "0",
-          "DSP48E": "0"
-        }
-      },
-      "sha256_transform_1": {
-        "Latency": {
-          "LatencyBest": "314",
-          "LatencyAvg": "314",
-          "LatencyWorst": "314",
-          "PipelineII": "314",
-          "PipelineDepth": "",
-          "PipelineType": "none"
-        },
-        "Timing": {
-          "Target": "10.00",
-          "Uncertainty": "1.25",
-          "Estimate": "4.796"
-        },
-        "Loops": [
-          {
-            "Name": "Loop 1",
+            "Name": "Loop 11",
             "TripCount": "16",
             "Latency": "32",
             "PipelineII": "",
             "PipelineDepth": "2"
           },
           {
-            "Name": "Loop 2",
+            "Name": "Loop 12",
             "TripCount": "48",
             "Latency": "144",
             "PipelineII": "",
             "PipelineDepth": "3"
           },
           {
-            "Name": "Loop 3",
+            "Name": "Loop 13",
             "TripCount": "64",
             "Latency": "128",
             "PipelineII": "",
             "PipelineDepth": "2"
-          }
-        ],
-        "Area": {
-          "BRAM_18K": "3",
-          "FF": "866",
-          "LUT": "1677",
-          "URAM": "0",
-          "DSP48E": "0"
-        }
-      },
-      "sha256d": {
-        "Latency": {
-          "LatencyBest": "1698",
-          "LatencyAvg": "1698",
-          "LatencyWorst": "1698",
-          "PipelineII": "1699",
-          "PipelineDepth": "",
-          "PipelineType": "none"
-        },
-        "Timing": {
-          "Target": "10.00",
-          "Uncertainty": "1.25",
-          "Estimate": "4.796"
-        },
-        "Loops": [
-          {
-            "Name": "Loop 1",
-            "TripCount": "8",
-            "Latency": "16",
-            "PipelineII": "",
-            "PipelineDepth": "2"
           },
           {
-            "Name": "Loop 2",
+            "Name": "Loop 14",
             "TripCount": "8",
             "Latency": "16",
             "PipelineII": "",
@@ -521,14 +368,13 @@
           }
         ],
         "Area": {
-          "BRAM_18K": "12",
-          "FF": "2000",
-          "LUT": "4774",
+          "BRAM_18K": "9",
+          "FF": "1465",
+          "LUT": "4123",
           "URAM": "0",
           "DSP48E": "0"
         }
-      }
-    }
+      }}
   },
   "Sdx": {
     "Target": "none",
@@ -540,7 +386,7 @@
   },
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2024-07-27 14:17:06 +1000",
+    "Time": "2024-07-27 17:30:12 +1000",
     "ToolName": "vivado_hls",
     "ToolVersion": "2020.1"
   }

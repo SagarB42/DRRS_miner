@@ -1,178 +1,164 @@
 INFO: Applying HLS Y2K22 patch v1.2 for IP revision
 INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/vivado_hls.exe'
-INFO: [HLS 200-10] For user 'Rajdeep Singh' on host 'laptop-5im3uc4n' (Windows NT_amd64 version 6.2) on Sat Jul 27 14:16:51 +1000 2024
+INFO: [HLS 200-10] For user 'Rajdeep Singh' on host 'laptop-5im3uc4n' (Windows NT_amd64 version 6.2) on Sat Jul 27 18:08:59 +1000 2024
 INFO: [HLS 200-10] In directory 'C:/DRRS_miner/project_files'
-Sourcing Tcl script 'C:/DRRS_miner/project_files/sha256d/solution1/csynth.tcl'
+Sourcing Tcl script 'C:/DRRS_miner/project_files/sha256d/solution2/csynth.tcl'
 INFO: [HLS 200-10] Opening project 'C:/DRRS_miner/project_files/sha256d'.
 INFO: [HLS 200-10] Adding design file 'sha256d/sha256d.cpp' to the project
 WARNING: [HLS 200-40] Cannot find test bench file 'sha256d_test.cpp'
-INFO: [HLS 200-10] Opening solution 'C:/DRRS_miner/project_files/sha256d/solution1'.
+INFO: [HLS 200-10] Opening solution 'C:/DRRS_miner/project_files/sha256d/solution2'.
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 INFO: [HLS 200-10] Setting target device to 'xqzu5ev-ffrb900-1-i'
 INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
 INFO: [HLS 200-10] Analyzing design file 'sha256d/sha256d.cpp' ... 
-INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 979.723 ; gain = 883.562
-INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 979.723 ; gain = 883.562
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 979.121 ; gain = 882.930
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 979.121 ; gain = 882.930
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 979.723 ; gain = 883.562
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 979.121 ; gain = 882.930
 INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [XFORM 203-602] Inlining function 'sha256_init' into 'sha256_1' (sha256d/sha256d.cpp:119) automatically.
-INFO: [XFORM 203-602] Inlining function 'sha256_init' into 'sha256_2' (sha256d/sha256d.cpp:157) automatically.
-INFO: [XFORM 203-602] Inlining function 'sha256_1' into 'sha256d' (sha256d/sha256d.cpp:169) automatically.
-INFO: [XFORM 203-602] Inlining function 'sha256_2' into 'sha256d' (sha256d/sha256d.cpp:170) automatically.
-INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 979.723 ; gain = 883.562
-INFO: [XFORM 203-602] Inlining function 'sha256_init' into 'sha256_1' (sha256d/sha256d.cpp:119) automatically.
-INFO: [XFORM 203-602] Inlining function 'sha256_init' into 'sha256_2' (sha256d/sha256d.cpp:157) automatically.
-INFO: [XFORM 203-602] Inlining function 'sha256_1' into 'sha256d' (sha256d/sha256d.cpp:169) automatically.
-INFO: [XFORM 203-602] Inlining function 'sha256_2' into 'sha256d' (sha256d/sha256d.cpp:170) automatically.
-INFO: [XFORM 203-11] Balancing expressions in function 'sha256_transform.1' (sha256d/sha256d.cpp:35:25)...10 expression(s) balanced.
-INFO: [XFORM 203-11] Balancing expressions in function 'sha256_transform' (sha256d/sha256d.cpp:35)...10 expression(s) balanced.
-INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 979.723 ; gain = 883.562
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.1' (sha256d/sha256d.cpp:77:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.1' (sha256d/sha256d.cpp:78:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.1' (sha256d/sha256d.cpp:79:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.1' (sha256d/sha256d.cpp:80:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.1' (sha256d/sha256d.cpp:81:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.1' (sha256d/sha256d.cpp:82:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.1' (sha256d/sha256d.cpp:83:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.1' (sha256d/sha256d.cpp:84:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V' (sha256d/sha256d.cpp:126:9)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.2' (sha256d/sha256d.cpp:77:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.2' (sha256d/sha256d.cpp:78:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.2' (sha256d/sha256d.cpp:79:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.2' (sha256d/sha256d.cpp:80:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.2' (sha256d/sha256d.cpp:81:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.2' (sha256d/sha256d.cpp:82:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.2' (sha256d/sha256d.cpp:83:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'hash1.V.2' (sha256d/sha256d.cpp:84:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'm.V' (sha256d/sha256d.cpp:39:83)
-INFO: [HLS 200-472] Inferring partial write operation for 'm.V' (sha256d/sha256d.cpp:41)
-INFO: [HLS 200-472] Inferring partial write operation for 'state.V' (sha256d/sha256d.cpp:65:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'state.V' (sha256d/sha256d.cpp:66:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'state.V' (sha256d/sha256d.cpp:67:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'state.V' (sha256d/sha256d.cpp:68:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'state.V' (sha256d/sha256d.cpp:69:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'state.V' (sha256d/sha256d.cpp:70:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'state.V' (sha256d/sha256d.cpp:71:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'state.V' (sha256d/sha256d.cpp:72:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'data1.V' (sha256d/sha256d.cpp:135:21)
-INFO: [HLS 200-472] Inferring partial write operation for 'data1.V' (sha256d/sha256d.cpp:137:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'data1.V' (sha256d/sha256d.cpp:141:9)
-INFO: [HLS 200-472] Inferring partial write operation for 'data1.V' (sha256d/sha256d.cpp:147:26)
-INFO: [HLS 200-472] Inferring partial write operation for 'data.V' (sha256d/sha256d.cpp:151:9)
-INFO: [HLS 200-472] Inferring partial write operation for 'data1.V' (sha256d/sha256d.cpp:92:9)
-INFO: [HLS 200-472] Inferring partial write operation for 'data1.V' (sha256d/sha256d.cpp:94:5)
-INFO: [HLS 200-472] Inferring partial write operation for 'data1.V' (sha256d/sha256d.cpp:98:9)
-INFO: [HLS 200-472] Inferring partial write operation for 'data1.V' (sha256d/sha256d.cpp:104:27)
-INFO: [HLS 200-472] Inferring partial write operation for 'data.V' (sha256d/sha256d.cpp:109:9)
-INFO: [HLS 200-472] Inferring partial write operation for 'data.V' (sha256d/sha256d.cpp:112:9)
-INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 979.723 ; gain = 883.562
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 979.121 ; gain = 882.930
+INFO: [HLS 200-489] Unrolling loop 'Load_Input' (sha256d/sha256d.cpp:49) in function 'sha256d' completely with a factor of 80.
+INFO: [HLS 200-489] Unrolling loop 'Append_Zero' (sha256d/sha256d.cpp:54) in function 'sha256d' completely with a factor of 47.
+INFO: [HLS 200-489] Unrolling loop 'Appened_Original_Size' (sha256d/sha256d.cpp:59) in function 'sha256d' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Store_first_block' (sha256d/sha256d.cpp:64) in function 'sha256d' completely with a factor of 64.
+INFO: [HLS 200-489] Unrolling loop 'Store_second_block' (sha256d/sha256d.cpp:67) in function 'sha256d' completely with a factor of 64.
+INFO: [HLS 200-489] Unrolling loop 'Store_Input_2' (sha256d/sha256d.cpp:119) in function 'sha256d' completely with a factor of 32.
+INFO: [HLS 200-489] Unrolling loop 'Append_Zero_2' (sha256d/sha256d.cpp:124) in function 'sha256d' completely with a factor of 30.
+INFO: [HLS 200-489] Unrolling loop 'Append_Orignal_Size_2' (sha256d/sha256d.cpp:129) in function 'sha256d' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Rewiring_Output' (sha256d/sha256d.cpp:182) in function 'sha256d' completely with a factor of 8.
+INFO: [XFORM 203-101] Partitioning array 'input.V' (sha256d/sha256d.cpp:34) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'output.V' (sha256d/sha256d.cpp:34) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'state.V' (sha256d/sha256d.cpp:36) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'data1.V' (sha256d/sha256d.cpp:48) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'data.V' (sha256d/sha256d.cpp:63) in dimension 1 completely.
+WARNING: [XFORM 203-104] Completely partitioning array 'data2.V' (sha256d/sha256d.cpp:118) accessed through non-constant indices on dimension 1 (sha256d/sha256d.cpp:147:87), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead.
+INFO: [XFORM 203-101] Partitioning array 'data2.V' (sha256d/sha256d.cpp:118) in dimension 1 completely.
+WARNING: [XFORM 203-104] Completely partitioning array 'm.V.1' (sha256d/sha256d.cpp:144) accessed through non-constant indices on dimension 1 (sha256d/sha256d.cpp:161:178), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead.
+INFO: [XFORM 203-101] Partitioning array 'm.V.1' (sha256d/sha256d.cpp:144) in dimension 1 completely.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (sha256d/sha256d.cpp:76:13) to (sha256d/sha256d.cpp:75:64) in function 'sha256d'... converting 4 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'sha256d' (sha256d/sha256d.cpp:34)...20 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 979.121 ; gain = 882.930
+INFO: [HLS 200-472] Inferring partial write operation for 'data[0].V' (sha256d/sha256d.cpp:65:9)
+INFO: [HLS 200-472] Inferring partial write operation for 'data[1].V' (sha256d/sha256d.cpp:68:9)
+INFO: [HLS 200-472] Inferring partial write operation for 'm.V' (sha256d/sha256d.cpp:76:99)
+INFO: [HLS 200-472] Inferring partial write operation for 'm.V' (sha256d/sha256d.cpp:78)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 979.121 ; gain = 882.930
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'sha256d' ...
-WARNING: [SYN 201-103] Legalizing function name 'sha256_transform.1' to 'sha256_transform_1'.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'sha256_prepare_1' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 11.438 seconds; current allocated memory: 182.632 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.106 seconds; current allocated memory: 182.881 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'sha256_transform' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 0.137 seconds; current allocated memory: 183.335 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.125 seconds; current allocated memory: 183.849 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'sha256_prepare_2' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 0.152 seconds; current allocated memory: 184.066 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.094 seconds; current allocated memory: 184.260 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'sha256_transform_1' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 0.131 seconds; current allocated memory: 184.685 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.113 seconds; current allocated memory: 185.190 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'sha256d' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 0.163 seconds; current allocated memory: 185.439 MB.
+INFO: [HLS 200-111]  Elapsed time: 13.644 seconds; current allocated memory: 157.820 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.202 seconds; current allocated memory: 185.760 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'sha256_prepare_1' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SYN 201-210] Renamed object name 'sha256_prepare_1_data1_V' to 'sha256_prepare_1_bkb' due to the length limit 20
-INFO: [RTGEN 206-100] Finished creating RTL model for 'sha256_prepare_1'.
-INFO: [HLS 200-111]  Elapsed time: 0.166 seconds; current allocated memory: 186.295 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'sha256_transform' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SYN 201-210] Renamed object name 'sha256_transform_K_V' to 'sha256_transform_cud' due to the length limit 20
-INFO: [SYN 201-210] Renamed object name 'sha256_transform_m_V' to 'sha256_transform_dEe' due to the length limit 20
-INFO: [RTGEN 206-100] Finished creating RTL model for 'sha256_transform'.
-INFO: [HLS 200-111]  Elapsed time: 0.232 seconds; current allocated memory: 188.053 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'sha256_prepare_2' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SYN 201-210] Renamed object name 'sha256_prepare_2_data1_V' to 'sha256_prepare_2_eOg' due to the length limit 20
-INFO: [RTGEN 206-100] Finished creating RTL model for 'sha256_prepare_2'.
-INFO: [HLS 200-111]  Elapsed time: 0.36 seconds; current allocated memory: 190.486 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'sha256_transform_1' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SYN 201-210] Renamed object name 'sha256_transform_1_K_V' to 'sha256_transform_fYi' due to the length limit 20
-INFO: [SYN 201-210] Renamed object name 'sha256_transform_1_m_V' to 'sha256_transform_g8j' due to the length limit 20
-INFO: [RTGEN 206-100] Finished creating RTL model for 'sha256_transform_1'.
-INFO: [HLS 200-111]  Elapsed time: 0.243 seconds; current allocated memory: 192.221 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.567 seconds; current allocated memory: 174.186 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'sha256d' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_V' to 'ap_memory'.
-INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_V' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_2_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_3_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_4_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_5_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_6_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_7_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_8_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_9_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_10_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_11_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_12_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_13_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_14_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_15_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_16_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_17_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_18_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_19_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_20_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_21_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_22_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_23_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_24_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_25_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_26_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_27_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_28_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_29_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_30_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_31_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_32_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_33_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_34_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_35_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_36_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_37_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_38_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_39_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_40_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_41_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_42_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_43_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_44_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_45_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_46_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_47_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_48_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_49_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_50_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_51_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_52_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_53_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_54_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_55_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_56_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_57_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_58_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_59_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_60_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_61_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_62_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_63_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_64_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_65_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_66_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_67_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_68_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_69_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_70_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_71_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_72_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_73_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_74_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_75_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_76_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_77_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_78_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_79_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_0_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_1_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_2_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_3_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_4_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_5_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_6_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_7_V' to 'ap_vld'.
 INFO: [RTGEN 206-500] Setting interface mode on function 'sha256d' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'sha256d_mux_646_32_1_1' to 'sha256d_mux_646_3bkb' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'sha256d_mux_646_3bkb': 4 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'sha256d'.
-INFO: [HLS 200-111]  Elapsed time: 0.428 seconds; current allocated memory: 194.881 MB.
+INFO: [HLS 200-111]  Elapsed time: 1.637 seconds; current allocated memory: 178.854 MB.
 INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
 INFO: [HLS 200-789] **** Estimated Fmax: 208.51 MHz
-INFO: [RTMG 210-278] Implementing memory 'sha256_prepare_1_bkb_ram (RAM)' using block RAMs.
-INFO: [RTMG 210-279] Implementing memory 'sha256_transform_cud_rom' using auto ROMs.
-INFO: [RTMG 210-278] Implementing memory 'sha256_transform_dEe_ram (RAM)' using block RAMs.
-INFO: [RTMG 210-278] Implementing memory 'sha256_prepare_2_eOg_ram (RAM)' using distributed RAMs.
-INFO: [RTMG 210-278] Implementing memory 'sha256d_hash1_V_2_ram (RAM)' using block RAMs.
-INFO: [RTMG 210-278] Implementing memory 'sha256d_hash1_V_ram (RAM)' using distributed RAMs.
-INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 979.723 ; gain = 883.562
+INFO: [RTMG 210-279] Implementing memory 'sha256d_K_V_rom' using auto ROMs.
+INFO: [RTMG 210-278] Implementing memory 'sha256d_data_0_V_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'sha256d_m_V_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:20 . Memory (MB): peak = 979.121 ; gain = 882.930
 INFO: [VHDL 208-304] Generating VHDL RTL for sha256d.
 INFO: [VLOG 209-307] Generating Verilog RTL for sha256d.
-INFO: [HLS 200-112] Total elapsed time: 15.942 seconds; peak allocated memory: 194.881 MB.
+INFO: [HLS 200-112] Total elapsed time: 20.493 seconds; peak allocated memory: 178.854 MB.
