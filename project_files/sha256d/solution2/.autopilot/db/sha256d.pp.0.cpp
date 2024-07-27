@@ -6491,18 +6491,13 @@ void sha256d(const uint8_t input[80], uint32_t output[8]) {_ssdm_SpecArrayDimSiz
     }
 
 
-
-
-
-
-
     uint8_t data2[64];
 #pragma HLS ARRAY_PARTITION variable=&data2 complete dim=1
-# 118 "sha256d/sha256d.cpp"
+# 113 "sha256d/sha256d.cpp"
 
     Store_Input_2: for (int i = 0; i < 32; i++) {
 #pragma HLS UNROLL
-# 119 "sha256d/sha256d.cpp"
+# 114 "sha256d/sha256d.cpp"
 
         data2[i] = (state[i / 4] >> (24 - 8 * (i % 4))) & 0xff;
     }
@@ -6510,7 +6505,7 @@ void sha256d(const uint8_t input[80], uint32_t output[8]) {_ssdm_SpecArrayDimSiz
 
     Append_Zero_2: for (int i = 33; i < 63; i++) {
 #pragma HLS UNROLL
-# 124 "sha256d/sha256d.cpp"
+# 119 "sha256d/sha256d.cpp"
 
         data2[i] = 0x00;
     }
@@ -6518,7 +6513,7 @@ void sha256d(const uint8_t input[80], uint32_t output[8]) {_ssdm_SpecArrayDimSiz
     length = 256;
     Append_Orignal_Size_2: for (int i = 0; i < 8; i++) {
 #pragma HLS UNROLL
-# 129 "sha256d/sha256d.cpp"
+# 124 "sha256d/sha256d.cpp"
 
         data2[63 - i] = (length >> (i * 8)) & 0xff;
     }
@@ -6536,7 +6531,7 @@ void sha256d(const uint8_t input[80], uint32_t output[8]) {_ssdm_SpecArrayDimSiz
 
     uint32_t a, b, c, d, e, f, g, h, i, j, t1, t2, m[64];
 #pragma HLS ARRAY_PARTITION variable=&m complete dim=1
-# 144 "sha256d/sha256d.cpp"
+# 139 "sha256d/sha256d.cpp"
 
 
     Load_Message_Schedule_2: for (i = 0, j = 0; i < 16; ++i, j += 4)
@@ -6577,7 +6572,7 @@ void sha256d(const uint8_t input[80], uint32_t output[8]) {_ssdm_SpecArrayDimSiz
 
     Rewiring_Output: for (int i = 0; i < 8; i++) {
 #pragma HLS UNROLL
-# 182 "sha256d/sha256d.cpp"
+# 177 "sha256d/sha256d.cpp"
 
         output[i] = state[i];
     }

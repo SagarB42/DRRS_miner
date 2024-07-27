@@ -2,6 +2,5 @@ sha256d_K_V
 sha256d_state_V
 sha256d_data1_V
 sha256d_m_V
-sha256d_hash1_V
 sha256d_data2_V
 sha256d

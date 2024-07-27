@@ -6397,35 +6397,35 @@ void sha256d(const uint8_t input[80], uint32_t output[8]) {_ssdm_SpecArrayDimSiz
 
 
     uint8_t data1[128];
-    for (int i = 0; i < 80; i++) {
+    Load_Input: for (int i = 0; i < 80; i++) {
         data1[i] = input[i];
     }
     data1[80] = 0x80;
 
-    for (int i = 81; i < 128; i++) {
+    Append_Zero: for (int i = 81; i < 128; i++) {
         data1[i] = 0x00;
     }
 
     uint64_t length = 640;
-    for (int i = 0; i < 8; i++) {
+    Appened_Original_Size: for (int i = 0; i < 8; i++) {
         data1[127 - i] = (length >> (i * 8)) & 0xff;
     }
 
     uint8_t data[2][64];
-    for (int i = 0; i < 64; i++) {
+    Store_first_block: for (int i = 0; i < 64; i++) {
         data[0][i] = data1[i];
     }
-    for (int i = 0; i < 64; i++) {
+    Store_second_block: for (int i = 0; i < 64; i++) {
         data[1][i] = data1[i + 64];
     }
 
 
-    for (int t = 0; t < 2; t++) {
+    Transfrom: for (int t = 0; t < 2; t++) {
         uint32_t a, b, c, d, e, f, g, h, i, j, t1, t2, m[64];
 
-        for (i = 0, j = 0; i < 16; ++i, j += 4)
+        Load_Message_Schedule: for (i = 0, j = 0; i < 16; ++i, j += 4)
             m[i] = (data[t][j] << 24) | (data[t][j + 1] << 16) | (data[t][j + 2] << 8) | (data[t][j + 3]);
-        for (; i < 64; ++i)
+        Extend_Message_Schedule: for (; i < 64; ++i)
             m[i] = ((((m[i - 2]) >> (17)) | ((m[i - 2]) << (32 -(17)))) ^ (((m[i - 2]) >> (19)) | ((m[i - 2]) << (32 -(19)))) ^ ((m[i - 2]) >> 10)) + m[i - 7] + ((((m[i - 15]) >> (7)) | ((m[i - 15]) << (32 -(7)))) ^ (((m[i - 15]) >> (18)) | ((m[i - 15]) << (32 -(18)))) ^ ((m[i - 15]) >> 3)) + m[i - 16];
 
         a = state[0];
@@ -6437,7 +6437,7 @@ void sha256d(const uint8_t input[80], uint32_t output[8]) {_ssdm_SpecArrayDimSiz
         g = state[6];
         h = state[7];
 
-        for (i = 0; i < 64; ++i) {
+        Updates: for (i = 0; i < 64; ++i) {
             t1 = h + ((((e) >> (6)) | ((e) << (32 -(6)))) ^ (((e) >> (11)) | ((e) << (32 -(11)))) ^ (((e) >> (25)) | ((e) << (32 -(25))))) + (((e) & (f)) ^ (~(e) & (g))) + K[i] + m[i];
             t2 = ((((a) >> (2)) | ((a) << (32 -(2)))) ^ (((a) >> (13)) | ((a) << (32 -(13)))) ^ (((a) >> (22)) | ((a) << (32 -(22))))) + (((a) & (b)) ^ ((a) & (c)) ^ ((b) & (c)));
             h = g;
@@ -6460,24 +6460,19 @@ void sha256d(const uint8_t input[80], uint32_t output[8]) {_ssdm_SpecArrayDimSiz
         state[7] += h;
     }
 
-    uint32_t hash1[8];
-    for (int i = 0; i < 8; i++) {
-        hash1[i] = state[i];
-    }
-
 
     uint8_t data2[64];
-    for (int i = 0; i < 32; i++) {
-        data2[i] = (hash1[i / 4] >> (24 - 8 * (i % 4))) & 0xff;
+    Store_Input_2: for (int i = 0; i < 32; i++) {
+        data2[i] = (state[i / 4] >> (24 - 8 * (i % 4))) & 0xff;
     }
     data2[32] = 0x80;
 
-    for (int i = 33; i < 63; i++) {
+    Append_Zero_2: for (int i = 33; i < 63; i++) {
         data2[i] = 0x00;
     }
 
     length = 256;
-    for (int i = 0; i < 8; i++) {
+    Append_Orignal_Size_2: for (int i = 0; i < 8; i++) {
         data2[63 - i] = (length >> (i * 8)) & 0xff;
     }
 
@@ -6494,9 +6489,9 @@ void sha256d(const uint8_t input[80], uint32_t output[8]) {_ssdm_SpecArrayDimSiz
 
     uint32_t a, b, c, d, e, f, g, h, i, j, t1, t2, m[64];
 
-    for (i = 0, j = 0; i < 16; ++i, j += 4)
+    Load_Message_Schedule_2: for (i = 0, j = 0; i < 16; ++i, j += 4)
         m[i] = (data2[j] << 24) | (data2[j + 1] << 16) | (data2[j + 2] << 8) | (data2[j + 3]);
-    for (; i < 64; ++i)
+    Extend_Message_Schedule_2: for (; i < 64; ++i)
         m[i] = ((((m[i - 2]) >> (17)) | ((m[i - 2]) << (32 -(17)))) ^ (((m[i - 2]) >> (19)) | ((m[i - 2]) << (32 -(19)))) ^ ((m[i - 2]) >> 10)) + m[i - 7] + ((((m[i - 15]) >> (7)) | ((m[i - 15]) << (32 -(7)))) ^ (((m[i - 15]) >> (18)) | ((m[i - 15]) << (32 -(18)))) ^ ((m[i - 15]) >> 3)) + m[i - 16];
 
     a = state[0];
@@ -6508,7 +6503,7 @@ void sha256d(const uint8_t input[80], uint32_t output[8]) {_ssdm_SpecArrayDimSiz
     g = state[6];
     h = state[7];
 
-    for (i = 0; i < 64; ++i) {
+    Updates_2: for (i = 0; i < 64; ++i) {
         t1 = h + ((((e) >> (6)) | ((e) << (32 -(6)))) ^ (((e) >> (11)) | ((e) << (32 -(11)))) ^ (((e) >> (25)) | ((e) << (32 -(25))))) + (((e) & (f)) ^ (~(e) & (g))) + K[i] + m[i];
         t2 = ((((a) >> (2)) | ((a) << (32 -(2)))) ^ (((a) >> (13)) | ((a) << (32 -(13)))) ^ (((a) >> (22)) | ((a) << (32 -(22))))) + (((a) & (b)) ^ ((a) & (c)) ^ ((b) & (c)));
         h = g;
@@ -6530,7 +6525,7 @@ void sha256d(const uint8_t input[80], uint32_t output[8]) {_ssdm_SpecArrayDimSiz
     state[6] += g;
     state[7] += h;
 
-    for (int i = 0; i < 8; i++) {
+    Rewiring_Output: for (int i = 0; i < 8; i++) {
         output[i] = state[i];
     }
 }

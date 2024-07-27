@@ -253,7 +253,7 @@ struct sha256d : public sc_module {
     sc_signal< sc_lv<32> > m_63_V_45_load_reg_6391;
     sc_signal< sc_lv<6> > trunc_ln1354_fu_4287_p1;
     sc_signal< sc_lv<6> > trunc_ln1354_reg_6400;
-    sc_signal< sc_lv<1> > icmp_ln148_fu_4281_p2;
+    sc_signal< sc_lv<1> > icmp_ln143_fu_4281_p2;
     sc_signal< sc_lv<7> > i_V_3_fu_4928_p2;
     sc_signal< sc_logic > ap_CS_fsm_state46;
     sc_signal< sc_lv<7> > i_V_1_fu_4940_p2;
@@ -963,7 +963,7 @@ struct sha256d : public sc_module {
     void thread_i_V_2_fu_3609_p2();
     void thread_i_V_3_fu_4928_p2();
     void thread_i_V_fu_3597_p2();
-    void thread_icmp_ln148_fu_4281_p2();
+    void thread_icmp_ln143_fu_4281_p2();
     void thread_icmp_ln72_fu_3320_p2();
     void thread_icmp_ln77_fu_3387_p2();
     void thread_icmp_ln887_1_fu_3603_p2();

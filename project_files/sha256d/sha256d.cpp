@@ -109,11 +109,6 @@ void sha256d(const uint8_t input[80], uint32_t output[8]) {
         state[7] += h;
     }
 
-//    uint32_t hash1[8];
-//    for (int i = 0; i < 8; i++) {
-//        hash1[i] = state[i];
-//    }
-
     // SHA-256 prepare function for the second hash
     uint8_t data2[64];
     Store_Input_2: for (int i = 0; i < 32; i++) {

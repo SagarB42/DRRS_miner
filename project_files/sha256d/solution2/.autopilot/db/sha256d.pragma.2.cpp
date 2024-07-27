@@ -6491,18 +6491,13 @@ _ssdm_Unroll(0,0,0, "");
     }
 
 
-
-
-
-
-
     uint8_t data2[64];
 _ssdm_SpecArrayPartition( data2, 1, "COMPLETE", 0, "");
-# 118 "sha256d/sha256d.cpp"
+# 113 "sha256d/sha256d.cpp"
 
     Store_Input_2: for (int i = 0; i < 32; i++) {
 _ssdm_Unroll(0,0,0, "");
-# 119 "sha256d/sha256d.cpp"
+# 114 "sha256d/sha256d.cpp"
 
         data2[i] = (state[i / 4] >> (24 - 8 * (i % 4))) & 0xff;
     }
@@ -6510,7 +6505,7 @@ _ssdm_Unroll(0,0,0, "");
 
     Append_Zero_2: for (int i = 33; i < 63; i++) {
 _ssdm_Unroll(0,0,0, "");
-# 124 "sha256d/sha256d.cpp"
+# 119 "sha256d/sha256d.cpp"
 
         data2[i] = 0x00;
     }
@@ -6518,7 +6513,7 @@ _ssdm_Unroll(0,0,0, "");
     length = 256;
     Append_Orignal_Size_2: for (int i = 0; i < 8; i++) {
 _ssdm_Unroll(0,0,0, "");
-# 129 "sha256d/sha256d.cpp"
+# 124 "sha256d/sha256d.cpp"
 
         data2[63 - i] = (length >> (i * 8)) & 0xff;
     }
@@ -6536,7 +6531,7 @@ _ssdm_Unroll(0,0,0, "");
 
     uint32_t a, b, c, d, e, f, g, h, i, j, t1, t2, m[64];
 _ssdm_SpecArrayPartition( m, 1, "COMPLETE", 0, "");
-# 144 "sha256d/sha256d.cpp"
+# 139 "sha256d/sha256d.cpp"
 
 
     Load_Message_Schedule_2: for (i = 0, j = 0; i < 16; ++i, j += 4)
@@ -6577,7 +6572,7 @@ _ssdm_SpecArrayPartition( m, 1, "COMPLETE", 0, "");
 
     Rewiring_Output: for (int i = 0; i < 8; i++) {
 _ssdm_Unroll(0,0,0, "");
-# 182 "sha256d/sha256d.cpp"
+# 177 "sha256d/sha256d.cpp"
 
         output[i] = state[i];
     }

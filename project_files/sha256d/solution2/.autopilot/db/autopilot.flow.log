@@ -1,4 +1,4 @@
-INFO-FLOW: Workspace C:/DRRS_miner/project_files/sha256d/solution2 opened at Sat Jul 27 18:09:00 +1000 2024
+INFO-FLOW: Workspace C:/DRRS_miner/project_files/sha256d/solution2 opened at Sat Jul 27 19:43:09 +1000 2024
 Execute     config_clock -quiet -name default -period 10 -default=false 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 Execute     open_platform DefaultPlatform 
@@ -56,7 +56,7 @@ Execute     source C:/Xilinx/Vivado/2020.1/common/technology/xilinx/zynquplus/zy
 Execute       source C:/Xilinx/Vivado/2020.1/common/technology/xilinx/common/xilinx_fp.gen 
 Execute     set_part xqzu5ev-ffrb900-1-i 
 Execute       ap_part_info -name xqzu5ev-ffrb900-1-i -data single -quiet 
-Command       ap_part_info done; 0.534 sec.
+Command       ap_part_info done; 0.516 sec.
 Execute       ap_part_info -name xqzu5ev-ffrb900-1-i -data info 
 Execute       add_library xilinx/zynquplus/zynquplus:xqzu5ev:-ffrb900:-1-i 
 Execute         get_default_platform 
@@ -72,7 +72,7 @@ Execute         get_default_platform
 INFO: [HLS 200-10] Setting target device to 'xqzu5ev-ffrb900-1-i'
 Execute       ap_part_info -name xqzu5ev-ffrb900-1-i -data info 
 Execute       get_default_platform 
-Command     set_part done; 0.611 sec.
+Command     set_part done; 0.606 sec.
 Execute     ap_part_info -data single -name xqzu5ev-ffrb900-1-i 
 Execute     ap_part_info -name xqzu5ev-ffrb900-1-i -data resources 
 Execute     ap_part_info -name xqzu5ev-ffrb900-1-i -data info 
@@ -80,7 +80,7 @@ Execute     ap_part_info -name xqzu5ev-ffrb900-1-i -data info
 Execute     config_chip_info -quiet -resource {SLICE 14640} {LUT 117120} {FF 234240} {DSP48E 1248} {BRAM 288} {URAM 64} 
 Execute     ap_part_info -name xqzu5ev-ffrb900-1-i -data info 
 Execute     config_chip_info -quiet -speed slow 
-Command   open_solution done; 0.777 sec.
+Command   open_solution done; 0.79 sec.
 Execute   set_part xqzu5ev-ffrb900-1-i 
 Execute     ap_part_info -name xqzu5ev-ffrb900-1-i -data single -quiet 
 Execute     ap_part_info -name xqzu5ev-ffrb900-1-i -data info 
@@ -295,15 +295,15 @@ INFO-FLOW: Running: GCC PP
 INFO-FLOW: Source preprocessing
 Execute       clang  -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado/2020.1/msys" -hls  -fno-exceptions  -D__llvm__  -E "sha256d/sha256d.cpp"     -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2020.1/common/technology/autopilot" -I "C:/Xilinx/Vivado/2020.1/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E2__  -o "C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp" 
 INFO-FLOW: exec C:/Xilinx/Vivado/2020.1/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2020.1/msys -hls -fno-exceptions -D__llvm__ -E sha256d/sha256d.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2020.1/common/technology/autopilot -I C:/Xilinx/Vivado/2020.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp
-Command       clang done; 0.807 sec.
+Command       clang done; 0.771 sec.
 Execute       tidy_31 xilinx-xfmat-array-geometry C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp std=gnu++98 
 INFO-FLOW: exec C:/Xilinx/Vivado/2020.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-xfmat-array-geometry -quiet -fix C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
-Command       tidy_31 done; 0.462 sec.
+Command       tidy_31 done; 0.424 sec.
 INFO-FLOW: Syntax Checking before pre-processing...
 Execute       clang -syntaxcheck -src C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp  -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado/2020.1/msys" -hls    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2020.1/common/technology/autopilot" -I "C:/Xilinx/Vivado/2020.1/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E2__  "C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp"  -o "C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/useless.bc"  
 INFO-FLOW: exec C:/Xilinx/Vivado/2020.1/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2020.1/msys -hls -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -fno-threadsafe-statics -fno-use-cxa-atexit -D__CLANG_3_1__ -D__cdecl= -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2020.1/common/technology/autopilot -I C:/Xilinx/Vivado/2020.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/useless.bc
-Command       clang done; 0.967 sec.
-INFO-FLOW: Done: GCC PP time: 2.2 seconds per iteration
+Command       clang done; 0.939 sec.
+INFO-FLOW: Done: GCC PP time: 2.1 seconds per iteration
 INFO-FLOW: Setting directive 'ARRAY_PARTITION' partition=positionBooleanCmd variable=positionBooleanTextRequiredinput complete=positionBoolean0type dim=1 
 INFO-FLOW: Setting directive 'ARRAY_PARTITION' partition=positionBooleanCmd variable=positionBooleanTextRequiredoutput complete=positionBoolean0type dim=1 
 INFO-FLOW: Setting directive 'ARRAY_PARTITION' partition=positionBooleanCmd variable=positionBooleanTextRequiredstate complete=positionBoolean0type dim=1 
@@ -344,55 +344,55 @@ INFO-FLOW: Setting directive 'UNROLL'
 Execute       list_core -type functional_unit 
 Execute       tidy_31 xilinx-systemc-detector C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp std=gnu++98 -directive=C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/.systemc_flag 
 INFO-FLOW: exec C:/Xilinx/Vivado/2020.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-systemc-detector -import-directive=C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/.systemc_flag -quiet -fix-errors C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
-Command       tidy_31 done; 0.398 sec.
+Command       tidy_31 done; 0.385 sec.
 INFO-FLOW: Running: tidy-3.1 CDT preprocess
 Execute       tidy_31 xilinx-directive2pragma C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp std=gnu++98 -directive=C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/all.directive.json 
 INFO-FLOW: exec C:/Xilinx/Vivado/2020.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-directive2pragma -import-directive=C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/all.directive.json -quiet -fix-errors C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0
-Command       tidy_31 done; 0.82 sec.
+Command       tidy_31 done; 0.816 sec.
 Execute       get_config_dataflow -strict_mode 
 Execute       ap_eval exec -ignorestderr C:/Xilinx/Vivado/2020.1/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/xilinx-dataflow-lawyer.sha256d.pp.0.cpp.diag.yml C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0 -fstrict-dataflow > C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/xilinx-dataflow-lawyer.sha256d.pp.0.cpp.out.log 2> C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/xilinx-dataflow-lawyer.sha256d.pp.0.cpp.err.log 
-Command       ap_eval done; 0.393 sec.
+Command       ap_eval done; 0.37 sec.
 Execute       tidy_31 -errorcheck xilinx-constantarray-param,xilinx-resource-pragma-transformer,xilinx-xfmat-array-geometry C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp std=gnu++98 
 Execute         ap_eval exec -ignorestderr C:/Xilinx/Vivado/2020.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -export-fixes=C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/tidy-3.1.sha256d.pp.0.cpp.diag.yml -header-filter=.* -checks=-*,xilinx-constantarray-param,xilinx-resource-pragma-transformer,xilinx-xfmat-array-geometry -quiet -fix-errors C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0 > C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/tidy-3.1.sha256d.pp.0.cpp.out.log 2> C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/tidy-3.1.sha256d.pp.0.cpp.err.log 
-Command         ap_eval done; 0.806 sec.
+Command         ap_eval done; 0.78 sec.
 Execute         source C:/Xilinx/Vivado/2020.1/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
 Execute           source C:/Xilinx/Vivado/2020.1/tps/tcl/tcllib1.11.1/cmdline/cmdline.tcl 
 Execute         ap_eval exec -ignorestderr C:/Xilinx/Vivado/2020.1/win64/tools/clang-3.9-csynth/bin/xilinx-legacy-rewriter C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pp.0.cpp -- -std=gnu++98 -fhls -ferror-limit=0 > C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/xilinx-legacy-rewriter.sha256d.pp.0.cpp.out.log 2> C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/xilinx-legacy-rewriter.sha256d.pp.0.cpp.err.log 
-Command         ap_eval done; 0.293 sec.
-Command       tidy_31 done; 1.118 sec.
-INFO-FLOW: Done: tidy-3.1 CDT preprocess time: 2.3 seconds per iteration
+Command         ap_eval done; 0.259 sec.
+Command       tidy_31 done; 1.056 sec.
+INFO-FLOW: Done: tidy-3.1 CDT preprocess time: 2.2 seconds per iteration
 INFO-FLOW: Pragma Handling...
 Execute       tidy_31 xilinx-ssdm-intrinsics-arguments C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pragma.1.cpp std=gnu++98 
 INFO-FLOW: exec C:/Xilinx/Vivado/2020.1/win64/tools/clang-3.9-csynth/bin/tidy-3.1 -header-filter=.* -checks=-*,xilinx-ssdm-intrinsics-arguments -quiet -fix-errors C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pragma.1.cpp -- -std=gnu++98 -fhls -ferror-limit=0
-Command       tidy_31 done; 0.839 sec.
+Command       tidy_31 done; 0.822 sec.
 Execute       ap_part_info -name xqzu5ev-ffrb900-1-i -data info 
 INFO-FLOW: Processing labels
 Execute       clang -src C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pragma.2.cpp  -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2020.1/msys -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions  -D__llvm__  -w  "C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pragma.2.cpp"    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado/2020.1/common/technology/autopilot" -I "C:/Xilinx/Vivado/2020.1/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o "C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.bc" 
 INFO-FLOW: exec C:/Xilinx/Vivado/2020.1/win64/tools/clang/bin/clang -fno-limit-debug-info -gcc-toolchain C:/Xilinx/Vivado/2020.1/msys -hls -hls-analyze-label -hls-analyze-pragma -fno-exceptions -D__llvm__ -w C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.pragma.2.cpp -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -fno-threadsafe-statics -fno-use-cxa-atexit -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vivado/2020.1/common/technology/autopilot -I C:/Xilinx/Vivado/2020.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.bc
-Command       clang done; 0.967 sec.
+Command       clang done; 0.964 sec.
 INFO-FLOW: Linking Debug ...
 Execute       llvm-ld C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.g.bc -hls-opt -except-internalize sha256d -LC:/Xilinx/Vivado/2020.1/win64/lib -lhlsm -lhlsmc++ -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.g 
-Command       llvm-ld done; 1.175 sec.
-INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 979.121 ; gain = 882.930
-INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 979.121 ; gain = 882.930
+Command       llvm-ld done; 0.705 sec.
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 979.141 ; gain = 882.926
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 979.141 ; gain = 882.926
 Execute       get_config_sdx -target 
 Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
 Execute         cleanup_all_models 
 INFO: [HLS 200-10] Starting code transformations ...
 Execute         transform -promote-dbg-pointer C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.pp.bc -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.pp.0.bc -f 
 Execute         llvm-ld C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.pp.0.bc -disable-opt -LC:/Xilinx/Vivado/2020.1/win64/lib -lfloatconversion -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.g.0 
-Command         llvm-ld done; 0.41 sec.
+Command         llvm-ld done; 0.405 sec.
 INFO-FLOW: Running Standard Transforms...
 Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -stream-depth-lower -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -prune-eh -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top sha256d -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -func-inst -deadargelim -auto-shift-reg-idiom -promote-dbg-pointer -norm-name C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.g.0.bc -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.g.1.bc -f -phase std-opt 
-Command         transform done; 0.234 sec.
-INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 979.121 ; gain = 882.930
+Command         transform done; 0.167 sec.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 979.141 ; gain = 882.926
 INFO: [HLS 200-10] Checking synthesizability ...
 INFO-FLOW: Checking Synthesizability 1/2..
 Execute         transform -hls -syn-check -check-rec-only -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -pag -array-normalize -instcombine -dce -warn-fifo-pointer -array-seg-normalize -instcombine -dce -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -function-uniquify -directive-preproc -mem2reg -dse -dce -globaldce -check-dspbuiltin C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.g.1.bc -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.g.2.prechk.bc -f 
-Command         transform done; 0.155 sec.
+Command         transform done; 0.116 sec.
 INFO-FLOW: Checking Synthesizability 2/2..
 Execute         transform -syn-check C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.g.2.prechk.bc -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.g.2.bc -f -phase syn-check 
-INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 979.121 ; gain = 882.930
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 979.141 ; gain = 882.926
 INFO-FLOW: Compiler optimizing ...
 INFO-FLOW: Share syncheck's 1.bc for syn flow: copy C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.g.1.bc to C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.o.1.bc
 INFO-FLOW: Presyn 1...
@@ -402,37 +402,37 @@ INFO: [HLS 200-489] Unrolling loop 'Append_Zero' (sha256d/sha256d.cpp:54) in fun
 INFO: [HLS 200-489] Unrolling loop 'Appened_Original_Size' (sha256d/sha256d.cpp:59) in function 'sha256d' completely with a factor of 8.
 INFO: [HLS 200-489] Unrolling loop 'Store_first_block' (sha256d/sha256d.cpp:64) in function 'sha256d' completely with a factor of 64.
 INFO: [HLS 200-489] Unrolling loop 'Store_second_block' (sha256d/sha256d.cpp:67) in function 'sha256d' completely with a factor of 64.
-INFO: [HLS 200-489] Unrolling loop 'Store_Input_2' (sha256d/sha256d.cpp:119) in function 'sha256d' completely with a factor of 32.
-INFO: [HLS 200-489] Unrolling loop 'Append_Zero_2' (sha256d/sha256d.cpp:124) in function 'sha256d' completely with a factor of 30.
-INFO: [HLS 200-489] Unrolling loop 'Append_Orignal_Size_2' (sha256d/sha256d.cpp:129) in function 'sha256d' completely with a factor of 8.
-INFO: [HLS 200-489] Unrolling loop 'Rewiring_Output' (sha256d/sha256d.cpp:182) in function 'sha256d' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Store_Input_2' (sha256d/sha256d.cpp:114) in function 'sha256d' completely with a factor of 32.
+INFO: [HLS 200-489] Unrolling loop 'Append_Zero_2' (sha256d/sha256d.cpp:119) in function 'sha256d' completely with a factor of 30.
+INFO: [HLS 200-489] Unrolling loop 'Append_Orignal_Size_2' (sha256d/sha256d.cpp:124) in function 'sha256d' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Rewiring_Output' (sha256d/sha256d.cpp:177) in function 'sha256d' completely with a factor of 8.
 INFO: [XFORM 203-101] Partitioning array 'input.V' (sha256d/sha256d.cpp:34) in dimension 1 completely.
 INFO: [XFORM 203-101] Partitioning array 'output.V' (sha256d/sha256d.cpp:34) in dimension 1 completely.
 INFO: [XFORM 203-101] Partitioning array 'state.V' (sha256d/sha256d.cpp:36) in dimension 1 completely.
 INFO: [XFORM 203-101] Partitioning array 'data1.V' (sha256d/sha256d.cpp:48) in dimension 1 completely.
 INFO: [XFORM 203-101] Partitioning array 'data.V' (sha256d/sha256d.cpp:63) in dimension 1 completely.
-WARNING: [XFORM 203-104] Completely partitioning array 'data2.V' (sha256d/sha256d.cpp:118) accessed through non-constant indices on dimension 1 (sha256d/sha256d.cpp:147:87), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead.
-INFO: [XFORM 203-101] Partitioning array 'data2.V' (sha256d/sha256d.cpp:118) in dimension 1 completely.
-WARNING: [XFORM 203-104] Completely partitioning array 'm.V.1' (sha256d/sha256d.cpp:144) accessed through non-constant indices on dimension 1 (sha256d/sha256d.cpp:161:178), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead.
-INFO: [XFORM 203-101] Partitioning array 'm.V.1' (sha256d/sha256d.cpp:144) in dimension 1 completely.
-Command         transform done; 0.93 sec.
+WARNING: [XFORM 203-104] Completely partitioning array 'data2.V' (sha256d/sha256d.cpp:113) accessed through non-constant indices on dimension 1 (sha256d/sha256d.cpp:142:87), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead.
+INFO: [XFORM 203-101] Partitioning array 'data2.V' (sha256d/sha256d.cpp:113) in dimension 1 completely.
+WARNING: [XFORM 203-104] Completely partitioning array 'm.V.1' (sha256d/sha256d.cpp:139) accessed through non-constant indices on dimension 1 (sha256d/sha256d.cpp:156:178), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead.
+INFO: [XFORM 203-101] Partitioning array 'm.V.1' (sha256d/sha256d.cpp:139) in dimension 1 completely.
+Command         transform done; 0.79 sec.
 INFO-FLOW: Presyn 2...
 Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -auto-burst -norm-name C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.o.1.tmp.bc -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.o.2.bc -f -phase presyn 
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (sha256d/sha256d.cpp:76:13) to (sha256d/sha256d.cpp:75:64) in function 'sha256d'... converting 4 basic blocks.
 INFO: [XFORM 203-11] Balancing expressions in function 'sha256d' (sha256d/sha256d.cpp:34)...20 expression(s) balanced.
-Command         transform done; 0.377 sec.
-INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 979.121 ; gain = 882.930
+Command         transform done; 0.318 sec.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 979.141 ; gain = 882.926
 INFO-FLOW: Building ssdm...
 Execute         transform -hls -function-uniquify -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -licm -loop-dep -loop-bound -licm -loop-simplify -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -ptrLegalization -axi4-lower -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -disaggr -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -bitwidthmin -deadargelim -dce -canonicalize-dataflow -dce -scalar-propagation -deadargelim -globaldce -mem2reg -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -load-elim -bitop-lower -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -check-stream -norm-name -legalize -validate-dataflow -inst-clarity -bitwidth -dump-loop-dep-to-ir -check-all-ssdm -cdfg-build C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.o.2.bc -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
 INFO: [HLS 200-472] Inferring partial write operation for 'data[0].V' (sha256d/sha256d.cpp:65:9)
 INFO: [HLS 200-472] Inferring partial write operation for 'data[1].V' (sha256d/sha256d.cpp:68:9)
 INFO: [HLS 200-472] Inferring partial write operation for 'm.V' (sha256d/sha256d.cpp:76:99)
 INFO: [HLS 200-472] Inferring partial write operation for 'm.V' (sha256d/sha256d.cpp:78)
-Command         transform done; 1.257 sec.
-INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 979.121 ; gain = 882.930
+Command         transform done; 0.97 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 979.141 ; gain = 882.926
 INFO-FLOW: Finish building internal data model.
-Command       opt_and_import_c done; 3.485 sec.
-Command     elaborate done; 11.588 sec.
+Command       opt_and_import_c done; 2.845 sec.
+Command     elaborate done; 10.243 sec.
 Execute     autosyn -from_csynth_design=1 
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO-FLOW: Synthesizing C/C++ design ...
@@ -458,12 +458,12 @@ Execute       set_default_model sha256d
 Execute       schedule -model sha256d 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.383 sec.
-INFO: [HLS 200-111]  Elapsed time: 13.644 seconds; current allocated memory: 157.820 MB.
+Command       schedule done; 0.292 sec.
+INFO: [HLS 200-111]  Elapsed time: 12.2 seconds; current allocated memory: 157.837 MB.
 Execute       syn_report -verbosereport -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.verbose.sched.rpt 
-Command       syn_report done; 0.201 sec.
+Command       syn_report done; 0.171 sec.
 Execute       db_write -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.sched.adb -f 
-Command       db_write done; 0.212 sec.
+Command       db_write done; 0.144 sec.
 INFO-FLOW: Finish scheduling sha256d.
 Execute       set_default_model sha256d 
 Execute       bind -model sha256d 
@@ -473,12 +473,11 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-Command       bind done; 0.104 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.567 seconds; current allocated memory: 174.186 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.432 seconds; current allocated memory: 174.219 MB.
 Execute       syn_report -verbosereport -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.verbose.bind.rpt 
-Command       syn_report done; 0.252 sec.
+Command       syn_report done; 0.189 sec.
 Execute       db_write -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.bind.adb -f 
-Command       db_write done; 0.284 sec.
+Command       db_write done; 0.168 sec.
 INFO-FLOW: Finish binding sha256d.
 Execute       get_model_list sha256d -filter all-wo-channel 
 INFO-FLOW: Preprocessing for RTLGen ...
@@ -582,8 +581,8 @@ INFO: [RTGEN 206-500] Setting interface mode on function 'sha256d' to 'ap_ctrl_h
 INFO: [SYN 201-210] Renamed object name 'sha256d_mux_646_32_1_1' to 'sha256d_mux_646_3bkb' due to the length limit 20
 INFO: [RTGEN 206-100] Generating core module 'sha256d_mux_646_3bkb': 4 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'sha256d'.
-Command       create_rtl_model done; 1.026 sec.
-INFO: [HLS 200-111]  Elapsed time: 1.637 seconds; current allocated memory: 178.854 MB.
+Command       create_rtl_model done; 1.099 sec.
+INFO: [HLS 200-111]  Elapsed time: 1.524 seconds; current allocated memory: 178.873 MB.
 Execute       source C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.rtl_wrap.cfg.tcl 
 Execute       gen_rtl sha256d -istop -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o C:/DRRS_miner/project_files/sha256d/solution2/syn/systemc/sha256d -synmodules sha256d 
 Execute       gen_rtl sha256d -istop -style xilinx -f -lang vhdl -o C:/DRRS_miner/project_files/sha256d/solution2/syn/vhdl/sha256d 
@@ -591,9 +590,9 @@ Execute       gen_rtl sha256d -istop -style xilinx -f -lang vlog -o C:/DRRS_mine
 Execute       syn_report -csynth -model sha256d -o C:/DRRS_miner/project_files/sha256d/solution2/syn/report/sha256d_csynth.rpt 
 Execute       syn_report -rtlxml -model sha256d -o C:/DRRS_miner/project_files/sha256d/solution2/syn/report/sha256d_csynth.xml 
 Execute       syn_report -verbosereport -model sha256d -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.verbose.rpt 
-Command       syn_report done; 0.325 sec.
+Command       syn_report done; 0.193 sec.
 Execute       db_write -model sha256d -f -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.adb 
-Command       db_write done; 0.337 sec.
+Command       db_write done; 0.22 sec.
 Execute       gen_tb_info sha256d -p C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d 
 Execute       export_constraint_db -f -tool general -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.constraint.tcl 
 Execute       syn_report -designview -model sha256d -o C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/sha256d.design.xml 
@@ -657,8 +656,6 @@ Execute           source C:/Xilinx/Vivado/2020.1/common/technology/xilinx/ip/uti
 Execute           source C:/Xilinx/Vivado/2020.1/common/technology/xilinx/ip/xfft.gen 
 Execute           source C:/Xilinx/Vivado/2020.1/common/technology/xilinx/ip/xfir.gen 
 Execute           source C:/Xilinx/Vivado/2020.1/common/technology/xilinx/common/dsp48.gen 
-Command         ap_source done; 0.107 sec.
-Command       ap_source done; 0.107 sec.
 Execute       source C:/Xilinx/Vivado/2020.1/common/technology/xilinx/zynquplus/zynquplus_fpv7.gen 
 Execute         source C:/Xilinx/Vivado/2020.1/common/technology/xilinx/common/xilinx_fp.gen 
 INFO-FLOW: DBG:CMD:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
@@ -691,7 +688,6 @@ INFO: [RTMG 210-278] Implementing memory 'sha256d_m_V_ram (RAM)' using block RAM
 Execute         ap_part_info -name xqzu5ev-ffrb900-1-i -data names -quiet 
 Execute         ap_part_info -name xqzu5ev-ffrb900-1-i -data info -quiet 
 Execute         ap_family_info -name qzynquplus -data info -quiet 
-Command       ap_source done; 0.121 sec.
 INFO-FLOW: DBG:CMD:     auto_generate -export -impltomg_flag -rtl both -tool Vivado -pcore_version 1.00.a -phase csynth_design -d C:/DRRS_miner/project_files/sha256d/solution2
 Execute       source C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/global.setting.tcl 
 INFO-FLOW: DBG:CMD: read_platform_lib C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/global.setting.tcl
@@ -716,8 +712,6 @@ Execute           source C:/Xilinx/Vivado/2020.1/common/technology/xilinx/ip/uti
 Execute           source C:/Xilinx/Vivado/2020.1/common/technology/xilinx/ip/xfft.gen 
 Execute           source C:/Xilinx/Vivado/2020.1/common/technology/xilinx/ip/xfir.gen 
 Execute           source C:/Xilinx/Vivado/2020.1/common/technology/xilinx/common/dsp48.gen 
-Command         ap_source done; 0.103 sec.
-Command       ap_source done; 0.103 sec.
 Execute       source C:/Xilinx/Vivado/2020.1/common/technology/xilinx/zynquplus/zynquplus_fpv7.gen 
 Execute         source C:/Xilinx/Vivado/2020.1/common/technology/xilinx/common/xilinx_fp.gen 
 INFO-FLOW: DBG:CMD:       initCTypeInfo top_module=sha256d xml_exists=0
@@ -1018,7 +1012,7 @@ Execute         ap_family_info -name qzynquplus -data info -quiet
 Execute         ap_part_info -name xqzu5ev-ffrb900-1-i -data names -quiet 
 Execute         ap_part_info -name xqzu5ev-ffrb900-1-i -data info -quiet 
 Execute         ap_family_info -name qzynquplus -data info -quiet 
-Command       ap_source done; 0.519 sec.
+Command       ap_source done; 0.408 sec.
 Execute       ap_part_info -name xqzu5ev-ffrb900-1-i -data names -quiet 
 Execute       ap_part_info -name xqzu5ev-ffrb900-1-i -data info -quiet 
 Execute       ap_family_info -name qzynquplus -data info -quiet 
@@ -1077,10 +1071,10 @@ Execute       get_config_rtl -stall_sig_gen
 Execute       get_config_rtl -profile 
 INFO-FLOW: DBG:CMD: add_json_sdx_info kernel file does not exist, skipping opencl info: C:/DRRS_miner/project_files/sha256d/solution2/.autopilot/db/kernel.internal.xml
 INFO-FLOW: DBG:CMD:       delete-temp-dirs (skipped for debug)
-INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:20 . Memory (MB): peak = 979.121 ; gain = 882.930
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 979.141 ; gain = 882.926
 INFO: [VHDL 208-304] Generating VHDL RTL for sha256d.
 INFO: [VLOG 209-307] Generating Verilog RTL for sha256d.
-Command     autosyn done; 7.335 sec.
-Command   csynth_design done; 18.933 sec.
-Command ap_source done; 19.893 sec.
+Command     autosyn done; 5.559 sec.
+Command   csynth_design done; 15.813 sec.
+Command ap_source done; 16.785 sec.
 Execute cleanup_all 

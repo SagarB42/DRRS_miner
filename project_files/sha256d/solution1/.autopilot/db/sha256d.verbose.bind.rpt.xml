@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'sha256d'" level="0">
-<item name = "Date">Sat Jul 27 17:30:09 2024
+<item name = "Date">Sat Jul 27 19:43:58 2024
 </item>
 <item name = "Version">2020.1 (Build 2897737 on Wed May 27 20:21:37 MDT 2020)</item>
 <item name = "Project">sha256d</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">1559, 1559, 15.590 us, 15.590 us, 1559, 1559, none</column>
+<column name="">1542, 1542, 15.420 us, 15.420 us, 1542, 1542, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,23 +35,22 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- Loop 1">160, 160, 2, -, -, 80, no</column>
-<column name="- Loop 2">47, 47, 1, -, -, 47, no</column>
-<column name="- Loop 3">8, 8, 1, -, -, 8, no</column>
-<column name="- Loop 4">128, 128, 2, -, -, 64, no</column>
-<column name="- Loop 5">128, 128, 2, -, -, 64, no</column>
-<column name="- Loop 6">630, 630, 315, -, -, 2, no</column>
-<column name=" + Loop 6.1">32, 32, 2, -, -, 16, no</column>
-<column name=" + Loop 6.2">144, 144, 3, -, -, 48, no</column>
-<column name=" + Loop 6.3">128, 128, 2, -, -, 64, no</column>
-<column name="- Loop 7">16, 16, 2, -, -, 8, no</column>
-<column name="- Loop 8">64, 64, 2, -, -, 32, no</column>
-<column name="- Loop 9">30, 30, 1, -, -, 30, no</column>
-<column name="- Loop 10">8, 8, 1, -, -, 8, no</column>
-<column name="- Loop 11">32, 32, 2, -, -, 16, no</column>
-<column name="- Loop 12">144, 144, 3, -, -, 48, no</column>
-<column name="- Loop 13">128, 128, 2, -, -, 64, no</column>
-<column name="- Loop 14">16, 16, 2, -, -, 8, no</column>
+<column name="- Load_Input">160, 160, 2, -, -, 80, no</column>
+<column name="- Append_Zero">47, 47, 1, -, -, 47, no</column>
+<column name="- Appened_Original_Size">8, 8, 1, -, -, 8, no</column>
+<column name="- Store_first_block">128, 128, 2, -, -, 64, no</column>
+<column name="- Store_second_block">128, 128, 2, -, -, 64, no</column>
+<column name="- Transfrom">630, 630, 315, -, -, 2, no</column>
+<column name=" + Load_Message_Schedule">32, 32, 2, -, -, 16, no</column>
+<column name=" + Extend_Message_Schedule">144, 144, 3, -, -, 48, no</column>
+<column name=" + Updates">128, 128, 2, -, -, 64, no</column>
+<column name="- Store_Input_2">64, 64, 2, -, -, 32, no</column>
+<column name="- Append_Zero_2">30, 30, 1, -, -, 30, no</column>
+<column name="- Append_Orignal_Size_2">8, 8, 1, -, -, 8, no</column>
+<column name="- Load_Message_Schedule_2">32, 32, 2, -, -, 16, no</column>
+<column name="- Extend_Message_Schedule_2">144, 144, 3, -, -, 48, no</column>
+<column name="- Updates_2">128, 128, 2, -, -, 64, no</column>
+<column name="- Rewiring_Output">16, 16, 2, -, -, 8, no</column>
 </table>
 </item>
 </section>

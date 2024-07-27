@@ -83,6 +83,18 @@
         <directive functionName="sha256d" label="Rewiring_Output" functionLabel="">
             <pragma name="UNROLL"/>
         </directive>
+        <directive functionName="sha256d" label="Load_Message_Schedule_2" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="sha256d" label="Extend_Message_Schedule_2" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="sha256d" label="Load_Message_Schedule" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
+        <directive functionName="sha256d" label="Extend_Message_Schedule" functionLabel="">
+            <pragma name="UNROLL"/>
+        </directive>
     </sourceFile>
 </AutoPilot:ProjectResources>
 

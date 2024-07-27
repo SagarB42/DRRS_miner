@@ -53,13 +53,13 @@ set NewPortList {[
  	{ "name": "output_V_d0", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "output_V", "role": "d0" }}  ]}
 
 set RtlHierarchyInfo {[
-	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "7", "8"],
+	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "7"],
 		"CDFG" : "sha256d",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1559", "EstimateLatencyMax" : "1559",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1542", "EstimateLatencyMax" : "1542",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -75,22 +75,21 @@ set RtlHierarchyInfo {[
 	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.data1_V_U", "Parent" : "0"},
 	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.data_V_U", "Parent" : "0"},
 	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.m_V_U", "Parent" : "0"},
-	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.hash1_V_U", "Parent" : "0"},
-	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.data2_V_U", "Parent" : "0"},
-	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.m_V_1_U", "Parent" : "0"}]}
+	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.data2_V_U", "Parent" : "0"},
+	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.m_V_1_U", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	sha256d {
 		input_V {Type I LastRead 4 FirstWrite -1}
-		output_V {Type O LastRead -1 FirstWrite 21}
+		output_V {Type O LastRead -1 FirstWrite 20}
 		K_V {Type I LastRead -1 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "1559", "Max" : "1559"}
-	, {"Name" : "Interval", "Min" : "1560", "Max" : "1560"}
+	{"Name" : "Latency", "Min" : "1542", "Max" : "1542"}
+	, {"Name" : "Interval", "Min" : "1543", "Max" : "1543"}
 ]}
 
 set PipelineEnableSignalInfo {[

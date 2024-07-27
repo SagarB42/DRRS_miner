@@ -19566,7 +19566,7 @@
 						<name>data2_31_V</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>120</lineNumber>
+						<lineNumber>115</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -19581,7 +19581,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>120</second>
+										<second>115</second>
 									</item>
 								</second>
 							</item>
@@ -19617,7 +19617,7 @@
 						<name>data2_27_V</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>120</lineNumber>
+						<lineNumber>115</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -19632,7 +19632,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>120</second>
+										<second>115</second>
 									</item>
 								</second>
 							</item>
@@ -19668,7 +19668,7 @@
 						<name>data2_23_V</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>120</lineNumber>
+						<lineNumber>115</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -19683,7 +19683,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>120</second>
+										<second>115</second>
 									</item>
 								</second>
 							</item>
@@ -19719,7 +19719,7 @@
 						<name>data2_19_V</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>120</lineNumber>
+						<lineNumber>115</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -19734,7 +19734,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>120</second>
+										<second>115</second>
 									</item>
 								</second>
 							</item>
@@ -19770,7 +19770,7 @@
 						<name>data2_15_V</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>120</lineNumber>
+						<lineNumber>115</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -19785,7 +19785,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>120</second>
+										<second>115</second>
 									</item>
 								</second>
 							</item>
@@ -19821,7 +19821,7 @@
 						<name>data2_11_V</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>120</lineNumber>
+						<lineNumber>115</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -19836,7 +19836,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>120</second>
+										<second>115</second>
 									</item>
 								</second>
 							</item>
@@ -19872,7 +19872,7 @@
 						<name>data2_7_V</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>120</lineNumber>
+						<lineNumber>115</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -19887,7 +19887,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>120</second>
+										<second>115</second>
 									</item>
 								</second>
 							</item>
@@ -19923,7 +19923,7 @@
 						<name>data2_3_V</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>120</lineNumber>
+						<lineNumber>115</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -19938,7 +19938,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>120</second>
+										<second>115</second>
 									</item>
 								</second>
 							</item>
@@ -28354,10 +28354,10 @@
 					<Obj>
 						<type>0</type>
 						<id>737</id>
-						<name>_ln146</name>
+						<name>_ln141</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>146</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -28372,7 +28372,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>146</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -28442,7 +28442,7 @@
 						<name>p_03004_0</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>146</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -28457,7 +28457,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>146</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -28493,7 +28493,7 @@
 						<name>m_15_V_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -28508,7 +28508,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -28541,7 +28541,7 @@
 						<name>m_15_V_1_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -28556,7 +28556,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -28589,7 +28589,7 @@
 						<name>icmp_ln887_2</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>146</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -28604,7 +28604,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>146</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -28638,7 +28638,7 @@
 						<name>add_ln700_3</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>146</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -28653,7 +28653,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>146</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -28684,10 +28684,10 @@
 					<Obj>
 						<type>0</type>
 						<id>746</id>
-						<name>_ln146</name>
+						<name>_ln141</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>146</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -28702,7 +28702,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>146</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -28737,7 +28737,7 @@
 						<name>trunc_ln1353</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -28752,7 +28752,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -28785,7 +28785,7 @@
 						<name>or_ln1356</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -28800,7 +28800,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -28831,10 +28831,10 @@
 					<Obj>
 						<type>0</type>
 						<id>751</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -28849,7 +28849,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -28910,10 +28910,10 @@
 					<Obj>
 						<type>0</type>
 						<id>753</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -28928,7 +28928,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -28958,10 +28958,10 @@
 					<Obj>
 						<type>0</type>
 						<id>755</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -28976,7 +28976,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29006,10 +29006,10 @@
 					<Obj>
 						<type>0</type>
 						<id>757</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29024,7 +29024,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29054,10 +29054,10 @@
 					<Obj>
 						<type>0</type>
 						<id>759</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29072,7 +29072,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29102,10 +29102,10 @@
 					<Obj>
 						<type>0</type>
 						<id>761</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29120,7 +29120,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29150,10 +29150,10 @@
 					<Obj>
 						<type>0</type>
 						<id>763</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29168,7 +29168,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29198,10 +29198,10 @@
 					<Obj>
 						<type>0</type>
 						<id>765</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29216,7 +29216,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29246,10 +29246,10 @@
 					<Obj>
 						<type>0</type>
 						<id>767</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29264,7 +29264,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29294,10 +29294,10 @@
 					<Obj>
 						<type>0</type>
 						<id>769</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29312,7 +29312,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29342,10 +29342,10 @@
 					<Obj>
 						<type>0</type>
 						<id>771</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29360,7 +29360,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29390,10 +29390,10 @@
 					<Obj>
 						<type>0</type>
 						<id>773</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29408,7 +29408,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29438,10 +29438,10 @@
 					<Obj>
 						<type>0</type>
 						<id>775</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29456,7 +29456,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29486,10 +29486,10 @@
 					<Obj>
 						<type>0</type>
 						<id>777</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29504,7 +29504,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29534,10 +29534,10 @@
 					<Obj>
 						<type>0</type>
 						<id>779</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29552,7 +29552,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29582,10 +29582,10 @@
 					<Obj>
 						<type>0</type>
 						<id>781</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29600,7 +29600,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29698,7 +29698,7 @@
 						<name>m_0_V</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29713,7 +29713,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29743,10 +29743,10 @@
 					<Obj>
 						<type>0</type>
 						<id>785</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29761,7 +29761,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29822,10 +29822,10 @@
 					<Obj>
 						<type>0</type>
 						<id>787</id>
-						<name>m_15_V_write_ln147</name>
+						<name>m_15_V_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29840,7 +29840,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29872,10 +29872,10 @@
 					<Obj>
 						<type>0</type>
 						<id>788</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29890,7 +29890,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29920,10 +29920,10 @@
 					<Obj>
 						<type>0</type>
 						<id>790</id>
-						<name>m_15_V_15_write_ln147</name>
+						<name>m_15_V_15_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29938,7 +29938,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -29969,10 +29969,10 @@
 					<Obj>
 						<type>0</type>
 						<id>791</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -29987,7 +29987,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30017,10 +30017,10 @@
 					<Obj>
 						<type>0</type>
 						<id>793</id>
-						<name>m_15_V_14_write_ln147</name>
+						<name>m_15_V_14_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30035,7 +30035,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30066,10 +30066,10 @@
 					<Obj>
 						<type>0</type>
 						<id>794</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30084,7 +30084,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30114,10 +30114,10 @@
 					<Obj>
 						<type>0</type>
 						<id>796</id>
-						<name>m_15_V_13_write_ln147</name>
+						<name>m_15_V_13_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30132,7 +30132,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30163,10 +30163,10 @@
 					<Obj>
 						<type>0</type>
 						<id>797</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30181,7 +30181,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30211,10 +30211,10 @@
 					<Obj>
 						<type>0</type>
 						<id>799</id>
-						<name>m_15_V_12_write_ln147</name>
+						<name>m_15_V_12_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30229,7 +30229,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30260,10 +30260,10 @@
 					<Obj>
 						<type>0</type>
 						<id>800</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30278,7 +30278,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30308,10 +30308,10 @@
 					<Obj>
 						<type>0</type>
 						<id>802</id>
-						<name>m_15_V_11_write_ln147</name>
+						<name>m_15_V_11_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30326,7 +30326,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30357,10 +30357,10 @@
 					<Obj>
 						<type>0</type>
 						<id>803</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30375,7 +30375,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30405,10 +30405,10 @@
 					<Obj>
 						<type>0</type>
 						<id>805</id>
-						<name>m_15_V_10_write_ln147</name>
+						<name>m_15_V_10_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30423,7 +30423,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30454,10 +30454,10 @@
 					<Obj>
 						<type>0</type>
 						<id>806</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30472,7 +30472,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30502,10 +30502,10 @@
 					<Obj>
 						<type>0</type>
 						<id>808</id>
-						<name>m_15_V_9_write_ln147</name>
+						<name>m_15_V_9_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30520,7 +30520,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30551,10 +30551,10 @@
 					<Obj>
 						<type>0</type>
 						<id>809</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30569,7 +30569,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30599,10 +30599,10 @@
 					<Obj>
 						<type>0</type>
 						<id>811</id>
-						<name>m_15_V_8_write_ln147</name>
+						<name>m_15_V_8_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30617,7 +30617,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30648,10 +30648,10 @@
 					<Obj>
 						<type>0</type>
 						<id>812</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30666,7 +30666,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30696,10 +30696,10 @@
 					<Obj>
 						<type>0</type>
 						<id>814</id>
-						<name>m_15_V_7_write_ln147</name>
+						<name>m_15_V_7_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30714,7 +30714,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30745,10 +30745,10 @@
 					<Obj>
 						<type>0</type>
 						<id>815</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30763,7 +30763,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30793,10 +30793,10 @@
 					<Obj>
 						<type>0</type>
 						<id>817</id>
-						<name>m_15_V_6_write_ln147</name>
+						<name>m_15_V_6_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30811,7 +30811,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30842,10 +30842,10 @@
 					<Obj>
 						<type>0</type>
 						<id>818</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30860,7 +30860,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30890,10 +30890,10 @@
 					<Obj>
 						<type>0</type>
 						<id>820</id>
-						<name>m_15_V_5_write_ln147</name>
+						<name>m_15_V_5_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30908,7 +30908,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30939,10 +30939,10 @@
 					<Obj>
 						<type>0</type>
 						<id>821</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -30957,7 +30957,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -30987,10 +30987,10 @@
 					<Obj>
 						<type>0</type>
 						<id>823</id>
-						<name>m_15_V_4_write_ln147</name>
+						<name>m_15_V_4_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -31005,7 +31005,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -31036,10 +31036,10 @@
 					<Obj>
 						<type>0</type>
 						<id>824</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -31054,7 +31054,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -31084,10 +31084,10 @@
 					<Obj>
 						<type>0</type>
 						<id>826</id>
-						<name>m_15_V_3_write_ln147</name>
+						<name>m_15_V_3_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -31102,7 +31102,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -31133,10 +31133,10 @@
 					<Obj>
 						<type>0</type>
 						<id>827</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -31151,7 +31151,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -31181,10 +31181,10 @@
 					<Obj>
 						<type>0</type>
 						<id>829</id>
-						<name>m_15_V_2_write_ln147</name>
+						<name>m_15_V_2_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -31199,7 +31199,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -31230,10 +31230,10 @@
 					<Obj>
 						<type>0</type>
 						<id>830</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -31248,7 +31248,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -31278,10 +31278,10 @@
 					<Obj>
 						<type>0</type>
 						<id>832</id>
-						<name>m_15_V_1_write_ln147</name>
+						<name>m_15_V_1_write_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -31296,7 +31296,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -31328,10 +31328,10 @@
 					<Obj>
 						<type>0</type>
 						<id>833</id>
-						<name>_ln147</name>
+						<name>_ln142</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>147</lineNumber>
+						<lineNumber>142</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -31346,7 +31346,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>147</second>
+										<second>142</second>
 									</item>
 								</second>
 							</item>
@@ -31379,7 +31379,7 @@
 						<name>j_V_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>146</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -31394,7 +31394,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>146</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -31425,10 +31425,10 @@
 					<Obj>
 						<type>0</type>
 						<id>836</id>
-						<name>_ln146</name>
+						<name>_ln141</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>146</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -31443,7 +31443,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>146</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -33105,10 +33105,10 @@
 					<Obj>
 						<type>0</type>
 						<id>886</id>
-						<name>_ln148</name>
+						<name>_ln143</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>148</lineNumber>
+						<lineNumber>143</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33123,7 +33123,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>148</second>
+										<second>143</second>
 									</item>
 								</second>
 							</item>
@@ -33193,7 +33193,7 @@
 						<name>m_63_V_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33208,7 +33208,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33241,7 +33241,7 @@
 						<name>m_63_V_1_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33256,7 +33256,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33289,7 +33289,7 @@
 						<name>m_63_V_2_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33304,7 +33304,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33337,7 +33337,7 @@
 						<name>m_63_V_3_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33352,7 +33352,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33385,7 +33385,7 @@
 						<name>m_63_V_4_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33400,7 +33400,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33433,7 +33433,7 @@
 						<name>m_63_V_5_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33448,7 +33448,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33481,7 +33481,7 @@
 						<name>m_63_V_6_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33496,7 +33496,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33529,7 +33529,7 @@
 						<name>m_63_V_7_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33544,7 +33544,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33577,7 +33577,7 @@
 						<name>m_63_V_8_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33592,7 +33592,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33625,7 +33625,7 @@
 						<name>m_63_V_9_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33640,7 +33640,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33673,7 +33673,7 @@
 						<name>m_63_V_10_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33688,7 +33688,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33721,7 +33721,7 @@
 						<name>m_63_V_11_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33736,7 +33736,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33769,7 +33769,7 @@
 						<name>m_63_V_12_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33784,7 +33784,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33817,7 +33817,7 @@
 						<name>m_63_V_13_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33832,7 +33832,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33865,7 +33865,7 @@
 						<name>m_63_V_14_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33880,7 +33880,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33913,7 +33913,7 @@
 						<name>m_63_V_15_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33928,7 +33928,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -33961,7 +33961,7 @@
 						<name>m_63_V_16_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -33976,7 +33976,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34009,7 +34009,7 @@
 						<name>m_63_V_17_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34024,7 +34024,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34057,7 +34057,7 @@
 						<name>m_63_V_18_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34072,7 +34072,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34105,7 +34105,7 @@
 						<name>m_63_V_19_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34120,7 +34120,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34153,7 +34153,7 @@
 						<name>m_63_V_20_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34168,7 +34168,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34201,7 +34201,7 @@
 						<name>m_63_V_21_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34216,7 +34216,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34249,7 +34249,7 @@
 						<name>m_63_V_22_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34264,7 +34264,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34297,7 +34297,7 @@
 						<name>m_63_V_23_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34312,7 +34312,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34345,7 +34345,7 @@
 						<name>m_63_V_24_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34360,7 +34360,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34393,7 +34393,7 @@
 						<name>m_63_V_25_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34408,7 +34408,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34441,7 +34441,7 @@
 						<name>m_63_V_26_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34456,7 +34456,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34489,7 +34489,7 @@
 						<name>m_63_V_27_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34504,7 +34504,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34537,7 +34537,7 @@
 						<name>m_63_V_28_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34552,7 +34552,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34585,7 +34585,7 @@
 						<name>m_63_V_29_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34600,7 +34600,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34633,7 +34633,7 @@
 						<name>m_63_V_30_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34648,7 +34648,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34681,7 +34681,7 @@
 						<name>m_63_V_31_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34696,7 +34696,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34729,7 +34729,7 @@
 						<name>m_63_V_32_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34744,7 +34744,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34777,7 +34777,7 @@
 						<name>m_63_V_33_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34792,7 +34792,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34825,7 +34825,7 @@
 						<name>m_63_V_34_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34840,7 +34840,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34873,7 +34873,7 @@
 						<name>m_63_V_35_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34888,7 +34888,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34921,7 +34921,7 @@
 						<name>m_63_V_36_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34936,7 +34936,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -34969,7 +34969,7 @@
 						<name>m_63_V_37_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -34984,7 +34984,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -35017,7 +35017,7 @@
 						<name>m_63_V_38_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35032,7 +35032,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -35065,7 +35065,7 @@
 						<name>m_63_V_39_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35080,7 +35080,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -35113,7 +35113,7 @@
 						<name>m_63_V_40_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35128,7 +35128,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -35161,7 +35161,7 @@
 						<name>m_63_V_41_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35176,7 +35176,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -35209,7 +35209,7 @@
 						<name>m_63_V_42_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35224,7 +35224,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -35257,7 +35257,7 @@
 						<name>m_63_V_43_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35272,7 +35272,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -35305,7 +35305,7 @@
 						<name>m_63_V_44_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35320,7 +35320,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -35353,7 +35353,7 @@
 						<name>m_63_V_45_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35368,7 +35368,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -35398,10 +35398,10 @@
 					<Obj>
 						<type>0</type>
 						<id>935</id>
-						<name>icmp_ln148</name>
+						<name>icmp_ln143</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>148</lineNumber>
+						<lineNumber>143</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35416,7 +35416,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>148</second>
+										<second>143</second>
 									</item>
 								</second>
 							</item>
@@ -35447,10 +35447,10 @@
 					<Obj>
 						<type>0</type>
 						<id>937</id>
-						<name>_ln148</name>
+						<name>_ln143</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>148</lineNumber>
+						<lineNumber>143</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35465,7 +35465,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>148</second>
+										<second>143</second>
 									</item>
 								</second>
 							</item>
@@ -35500,7 +35500,7 @@
 						<name>trunc_ln1354</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35515,7 +35515,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -35545,10 +35545,10 @@
 					<Obj>
 						<type>0</type>
 						<id>941</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35563,7 +35563,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -35688,10 +35688,10 @@
 					<Obj>
 						<type>0</type>
 						<id>943</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35706,7 +35706,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -35736,10 +35736,10 @@
 					<Obj>
 						<type>0</type>
 						<id>945</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35754,7 +35754,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -35784,10 +35784,10 @@
 					<Obj>
 						<type>0</type>
 						<id>947</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35802,7 +35802,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -35832,10 +35832,10 @@
 					<Obj>
 						<type>0</type>
 						<id>949</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35850,7 +35850,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -35880,10 +35880,10 @@
 					<Obj>
 						<type>0</type>
 						<id>951</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35898,7 +35898,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -35928,10 +35928,10 @@
 					<Obj>
 						<type>0</type>
 						<id>953</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35946,7 +35946,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -35976,10 +35976,10 @@
 					<Obj>
 						<type>0</type>
 						<id>955</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -35994,7 +35994,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36024,10 +36024,10 @@
 					<Obj>
 						<type>0</type>
 						<id>957</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36042,7 +36042,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36072,10 +36072,10 @@
 					<Obj>
 						<type>0</type>
 						<id>959</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36090,7 +36090,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36120,10 +36120,10 @@
 					<Obj>
 						<type>0</type>
 						<id>961</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36138,7 +36138,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36168,10 +36168,10 @@
 					<Obj>
 						<type>0</type>
 						<id>963</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36186,7 +36186,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36216,10 +36216,10 @@
 					<Obj>
 						<type>0</type>
 						<id>965</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36234,7 +36234,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36264,10 +36264,10 @@
 					<Obj>
 						<type>0</type>
 						<id>967</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36282,7 +36282,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36312,10 +36312,10 @@
 					<Obj>
 						<type>0</type>
 						<id>969</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36330,7 +36330,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36360,10 +36360,10 @@
 					<Obj>
 						<type>0</type>
 						<id>971</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36378,7 +36378,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36408,10 +36408,10 @@
 					<Obj>
 						<type>0</type>
 						<id>973</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36426,7 +36426,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36456,10 +36456,10 @@
 					<Obj>
 						<type>0</type>
 						<id>975</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36474,7 +36474,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36504,10 +36504,10 @@
 					<Obj>
 						<type>0</type>
 						<id>977</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36522,7 +36522,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36552,10 +36552,10 @@
 					<Obj>
 						<type>0</type>
 						<id>979</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36570,7 +36570,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36600,10 +36600,10 @@
 					<Obj>
 						<type>0</type>
 						<id>981</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36618,7 +36618,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36648,10 +36648,10 @@
 					<Obj>
 						<type>0</type>
 						<id>983</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36666,7 +36666,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36696,10 +36696,10 @@
 					<Obj>
 						<type>0</type>
 						<id>985</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36714,7 +36714,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36744,10 +36744,10 @@
 					<Obj>
 						<type>0</type>
 						<id>987</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36762,7 +36762,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36792,10 +36792,10 @@
 					<Obj>
 						<type>0</type>
 						<id>989</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36810,7 +36810,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36840,10 +36840,10 @@
 					<Obj>
 						<type>0</type>
 						<id>991</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36858,7 +36858,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36888,10 +36888,10 @@
 					<Obj>
 						<type>0</type>
 						<id>993</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36906,7 +36906,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36936,10 +36936,10 @@
 					<Obj>
 						<type>0</type>
 						<id>995</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -36954,7 +36954,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -36984,10 +36984,10 @@
 					<Obj>
 						<type>0</type>
 						<id>997</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37002,7 +37002,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37032,10 +37032,10 @@
 					<Obj>
 						<type>0</type>
 						<id>999</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37050,7 +37050,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37080,10 +37080,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1001</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37098,7 +37098,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37128,10 +37128,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1003</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37146,7 +37146,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37176,10 +37176,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1005</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37194,7 +37194,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37224,10 +37224,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1007</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37242,7 +37242,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37272,10 +37272,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1009</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37290,7 +37290,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37320,10 +37320,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1011</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37338,7 +37338,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37368,10 +37368,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1013</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37386,7 +37386,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37416,10 +37416,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1015</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37434,7 +37434,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37464,10 +37464,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1017</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37482,7 +37482,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37512,10 +37512,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1019</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37530,7 +37530,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37560,10 +37560,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1021</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37578,7 +37578,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37608,10 +37608,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1023</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37626,7 +37626,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37656,10 +37656,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1025</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37674,7 +37674,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37704,10 +37704,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1027</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37722,7 +37722,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37752,10 +37752,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1029</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37770,7 +37770,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37800,10 +37800,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1031</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37818,7 +37818,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37848,10 +37848,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1033</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37866,7 +37866,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37896,10 +37896,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1035</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37914,7 +37914,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -37947,7 +37947,7 @@
 						<name>phi_ln1503</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -37962,7 +37962,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38090,7 +38090,7 @@
 						<name>m_15_V_2_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38105,7 +38105,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38138,7 +38138,7 @@
 						<name>m_15_V_3_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38153,7 +38153,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38186,7 +38186,7 @@
 						<name>m_15_V_4_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38201,7 +38201,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38234,7 +38234,7 @@
 						<name>m_15_V_5_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38249,7 +38249,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38282,7 +38282,7 @@
 						<name>m_15_V_6_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38297,7 +38297,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38330,7 +38330,7 @@
 						<name>m_15_V_7_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38345,7 +38345,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38378,7 +38378,7 @@
 						<name>m_15_V_8_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38393,7 +38393,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38426,7 +38426,7 @@
 						<name>m_15_V_9_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38441,7 +38441,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38474,7 +38474,7 @@
 						<name>m_15_V_10_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38489,7 +38489,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38522,7 +38522,7 @@
 						<name>m_15_V_11_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38537,7 +38537,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38570,7 +38570,7 @@
 						<name>m_15_V_12_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38585,7 +38585,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38618,7 +38618,7 @@
 						<name>m_15_V_13_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38633,7 +38633,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38666,7 +38666,7 @@
 						<name>m_15_V_14_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38681,7 +38681,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38714,7 +38714,7 @@
 						<name>m_15_V_15_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38729,7 +38729,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38762,7 +38762,7 @@
 						<name>r_V_11</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38777,7 +38777,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38813,7 +38813,7 @@
 						<name>trunc_ln1503_10</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38828,7 +38828,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38861,7 +38861,7 @@
 						<name>ret_V_61</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38876,7 +38876,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38911,7 +38911,7 @@
 						<name>r_V_12</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38926,7 +38926,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -38962,7 +38962,7 @@
 						<name>trunc_ln1503_11</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -38977,7 +38977,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39010,7 +39010,7 @@
 						<name>ret_V_62</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39025,7 +39025,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39060,7 +39060,7 @@
 						<name>r_V_13</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39075,7 +39075,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39111,7 +39111,7 @@
 						<name>r_V_35</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39126,7 +39126,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39159,7 +39159,7 @@
 						<name>xor_ln1357_12</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39174,7 +39174,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39208,7 +39208,7 @@
 						<name>ret_V_29</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39223,7 +39223,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39257,7 +39257,7 @@
 						<name>phi_ln</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39272,7 +39272,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39370,7 +39370,7 @@
 						<name>phi_ln1503_8</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39385,7 +39385,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39483,7 +39483,7 @@
 						<name>r_V_14</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39498,7 +39498,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39534,7 +39534,7 @@
 						<name>trunc_ln1503_12</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39549,7 +39549,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39582,7 +39582,7 @@
 						<name>ret_V_63</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39597,7 +39597,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39632,7 +39632,7 @@
 						<name>r_V_15</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39647,7 +39647,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39683,7 +39683,7 @@
 						<name>trunc_ln1503_13</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39698,7 +39698,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39731,7 +39731,7 @@
 						<name>ret_V_64</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39746,7 +39746,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39781,7 +39781,7 @@
 						<name>r_V_16</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39796,7 +39796,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39832,7 +39832,7 @@
 						<name>r_V_36</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39847,7 +39847,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39880,7 +39880,7 @@
 						<name>xor_ln1357_14</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39895,7 +39895,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39929,7 +39929,7 @@
 						<name>ret_V_32</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39944,7 +39944,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -39978,7 +39978,7 @@
 						<name>phi_ln215_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -39993,7 +39993,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40091,7 +40091,7 @@
 						<name>add_ln209_10</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40106,7 +40106,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40140,7 +40140,7 @@
 						<name>add_ln209_11</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40155,7 +40155,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40189,7 +40189,7 @@
 						<name>m_16_V</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40204,7 +40204,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40235,10 +40235,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1078</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40253,7 +40253,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40378,10 +40378,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1080</id>
-						<name>m_63_V_46_write_ln149</name>
+						<name>m_63_V_46_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40396,7 +40396,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40427,10 +40427,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1081</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40445,7 +40445,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40475,10 +40475,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1083</id>
-						<name>m_63_V_45_write_ln149</name>
+						<name>m_63_V_45_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40493,7 +40493,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40525,10 +40525,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1084</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40543,7 +40543,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40573,10 +40573,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1086</id>
-						<name>m_63_V_44_write_ln149</name>
+						<name>m_63_V_44_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40591,7 +40591,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40623,10 +40623,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1087</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40641,7 +40641,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40671,10 +40671,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1089</id>
-						<name>m_63_V_43_write_ln149</name>
+						<name>m_63_V_43_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40689,7 +40689,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40721,10 +40721,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1090</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40739,7 +40739,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40769,10 +40769,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1092</id>
-						<name>m_63_V_42_write_ln149</name>
+						<name>m_63_V_42_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40787,7 +40787,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40819,10 +40819,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1093</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40837,7 +40837,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40867,10 +40867,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1095</id>
-						<name>m_63_V_41_write_ln149</name>
+						<name>m_63_V_41_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40885,7 +40885,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40917,10 +40917,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1096</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40935,7 +40935,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -40965,10 +40965,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1098</id>
-						<name>m_63_V_40_write_ln149</name>
+						<name>m_63_V_40_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -40983,7 +40983,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41015,10 +41015,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1099</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41033,7 +41033,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41063,10 +41063,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1101</id>
-						<name>m_63_V_39_write_ln149</name>
+						<name>m_63_V_39_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41081,7 +41081,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41113,10 +41113,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1102</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41131,7 +41131,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41161,10 +41161,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1104</id>
-						<name>m_63_V_38_write_ln149</name>
+						<name>m_63_V_38_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41179,7 +41179,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41211,10 +41211,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1105</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41229,7 +41229,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41259,10 +41259,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1107</id>
-						<name>m_63_V_37_write_ln149</name>
+						<name>m_63_V_37_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41277,7 +41277,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41309,10 +41309,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1108</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41327,7 +41327,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41357,10 +41357,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1110</id>
-						<name>m_63_V_36_write_ln149</name>
+						<name>m_63_V_36_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41375,7 +41375,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41407,10 +41407,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1111</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41425,7 +41425,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41455,10 +41455,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1113</id>
-						<name>m_63_V_35_write_ln149</name>
+						<name>m_63_V_35_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41473,7 +41473,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41505,10 +41505,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1114</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41523,7 +41523,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41553,10 +41553,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1116</id>
-						<name>m_63_V_34_write_ln149</name>
+						<name>m_63_V_34_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41571,7 +41571,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41603,10 +41603,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1117</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41621,7 +41621,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41651,10 +41651,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1119</id>
-						<name>m_63_V_33_write_ln149</name>
+						<name>m_63_V_33_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41669,7 +41669,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41701,10 +41701,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1120</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41719,7 +41719,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41749,10 +41749,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1122</id>
-						<name>m_63_V_32_write_ln149</name>
+						<name>m_63_V_32_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41767,7 +41767,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41799,10 +41799,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1123</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41817,7 +41817,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41847,10 +41847,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1125</id>
-						<name>m_63_V_31_write_ln149</name>
+						<name>m_63_V_31_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41865,7 +41865,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41897,10 +41897,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1126</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41915,7 +41915,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41945,10 +41945,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1128</id>
-						<name>m_63_V_30_write_ln149</name>
+						<name>m_63_V_30_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -41963,7 +41963,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -41995,10 +41995,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1129</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42013,7 +42013,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42043,10 +42043,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1131</id>
-						<name>m_63_V_29_write_ln149</name>
+						<name>m_63_V_29_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42061,7 +42061,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42093,10 +42093,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1132</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42111,7 +42111,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42141,10 +42141,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1134</id>
-						<name>m_63_V_28_write_ln149</name>
+						<name>m_63_V_28_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42159,7 +42159,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42191,10 +42191,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1135</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42209,7 +42209,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42239,10 +42239,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1137</id>
-						<name>m_63_V_27_write_ln149</name>
+						<name>m_63_V_27_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42257,7 +42257,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42289,10 +42289,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1138</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42307,7 +42307,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42337,10 +42337,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1140</id>
-						<name>m_63_V_26_write_ln149</name>
+						<name>m_63_V_26_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42355,7 +42355,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42387,10 +42387,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1141</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42405,7 +42405,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42435,10 +42435,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1143</id>
-						<name>m_63_V_25_write_ln149</name>
+						<name>m_63_V_25_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42453,7 +42453,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42485,10 +42485,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1144</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42503,7 +42503,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42533,10 +42533,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1146</id>
-						<name>m_63_V_24_write_ln149</name>
+						<name>m_63_V_24_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42551,7 +42551,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42583,10 +42583,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1147</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42601,7 +42601,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42631,10 +42631,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1149</id>
-						<name>m_63_V_23_write_ln149</name>
+						<name>m_63_V_23_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42649,7 +42649,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42681,10 +42681,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1150</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42699,7 +42699,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42729,10 +42729,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1152</id>
-						<name>m_63_V_22_write_ln149</name>
+						<name>m_63_V_22_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42747,7 +42747,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42779,10 +42779,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1153</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42797,7 +42797,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42827,10 +42827,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1155</id>
-						<name>m_63_V_21_write_ln149</name>
+						<name>m_63_V_21_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42845,7 +42845,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42877,10 +42877,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1156</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42895,7 +42895,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42925,10 +42925,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1158</id>
-						<name>m_63_V_20_write_ln149</name>
+						<name>m_63_V_20_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42943,7 +42943,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -42975,10 +42975,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1159</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -42993,7 +42993,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43023,10 +43023,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1161</id>
-						<name>m_63_V_19_write_ln149</name>
+						<name>m_63_V_19_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43041,7 +43041,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43073,10 +43073,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1162</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43091,7 +43091,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43121,10 +43121,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1164</id>
-						<name>m_63_V_18_write_ln149</name>
+						<name>m_63_V_18_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43139,7 +43139,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43171,10 +43171,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1165</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43189,7 +43189,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43219,10 +43219,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1167</id>
-						<name>m_63_V_17_write_ln149</name>
+						<name>m_63_V_17_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43237,7 +43237,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43269,10 +43269,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1168</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43287,7 +43287,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43317,10 +43317,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1170</id>
-						<name>m_63_V_16_write_ln149</name>
+						<name>m_63_V_16_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43335,7 +43335,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43367,10 +43367,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1171</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43385,7 +43385,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43415,10 +43415,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1173</id>
-						<name>m_63_V_15_write_ln149</name>
+						<name>m_63_V_15_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43433,7 +43433,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43465,10 +43465,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1174</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43483,7 +43483,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43513,10 +43513,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1176</id>
-						<name>m_63_V_14_write_ln149</name>
+						<name>m_63_V_14_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43531,7 +43531,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43563,10 +43563,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1177</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43581,7 +43581,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43611,10 +43611,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1179</id>
-						<name>m_63_V_13_write_ln149</name>
+						<name>m_63_V_13_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43629,7 +43629,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43661,10 +43661,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1180</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43679,7 +43679,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43709,10 +43709,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1182</id>
-						<name>m_63_V_12_write_ln149</name>
+						<name>m_63_V_12_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43727,7 +43727,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43759,10 +43759,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1183</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43777,7 +43777,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43807,10 +43807,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1185</id>
-						<name>m_63_V_11_write_ln149</name>
+						<name>m_63_V_11_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43825,7 +43825,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43857,10 +43857,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1186</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43875,7 +43875,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43905,10 +43905,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1188</id>
-						<name>m_63_V_10_write_ln149</name>
+						<name>m_63_V_10_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43923,7 +43923,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -43955,10 +43955,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1189</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -43973,7 +43973,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44003,10 +44003,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1191</id>
-						<name>m_63_V_9_write_ln149</name>
+						<name>m_63_V_9_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44021,7 +44021,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44053,10 +44053,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1192</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44071,7 +44071,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44101,10 +44101,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1194</id>
-						<name>m_63_V_8_write_ln149</name>
+						<name>m_63_V_8_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44119,7 +44119,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44151,10 +44151,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1195</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44169,7 +44169,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44199,10 +44199,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1197</id>
-						<name>m_63_V_7_write_ln149</name>
+						<name>m_63_V_7_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44217,7 +44217,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44249,10 +44249,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1198</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44267,7 +44267,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44297,10 +44297,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1200</id>
-						<name>m_63_V_6_write_ln149</name>
+						<name>m_63_V_6_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44315,7 +44315,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44347,10 +44347,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1201</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44365,7 +44365,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44395,10 +44395,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1203</id>
-						<name>m_63_V_5_write_ln149</name>
+						<name>m_63_V_5_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44413,7 +44413,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44445,10 +44445,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1204</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44463,7 +44463,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44493,10 +44493,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1206</id>
-						<name>m_63_V_4_write_ln149</name>
+						<name>m_63_V_4_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44511,7 +44511,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44543,10 +44543,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1207</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44561,7 +44561,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44591,10 +44591,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1209</id>
-						<name>m_63_V_3_write_ln149</name>
+						<name>m_63_V_3_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44609,7 +44609,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44641,10 +44641,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1210</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44659,7 +44659,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44689,10 +44689,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1212</id>
-						<name>m_63_V_2_write_ln149</name>
+						<name>m_63_V_2_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44707,7 +44707,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44739,10 +44739,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1213</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44757,7 +44757,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44787,10 +44787,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1215</id>
-						<name>m_63_V_1_write_ln149</name>
+						<name>m_63_V_1_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44805,7 +44805,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44837,10 +44837,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1216</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44855,7 +44855,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44885,10 +44885,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1218</id>
-						<name>m_63_V_write_ln149</name>
+						<name>m_63_V_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44903,7 +44903,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44935,10 +44935,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1219</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -44953,7 +44953,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -44983,10 +44983,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1221</id>
-						<name>m_63_V_47_write_ln149</name>
+						<name>m_63_V_47_write_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -45001,7 +45001,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -45032,10 +45032,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1222</id>
-						<name>_ln149</name>
+						<name>_ln144</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>149</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -45050,7 +45050,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>149</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -45083,7 +45083,7 @@
 						<name>i_V_3</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>148</lineNumber>
+						<lineNumber>143</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -45098,7 +45098,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>148</second>
+										<second>143</second>
 									</item>
 								</second>
 							</item>
@@ -45129,10 +45129,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1225</id>
-						<name>_ln148</name>
+						<name>_ln143</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>148</lineNumber>
+						<lineNumber>143</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -45147,7 +45147,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>148</second>
+										<second>143</second>
 									</item>
 								</second>
 							</item>
@@ -45177,10 +45177,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1227</id>
-						<name>_ln160</name>
+						<name>_ln155</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>160</lineNumber>
+						<lineNumber>155</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -45195,7 +45195,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>160</second>
+										<second>155</second>
 									</item>
 								</second>
 							</item>
@@ -45561,7 +45561,7 @@
 						<name>icmp_ln887_3</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>160</lineNumber>
+						<lineNumber>155</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -45576,7 +45576,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>160</second>
+										<second>155</second>
 									</item>
 								</second>
 							</item>
@@ -45610,7 +45610,7 @@
 						<name>i_V_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>160</lineNumber>
+						<lineNumber>155</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -45625,7 +45625,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>160</second>
+										<second>155</second>
 									</item>
 								</second>
 							</item>
@@ -45656,10 +45656,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1241</id>
-						<name>_ln160</name>
+						<name>_ln155</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>160</lineNumber>
+						<lineNumber>155</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -45674,7 +45674,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>160</second>
+										<second>155</second>
 									</item>
 								</second>
 							</item>
@@ -45709,7 +45709,7 @@
 						<name>m_63_V_46_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -45724,7 +45724,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -45757,7 +45757,7 @@
 						<name>m_63_V_47_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -45772,7 +45772,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -45805,7 +45805,7 @@
 						<name>m_15_V_2_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -45820,7 +45820,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -45853,7 +45853,7 @@
 						<name>m_15_V_3_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -45868,7 +45868,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -45901,7 +45901,7 @@
 						<name>m_15_V_4_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -45916,7 +45916,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -45949,7 +45949,7 @@
 						<name>m_15_V_5_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -45964,7 +45964,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -45997,7 +45997,7 @@
 						<name>m_15_V_6_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46012,7 +46012,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46045,7 +46045,7 @@
 						<name>m_15_V_7_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46060,7 +46060,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46093,7 +46093,7 @@
 						<name>m_15_V_8_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46108,7 +46108,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46141,7 +46141,7 @@
 						<name>m_15_V_9_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46156,7 +46156,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46189,7 +46189,7 @@
 						<name>m_15_V_10_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46204,7 +46204,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46237,7 +46237,7 @@
 						<name>m_15_V_11_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46252,7 +46252,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46285,7 +46285,7 @@
 						<name>m_15_V_12_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46300,7 +46300,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46333,7 +46333,7 @@
 						<name>m_15_V_13_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46348,7 +46348,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46381,7 +46381,7 @@
 						<name>m_15_V_14_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46396,7 +46396,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46429,7 +46429,7 @@
 						<name>m_15_V_15_load</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46444,7 +46444,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46477,7 +46477,7 @@
 						<name>r_V_5</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46492,7 +46492,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46528,7 +46528,7 @@
 						<name>trunc_ln1503_4</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46543,7 +46543,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46576,7 +46576,7 @@
 						<name>ret_V_65</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46591,7 +46591,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46626,7 +46626,7 @@
 						<name>r_V_6</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46641,7 +46641,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46677,7 +46677,7 @@
 						<name>trunc_ln1503_5</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46692,7 +46692,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46725,7 +46725,7 @@
 						<name>ret_V_66</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46740,7 +46740,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46775,7 +46775,7 @@
 						<name>r_V_7</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46790,7 +46790,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46826,7 +46826,7 @@
 						<name>trunc_ln1503_6</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46841,7 +46841,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46874,7 +46874,7 @@
 						<name>ret_V_67</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46889,7 +46889,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46924,7 +46924,7 @@
 						<name>xor_ln1357_4</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46939,7 +46939,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -46973,7 +46973,7 @@
 						<name>ret_V_16</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -46988,7 +46988,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -47022,7 +47022,7 @@
 						<name>ret_V_68</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47037,7 +47037,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -47071,7 +47071,7 @@
 						<name>r_V_37</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47086,7 +47086,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -47120,7 +47120,7 @@
 						<name>ret_V_69</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47135,7 +47135,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -47169,7 +47169,7 @@
 						<name>ret_V_19</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47184,7 +47184,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -47218,7 +47218,7 @@
 						<name>zext_ln544_2</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47233,7 +47233,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -47266,7 +47266,7 @@
 						<name>K_V_addr_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47281,7 +47281,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -47316,7 +47316,7 @@
 						<name>K_V_load_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47331,7 +47331,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -47364,7 +47364,7 @@
 						<name>trunc_ln215_2</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47379,7 +47379,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -47412,7 +47412,7 @@
 						<name>tmp_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47427,7 +47427,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -47525,7 +47525,7 @@
 						<name>add_ln209_3</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47540,7 +47540,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -47574,7 +47574,7 @@
 						<name>add_ln209_4</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47589,7 +47589,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -47623,7 +47623,7 @@
 						<name>add_ln209_5</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47638,7 +47638,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -47672,7 +47672,7 @@
 						<name>t1_V_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>161</lineNumber>
+						<lineNumber>156</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47687,7 +47687,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>161</second>
+										<second>156</second>
 									</item>
 								</second>
 							</item>
@@ -47721,7 +47721,7 @@
 						<name>r_V_8</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47736,7 +47736,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -47772,7 +47772,7 @@
 						<name>trunc_ln1503_7</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47787,7 +47787,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -47820,7 +47820,7 @@
 						<name>ret_V_70</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47835,7 +47835,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -47870,7 +47870,7 @@
 						<name>r_V_9</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47885,7 +47885,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -47921,7 +47921,7 @@
 						<name>trunc_ln1503_8</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47936,7 +47936,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -47969,7 +47969,7 @@
 						<name>ret_V_71</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -47984,7 +47984,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -48019,7 +48019,7 @@
 						<name>r_V_10</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48034,7 +48034,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -48070,7 +48070,7 @@
 						<name>trunc_ln1503_9</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48085,7 +48085,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -48118,7 +48118,7 @@
 						<name>ret_V_72</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48133,7 +48133,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -48168,7 +48168,7 @@
 						<name>xor_ln1357_8</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48183,7 +48183,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -48217,7 +48217,7 @@
 						<name>ret_V_23</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48232,7 +48232,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -48266,7 +48266,7 @@
 						<name>xor_ln1357_5</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48281,7 +48281,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -48315,7 +48315,7 @@
 						<name>ret_V_73</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48330,7 +48330,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -48364,7 +48364,7 @@
 						<name>ret_V_74</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48379,7 +48379,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -48413,7 +48413,7 @@
 						<name>ret_V_26</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>162</lineNumber>
+						<lineNumber>157</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48428,7 +48428,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>162</second>
+										<second>157</second>
 									</item>
 								</second>
 							</item>
@@ -48462,7 +48462,7 @@
 						<name>e_V_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>166</lineNumber>
+						<lineNumber>161</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48477,7 +48477,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>166</second>
+										<second>161</second>
 									</item>
 								</second>
 							</item>
@@ -48511,7 +48511,7 @@
 						<name>add_ln209_8</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>170</lineNumber>
+						<lineNumber>165</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48526,7 +48526,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>170</second>
+										<second>165</second>
 									</item>
 								</second>
 							</item>
@@ -48560,7 +48560,7 @@
 						<name>a_V_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>170</lineNumber>
+						<lineNumber>165</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48575,7 +48575,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>170</second>
+										<second>165</second>
 									</item>
 								</second>
 							</item>
@@ -48606,10 +48606,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1302</id>
-						<name>_ln160</name>
+						<name>_ln155</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>160</lineNumber>
+						<lineNumber>155</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48624,7 +48624,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>160</second>
+										<second>155</second>
 									</item>
 								</second>
 							</item>
@@ -48657,7 +48657,7 @@
 						<name>add_ln700_1</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>173</lineNumber>
+						<lineNumber>168</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48672,7 +48672,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>173</second>
+										<second>168</second>
 									</item>
 								</second>
 							</item>
@@ -48706,7 +48706,7 @@
 						<name>add_ln700_2</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>174</lineNumber>
+						<lineNumber>169</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48721,7 +48721,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>174</second>
+										<second>169</second>
 									</item>
 								</second>
 							</item>
@@ -48755,7 +48755,7 @@
 						<name>add_ln700_5</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>175</lineNumber>
+						<lineNumber>170</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48770,7 +48770,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>175</second>
+										<second>170</second>
 									</item>
 								</second>
 							</item>
@@ -48804,7 +48804,7 @@
 						<name>add_ln700_6</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>176</lineNumber>
+						<lineNumber>171</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48819,7 +48819,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>176</second>
+										<second>171</second>
 									</item>
 								</second>
 							</item>
@@ -48853,7 +48853,7 @@
 						<name>add_ln700_7</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>177</lineNumber>
+						<lineNumber>172</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48868,7 +48868,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>177</second>
+										<second>172</second>
 									</item>
 								</second>
 							</item>
@@ -48902,7 +48902,7 @@
 						<name>add_ln700_8</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>178</lineNumber>
+						<lineNumber>173</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48917,7 +48917,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>178</second>
+										<second>173</second>
 									</item>
 								</second>
 							</item>
@@ -48951,7 +48951,7 @@
 						<name>add_ln700_9</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>179</lineNumber>
+						<lineNumber>174</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -48966,7 +48966,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>179</second>
+										<second>174</second>
 									</item>
 								</second>
 							</item>
@@ -49000,7 +49000,7 @@
 						<name>add_ln700_10</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>180</lineNumber>
+						<lineNumber>175</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -49015,7 +49015,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>180</second>
+										<second>175</second>
 									</item>
 								</second>
 							</item>
@@ -49046,10 +49046,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1312</id>
-						<name>output_0_V_write_ln183</name>
+						<name>output_0_V_write_ln178</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>183</lineNumber>
+						<lineNumber>178</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -49064,7 +49064,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>183</second>
+										<second>178</second>
 									</item>
 								</second>
 							</item>
@@ -49096,10 +49096,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1313</id>
-						<name>output_1_V_write_ln183</name>
+						<name>output_1_V_write_ln178</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>183</lineNumber>
+						<lineNumber>178</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -49114,7 +49114,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>183</second>
+										<second>178</second>
 									</item>
 								</second>
 							</item>
@@ -49146,10 +49146,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1314</id>
-						<name>output_2_V_write_ln183</name>
+						<name>output_2_V_write_ln178</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>183</lineNumber>
+						<lineNumber>178</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -49164,7 +49164,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>183</second>
+										<second>178</second>
 									</item>
 								</second>
 							</item>
@@ -49196,10 +49196,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1315</id>
-						<name>output_3_V_write_ln183</name>
+						<name>output_3_V_write_ln178</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>183</lineNumber>
+						<lineNumber>178</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -49214,7 +49214,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>183</second>
+										<second>178</second>
 									</item>
 								</second>
 							</item>
@@ -49246,10 +49246,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1316</id>
-						<name>output_4_V_write_ln183</name>
+						<name>output_4_V_write_ln178</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>183</lineNumber>
+						<lineNumber>178</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -49264,7 +49264,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>183</second>
+										<second>178</second>
 									</item>
 								</second>
 							</item>
@@ -49296,10 +49296,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1317</id>
-						<name>output_5_V_write_ln183</name>
+						<name>output_5_V_write_ln178</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>183</lineNumber>
+						<lineNumber>178</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -49314,7 +49314,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>183</second>
+										<second>178</second>
 									</item>
 								</second>
 							</item>
@@ -49346,10 +49346,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1318</id>
-						<name>output_6_V_write_ln183</name>
+						<name>output_6_V_write_ln178</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>183</lineNumber>
+						<lineNumber>178</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -49364,7 +49364,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>183</second>
+										<second>178</second>
 									</item>
 								</second>
 							</item>
@@ -49396,10 +49396,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1319</id>
-						<name>output_7_V_write_ln183</name>
+						<name>output_7_V_write_ln178</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>183</lineNumber>
+						<lineNumber>178</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -49414,7 +49414,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>183</second>
+										<second>178</second>
 									</item>
 								</second>
 							</item>
@@ -49446,10 +49446,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1320</id>
-						<name>_ln185</name>
+						<name>_ln180</name>
 						<fileName>sha256d/sha256d.cpp</fileName>
 						<fileDirectory>C:\DRRS_miner\project_files</fileDirectory>
-						<lineNumber>185</lineNumber>
+						<lineNumber>180</lineNumber>
 						<contextFuncName>sha256d</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -49464,7 +49464,7 @@
 											<first>sha256d/sha256d.cpp</first>
 											<second>sha256d</second>
 										</first>
-										<second>185</second>
+										<second>180</second>
 									</item>
 								</second>
 							</item>
@@ -99026,7 +99026,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln148_fu_4281</first>
+			<first>icmp_ln143_fu_4281</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102312,7 +102312,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4057</first>
+			<first>store_ln142_store_fu_4057</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102320,7 +102320,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4062</first>
+			<first>store_ln142_store_fu_4062</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102328,7 +102328,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4067</first>
+			<first>store_ln142_store_fu_4067</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102336,7 +102336,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4072</first>
+			<first>store_ln142_store_fu_4072</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102344,7 +102344,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4077</first>
+			<first>store_ln142_store_fu_4077</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102352,7 +102352,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4082</first>
+			<first>store_ln142_store_fu_4082</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102360,7 +102360,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4087</first>
+			<first>store_ln142_store_fu_4087</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102368,7 +102368,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4092</first>
+			<first>store_ln142_store_fu_4092</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102376,7 +102376,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4097</first>
+			<first>store_ln142_store_fu_4097</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102384,7 +102384,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4102</first>
+			<first>store_ln142_store_fu_4102</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102392,7 +102392,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4107</first>
+			<first>store_ln142_store_fu_4107</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102400,7 +102400,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4112</first>
+			<first>store_ln142_store_fu_4112</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102408,7 +102408,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4117</first>
+			<first>store_ln142_store_fu_4117</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102416,7 +102416,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4122</first>
+			<first>store_ln142_store_fu_4122</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102424,7 +102424,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4127</first>
+			<first>store_ln142_store_fu_4127</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102432,7 +102432,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln147_store_fu_4132</first>
+			<first>store_ln142_store_fu_4132</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102440,7 +102440,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4688</first>
+			<first>store_ln144_store_fu_4688</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102448,7 +102448,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4693</first>
+			<first>store_ln144_store_fu_4693</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102456,7 +102456,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4698</first>
+			<first>store_ln144_store_fu_4698</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102464,7 +102464,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4703</first>
+			<first>store_ln144_store_fu_4703</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102472,7 +102472,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4708</first>
+			<first>store_ln144_store_fu_4708</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102480,7 +102480,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4713</first>
+			<first>store_ln144_store_fu_4713</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102488,7 +102488,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4718</first>
+			<first>store_ln144_store_fu_4718</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102496,7 +102496,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4723</first>
+			<first>store_ln144_store_fu_4723</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102504,7 +102504,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4728</first>
+			<first>store_ln144_store_fu_4728</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102512,7 +102512,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4733</first>
+			<first>store_ln144_store_fu_4733</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102520,7 +102520,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4738</first>
+			<first>store_ln144_store_fu_4738</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102528,7 +102528,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4743</first>
+			<first>store_ln144_store_fu_4743</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102536,7 +102536,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4748</first>
+			<first>store_ln144_store_fu_4748</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102544,7 +102544,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4753</first>
+			<first>store_ln144_store_fu_4753</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102552,7 +102552,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4758</first>
+			<first>store_ln144_store_fu_4758</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102560,7 +102560,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4763</first>
+			<first>store_ln144_store_fu_4763</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102568,7 +102568,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4768</first>
+			<first>store_ln144_store_fu_4768</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102576,7 +102576,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4773</first>
+			<first>store_ln144_store_fu_4773</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102584,7 +102584,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4778</first>
+			<first>store_ln144_store_fu_4778</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102592,7 +102592,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4783</first>
+			<first>store_ln144_store_fu_4783</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102600,7 +102600,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4788</first>
+			<first>store_ln144_store_fu_4788</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102608,7 +102608,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4793</first>
+			<first>store_ln144_store_fu_4793</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102616,7 +102616,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4798</first>
+			<first>store_ln144_store_fu_4798</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102624,7 +102624,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4803</first>
+			<first>store_ln144_store_fu_4803</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102632,7 +102632,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4808</first>
+			<first>store_ln144_store_fu_4808</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102640,7 +102640,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4813</first>
+			<first>store_ln144_store_fu_4813</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102648,7 +102648,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4818</first>
+			<first>store_ln144_store_fu_4818</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102656,7 +102656,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4823</first>
+			<first>store_ln144_store_fu_4823</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102664,7 +102664,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4828</first>
+			<first>store_ln144_store_fu_4828</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102672,7 +102672,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4833</first>
+			<first>store_ln144_store_fu_4833</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102680,7 +102680,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4838</first>
+			<first>store_ln144_store_fu_4838</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102688,7 +102688,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4843</first>
+			<first>store_ln144_store_fu_4843</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102696,7 +102696,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4848</first>
+			<first>store_ln144_store_fu_4848</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102704,7 +102704,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4853</first>
+			<first>store_ln144_store_fu_4853</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102712,7 +102712,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4858</first>
+			<first>store_ln144_store_fu_4858</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102720,7 +102720,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4863</first>
+			<first>store_ln144_store_fu_4863</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102728,7 +102728,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4868</first>
+			<first>store_ln144_store_fu_4868</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102736,7 +102736,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4873</first>
+			<first>store_ln144_store_fu_4873</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102744,7 +102744,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4878</first>
+			<first>store_ln144_store_fu_4878</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102752,7 +102752,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4883</first>
+			<first>store_ln144_store_fu_4883</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102760,7 +102760,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4888</first>
+			<first>store_ln144_store_fu_4888</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102768,7 +102768,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4893</first>
+			<first>store_ln144_store_fu_4893</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102776,7 +102776,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4898</first>
+			<first>store_ln144_store_fu_4898</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102784,7 +102784,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4903</first>
+			<first>store_ln144_store_fu_4903</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102792,7 +102792,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4908</first>
+			<first>store_ln144_store_fu_4908</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102800,7 +102800,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4913</first>
+			<first>store_ln144_store_fu_4913</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102808,7 +102808,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4918</first>
+			<first>store_ln144_store_fu_4918</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102816,7 +102816,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln149_store_fu_4923</first>
+			<first>store_ln144_store_fu_4923</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102824,7 +102824,7 @@
 			</second>
 		</item>
 		<item>
-			<first>write_ln183_write_fu_1352</first>
+			<first>write_ln178_write_fu_1352</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102832,7 +102832,7 @@
 			</second>
 		</item>
 		<item>
-			<first>write_ln183_write_fu_1359</first>
+			<first>write_ln178_write_fu_1359</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102840,7 +102840,7 @@
 			</second>
 		</item>
 		<item>
-			<first>write_ln183_write_fu_1366</first>
+			<first>write_ln178_write_fu_1366</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102848,7 +102848,7 @@
 			</second>
 		</item>
 		<item>
-			<first>write_ln183_write_fu_1373</first>
+			<first>write_ln178_write_fu_1373</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102856,7 +102856,7 @@
 			</second>
 		</item>
 		<item>
-			<first>write_ln183_write_fu_1380</first>
+			<first>write_ln178_write_fu_1380</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102864,7 +102864,7 @@
 			</second>
 		</item>
 		<item>
-			<first>write_ln183_write_fu_1387</first>
+			<first>write_ln178_write_fu_1387</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102872,7 +102872,7 @@
 			</second>
 		</item>
 		<item>
-			<first>write_ln183_write_fu_1394</first>
+			<first>write_ln178_write_fu_1394</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -102880,7 +102880,7 @@
 			</second>
 		</item>
 		<item>
-			<first>write_ln183_write_fu_1401</first>
+			<first>write_ln178_write_fu_1401</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
