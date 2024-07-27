@@ -12,8 +12,8 @@
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [SYN 201-103] Legalizing function name 'sha256_update.1' to 'sha256_update_1'." projectName="sha256d" solutionName="solution1" date="2024-07-27T10:56:52.507+1000" type="Warning"/>
-        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'data.V' in function 'sha256_update.1' (sha256d/sha256d.cpp:91:9)." projectName="sha256d" solutionName="solution1" date="2024-07-27T10:56:51.767+1000" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'sha256_update.1' to 'sha256_update_1'." projectName="sha256d" solutionName="solution1" date="2024-07-27T12:36:34.715+1000" type="Warning"/>
+        <logs message="WARNING: [ANALYSIS 214-31] The program may have out of bound access of array variable 'data.V' in function 'sha256_update.1' (sha256d/sha256d.cpp:91:9)." projectName="sha256d" solutionName="solution1" date="2024-07-27T12:36:33.966+1000" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>

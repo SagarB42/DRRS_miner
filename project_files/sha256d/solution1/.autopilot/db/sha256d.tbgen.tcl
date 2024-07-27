@@ -84,8 +84,8 @@ set RtlHierarchyInfo {[
 			{"Name" : "output_V", "Type" : "Memory", "Direction" : "O"},
 			{"Name" : "K_V", "Type" : "Memory", "Direction" : "I",
 				"SubConnect" : [
-					{"ID" : "9", "SubInstance" : "grp_sha256_update_1_fu_381", "Port" : "K_V"},
-					{"ID" : "4", "SubInstance" : "grp_sha256_update_fu_372", "Port" : "K_V"}]}]},
+					{"ID" : "4", "SubInstance" : "grp_sha256_update_fu_372", "Port" : "K_V"},
+					{"ID" : "9", "SubInstance" : "grp_sha256_update_1_fu_381", "Port" : "K_V"}]}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.state_V_1_U", "Parent" : "0"},
 	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.state_V_U", "Parent" : "0"},
 	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.hash1_V_U", "Parent" : "0"},

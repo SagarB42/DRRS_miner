@@ -1,0 +1,20 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+ERROR: [COSIM-24] TB preprocess failed : clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+In file included from C:/DRRS_miner/project_files/sha256d/sha256d_test.c:3:
+In file included from C:/DRRS_miner/project_files/sha256d/sha256d.h:3:
+In file included from C:/Xilinx/Vivado/2020.1/include\ap_fixed.h:54:
+In file included from C:/Xilinx/Vivado/2020.1/include\ap_common.h:57:
+C:/Xilinx/Vivado/2020.1/include\ap_decl.h:93:2: error: "AP data type can only be used in C++"
+#error "AP data type can only be used in C++"
+ ^
+In file included from C:/DRRS_miner/project_files/sha256d/sha256d_test.c:3:
+In file included from C:/DRRS_miner/project_files/sha256d/sha256d.h:3:
+In file included from C:/Xilinx/Vivado/2020.1/include\ap_fixed.h:54:
+C:/Xilinx/Vivado/2020.1/include\ap_common.h:145:10: fatal error: 'iostream' file not found
+#include <iostream>
+         ^
+2 errors generated.
+ERROR: [COSIM-5] *** C/RTL co-simulation file generation failed. ***
+ERROR: [COSIM-4] *** C/RTL co-simulation finished: FAIL ***
