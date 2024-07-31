@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="accelerating_blake2s" solutionName="solution1" date="2024-07-27T14:05:40.680+1000"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="accelerating_blake2s" solutionName="solution1" date="2024-07-27T14:05:00.447+1000"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="accelerating_blake2s" solutionName="solution1" date="2024-07-27T14:02:56.294+1000"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="accelerating_blake2s" solutionName="solution1" date="2024-07-27T13:57:23.114+1000"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="accelerating_blake2s" solutionName="solution1" date="2024-07-27T13:54:35.394+1000"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SYNCHK 200-23] blake2s.cpp:53: variable-indexed range selection may cause suboptimal QoR." projectName="accelerating_blake2s" solutionName="solution1" date="2024-07-27T13:52:50.250+1000" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

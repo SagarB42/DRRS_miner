@@ -1,0 +1,309 @@
+
+
+================================================================
+== Vivado HLS Report for 'G'
+================================================================
+* Date:           Sat Jul 27 13:52:51 2024
+
+* Version:        2020.1 (Build 2897737 on Wed May 27 20:21:37 MDT 2020)
+* Project:        accelerating_blake2s
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xqzu5ev-ffrb900-1-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 2.783 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       15|       15| 0.150 us | 0.150 us |   15|   15|   none  |
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 16
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 11 
+11 --> 12 
+12 --> 13 
+13 --> 14 
+14 --> 15 
+15 --> 16 
+16 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.79>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%b_read = call i4 @_ssdm_op_Read.ap_auto.i4(i4 %b)" [blake2s.cpp:7]   --->   Operation 17 'read' 'b_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%a_read = call i4 @_ssdm_op_Read.ap_auto.i4(i4 %a)" [blake2s.cpp:7]   --->   Operation 18 'read' 'a_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%zext_ln8 = zext i4 %a_read to i64" [blake2s.cpp:8]   --->   Operation 19 'zext' 'zext_ln8' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%zext_ln8_1 = zext i4 %b_read to i64" [blake2s.cpp:8]   --->   Operation 20 'zext' 'zext_ln8_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%v_V_addr = getelementptr [16 x i32]* %v_V, i64 0, i64 %zext_ln8" [blake2s.cpp:8]   --->   Operation 21 'getelementptr' 'v_V_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [2/2] (0.79ns)   --->   "%v_V_load = load i32* %v_V_addr, align 4" [blake2s.cpp:8]   --->   Operation 22 'load' 'v_V_load' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%v_V_addr_5 = getelementptr [16 x i32]* %v_V, i64 0, i64 %zext_ln8_1" [blake2s.cpp:8]   --->   Operation 23 'getelementptr' 'v_V_addr_5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [2/2] (0.79ns)   --->   "%v_V_load_3 = load i32* %v_V_addr_5, align 4" [blake2s.cpp:8]   --->   Operation 24 'load' 'v_V_load_3' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 2 <SV = 1> <Delay = 2.46>
+ST_2 : Operation 25 [1/1] (0.00ns)   --->   "%x_V_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %x_V)" [blake2s.cpp:7]   --->   Operation 25 'read' 'x_V_read' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 26 [1/2] (0.79ns)   --->   "%v_V_load = load i32* %v_V_addr, align 4" [blake2s.cpp:8]   --->   Operation 26 'load' 'v_V_load' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 27 [1/2] (0.79ns)   --->   "%v_V_load_3 = load i32* %v_V_addr_5, align 4" [blake2s.cpp:8]   --->   Operation 27 'load' 'v_V_load_3' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_2 : Operation 28 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln209 = add i32 %x_V_read, %v_V_load_3" [blake2s.cpp:8]   --->   Operation 28 'add' 'add_ln209' <Predicate = true> <Delay = 0.00> <Core = "TAddSub">   --->   Core 83 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.44> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 29 [1/1] (0.88ns) (root node of TernaryAdder)   --->   "%rhs_V = add i32 %add_ln209, %v_V_load" [blake2s.cpp:8]   --->   Operation 29 'add' 'rhs_V' <Predicate = true> <Delay = 0.88> <Core = "TAddSub">   --->   Core 83 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.44> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_2 : Operation 30 [1/1] (0.79ns)   --->   "store i32 %rhs_V, i32* %v_V_addr, align 4" [blake2s.cpp:8]   --->   Operation 30 'store' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 3 <SV = 2> <Delay = 0.79>
+ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%d_read = call i5 @_ssdm_op_Read.ap_auto.i5(i5 %d)" [blake2s.cpp:7]   --->   Operation 31 'read' 'd_read' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 32 [1/1] (0.00ns)   --->   "%zext_ln9 = zext i5 %d_read to i64" [blake2s.cpp:9]   --->   Operation 32 'zext' 'zext_ln9' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 33 [1/1] (0.00ns)   --->   "%v_V_addr_6 = getelementptr [16 x i32]* %v_V, i64 0, i64 %zext_ln9" [blake2s.cpp:9]   --->   Operation 33 'getelementptr' 'v_V_addr_6' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 34 [2/2] (0.79ns)   --->   "%lhs_V = load i32* %v_V_addr_6, align 4" [blake2s.cpp:9]   --->   Operation 34 'load' 'lhs_V' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 4 <SV = 3> <Delay = 1.98>
+ST_4 : Operation 35 [1/2] (0.79ns)   --->   "%lhs_V = load i32* %v_V_addr_6, align 4" [blake2s.cpp:9]   --->   Operation 35 'load' 'lhs_V' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_4 : Operation 36 [1/1] (0.40ns)   --->   "%ret_V = xor i32 %lhs_V, %rhs_V" [blake2s.cpp:9]   --->   Operation 36 'xor' 'ret_V' <Predicate = true> <Delay = 0.40> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.40> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 37 [1/1] (0.00ns)   --->   "%r_V = call i16 @_ssdm_op_PartSelect.i16.i32.i32.i32(i32 %ret_V, i32 16, i32 31)" [blake2s.cpp:4->blake2s.cpp:9]   --->   Operation 37 'partselect' 'r_V' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 38 [1/1] (0.00ns)   --->   "%trunc_ln790 = trunc i32 %ret_V to i16" [blake2s.cpp:4->blake2s.cpp:9]   --->   Operation 38 'trunc' 'trunc_ln790' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 39 [1/1] (0.00ns)   --->   "%ret_V_1 = call i32 @_ssdm_op_BitConcatenate.i32.i16.i16(i16 %trunc_ln790, i16 %r_V)" [blake2s.cpp:4->blake2s.cpp:9]   --->   Operation 39 'bitconcatenate' 'ret_V_1' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 40 [1/1] (0.79ns)   --->   "store i32 %ret_V_1, i32* %v_V_addr_6, align 4" [blake2s.cpp:9]   --->   Operation 40 'store' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 5 <SV = 4> <Delay = 0.79>
+ST_5 : Operation 41 [1/1] (0.00ns)   --->   "%c_read = call i5 @_ssdm_op_Read.ap_auto.i5(i5 %c)" [blake2s.cpp:7]   --->   Operation 41 'read' 'c_read' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 42 [1/1] (0.00ns)   --->   "%zext_ln10 = zext i5 %c_read to i64" [blake2s.cpp:10]   --->   Operation 42 'zext' 'zext_ln10' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 43 [1/1] (0.00ns)   --->   "%v_V_addr_7 = getelementptr [16 x i32]* %v_V, i64 0, i64 %zext_ln10" [blake2s.cpp:10]   --->   Operation 43 'getelementptr' 'v_V_addr_7' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 44 [2/2] (0.79ns)   --->   "%v_V_load_5 = load i32* %v_V_addr_7, align 4" [blake2s.cpp:10]   --->   Operation 44 'load' 'v_V_load_5' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 6 <SV = 5> <Delay = 2.78>
+ST_6 : Operation 45 [1/2] (0.79ns)   --->   "%v_V_load_5 = load i32* %v_V_addr_7, align 4" [blake2s.cpp:10]   --->   Operation 45 'load' 'v_V_load_5' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_6 : Operation 46 [1/1] (1.20ns)   --->   "%rhs_V_1 = add i32 %v_V_load_5, %ret_V_1" [blake2s.cpp:10]   --->   Operation 46 'add' 'rhs_V_1' <Predicate = true> <Delay = 1.20> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.20> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 47 [1/1] (0.79ns)   --->   "store i32 %rhs_V_1, i32* %v_V_addr_7, align 4" [blake2s.cpp:10]   --->   Operation 47 'store' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 7 <SV = 6> <Delay = 0.79>
+ST_7 : Operation 48 [2/2] (0.79ns)   --->   "%lhs_V_1 = load i32* %v_V_addr_5, align 4" [blake2s.cpp:11]   --->   Operation 48 'load' 'lhs_V_1' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 8 <SV = 7> <Delay = 1.98>
+ST_8 : Operation 49 [1/2] (0.79ns)   --->   "%lhs_V_1 = load i32* %v_V_addr_5, align 4" [blake2s.cpp:11]   --->   Operation 49 'load' 'lhs_V_1' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_8 : Operation 50 [1/1] (0.40ns)   --->   "%ret_V_2 = xor i32 %lhs_V_1, %rhs_V_1" [blake2s.cpp:11]   --->   Operation 50 'xor' 'ret_V_2' <Predicate = true> <Delay = 0.40> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.40> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 51 [1/1] (0.00ns)   --->   "%r_V_6 = call i20 @_ssdm_op_PartSelect.i20.i32.i32.i32(i32 %ret_V_2, i32 12, i32 31)" [blake2s.cpp:4->blake2s.cpp:11]   --->   Operation 51 'partselect' 'r_V_6' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 52 [1/1] (0.00ns)   --->   "%trunc_ln790_1 = trunc i32 %ret_V_2 to i12" [blake2s.cpp:4->blake2s.cpp:11]   --->   Operation 52 'trunc' 'trunc_ln790_1' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 53 [1/1] (0.00ns)   --->   "%ret_V_3 = call i32 @_ssdm_op_BitConcatenate.i32.i12.i20(i12 %trunc_ln790_1, i20 %r_V_6)" [blake2s.cpp:4->blake2s.cpp:11]   --->   Operation 53 'bitconcatenate' 'ret_V_3' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 54 [1/1] (0.79ns)   --->   "store i32 %ret_V_3, i32* %v_V_addr_5, align 4" [blake2s.cpp:11]   --->   Operation 54 'store' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 9 <SV = 8> <Delay = 0.79>
+ST_9 : Operation 55 [2/2] (0.79ns)   --->   "%v_V_load_7 = load i32* %v_V_addr, align 4" [blake2s.cpp:12]   --->   Operation 55 'load' 'v_V_load_7' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 10 <SV = 9> <Delay = 2.46>
+ST_10 : Operation 56 [1/1] (0.00ns)   --->   "%y_V_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %y_V)" [blake2s.cpp:7]   --->   Operation 56 'read' 'y_V_read' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 57 [1/2] (0.79ns)   --->   "%v_V_load_7 = load i32* %v_V_addr, align 4" [blake2s.cpp:12]   --->   Operation 57 'load' 'v_V_load_7' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_10 : Operation 58 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln209_3 = add i32 %y_V_read, %ret_V_3" [blake2s.cpp:12]   --->   Operation 58 'add' 'add_ln209_3' <Predicate = true> <Delay = 0.00> <Core = "TAddSub">   --->   Core 83 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.44> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_10 : Operation 59 [1/1] (0.88ns) (root node of TernaryAdder)   --->   "%rhs_V_2 = add i32 %add_ln209_3, %v_V_load_7" [blake2s.cpp:12]   --->   Operation 59 'add' 'rhs_V_2' <Predicate = true> <Delay = 0.88> <Core = "TAddSub">   --->   Core 83 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.44> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_10 : Operation 60 [1/1] (0.79ns)   --->   "store i32 %rhs_V_2, i32* %v_V_addr, align 4" [blake2s.cpp:12]   --->   Operation 60 'store' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 11 <SV = 10> <Delay = 0.79>
+ST_11 : Operation 61 [2/2] (0.79ns)   --->   "%lhs_V_2 = load i32* %v_V_addr_6, align 4" [blake2s.cpp:13]   --->   Operation 61 'load' 'lhs_V_2' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 12 <SV = 11> <Delay = 1.98>
+ST_12 : Operation 62 [1/2] (0.79ns)   --->   "%lhs_V_2 = load i32* %v_V_addr_6, align 4" [blake2s.cpp:13]   --->   Operation 62 'load' 'lhs_V_2' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_12 : Operation 63 [1/1] (0.40ns)   --->   "%ret_V_4 = xor i32 %lhs_V_2, %rhs_V_2" [blake2s.cpp:13]   --->   Operation 63 'xor' 'ret_V_4' <Predicate = true> <Delay = 0.40> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.40> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 64 [1/1] (0.00ns)   --->   "%r_V_8 = call i24 @_ssdm_op_PartSelect.i24.i32.i32.i32(i32 %ret_V_4, i32 8, i32 31)" [blake2s.cpp:4->blake2s.cpp:13]   --->   Operation 64 'partselect' 'r_V_8' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 65 [1/1] (0.00ns)   --->   "%trunc_ln790_2 = trunc i32 %ret_V_4 to i8" [blake2s.cpp:4->blake2s.cpp:13]   --->   Operation 65 'trunc' 'trunc_ln790_2' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 66 [1/1] (0.00ns)   --->   "%ret_V_5 = call i32 @_ssdm_op_BitConcatenate.i32.i8.i24(i8 %trunc_ln790_2, i24 %r_V_8)" [blake2s.cpp:4->blake2s.cpp:13]   --->   Operation 66 'bitconcatenate' 'ret_V_5' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 67 [1/1] (0.79ns)   --->   "store i32 %ret_V_5, i32* %v_V_addr_6, align 4" [blake2s.cpp:13]   --->   Operation 67 'store' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 13 <SV = 12> <Delay = 0.79>
+ST_13 : Operation 68 [2/2] (0.79ns)   --->   "%v_V_load_9 = load i32* %v_V_addr_7, align 4" [blake2s.cpp:14]   --->   Operation 68 'load' 'v_V_load_9' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 14 <SV = 13> <Delay = 2.78>
+ST_14 : Operation 69 [1/2] (0.79ns)   --->   "%v_V_load_9 = load i32* %v_V_addr_7, align 4" [blake2s.cpp:14]   --->   Operation 69 'load' 'v_V_load_9' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_14 : Operation 70 [1/1] (1.20ns)   --->   "%rhs_V_3 = add i32 %v_V_load_9, %ret_V_5" [blake2s.cpp:14]   --->   Operation 70 'add' 'rhs_V_3' <Predicate = true> <Delay = 1.20> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.20> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_14 : Operation 71 [1/1] (0.79ns)   --->   "store i32 %rhs_V_3, i32* %v_V_addr_7, align 4" [blake2s.cpp:14]   --->   Operation 71 'store' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 15 <SV = 14> <Delay = 0.79>
+ST_15 : Operation 72 [2/2] (0.79ns)   --->   "%lhs_V_3 = load i32* %v_V_addr_5, align 4" [blake2s.cpp:15]   --->   Operation 72 'load' 'lhs_V_3' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+
+State 16 <SV = 15> <Delay = 1.98>
+ST_16 : Operation 73 [1/2] (0.79ns)   --->   "%lhs_V_3 = load i32* %v_V_addr_5, align 4" [blake2s.cpp:15]   --->   Operation 73 'load' 'lhs_V_3' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_16 : Operation 74 [1/1] (0.40ns)   --->   "%ret_V_6 = xor i32 %lhs_V_3, %rhs_V_3" [blake2s.cpp:15]   --->   Operation 74 'xor' 'ret_V_6' <Predicate = true> <Delay = 0.40> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.40> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_16 : Operation 75 [1/1] (0.00ns)   --->   "%r_V_s = call i25 @_ssdm_op_PartSelect.i25.i32.i32.i32(i32 %ret_V_6, i32 7, i32 31)" [blake2s.cpp:4->blake2s.cpp:15]   --->   Operation 75 'partselect' 'r_V_s' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 76 [1/1] (0.00ns)   --->   "%trunc_ln790_3 = trunc i32 %ret_V_6 to i7" [blake2s.cpp:4->blake2s.cpp:15]   --->   Operation 76 'trunc' 'trunc_ln790_3' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 77 [1/1] (0.00ns)   --->   "%ret_V_7 = call i32 @_ssdm_op_BitConcatenate.i32.i7.i25(i7 %trunc_ln790_3, i25 %r_V_s)" [blake2s.cpp:4->blake2s.cpp:15]   --->   Operation 77 'bitconcatenate' 'ret_V_7' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 78 [1/1] (0.79ns)   --->   "store i32 %ret_V_7, i32* %v_V_addr_5, align 4" [blake2s.cpp:15]   --->   Operation 78 'store' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_16 : Operation 79 [1/1] (0.00ns)   --->   "ret void" [blake2s.cpp:16]   --->   Operation 79 'ret' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 0.79ns
+The critical path consists of the following:
+	wire read on port 'b' (blake2s.cpp:7) [12]  (0 ns)
+	'getelementptr' operation ('v_V_addr_5', blake2s.cpp:8) [18]  (0 ns)
+	'load' operation ('v_V_load_3', blake2s.cpp:8) on array 'v_V' [19]  (0.79 ns)
+
+ <State 2>: 2.47ns
+The critical path consists of the following:
+	'load' operation ('v_V_load', blake2s.cpp:8) on array 'v_V' [17]  (0.79 ns)
+	'add' operation ('rhs.V', blake2s.cpp:8) [21]  (0.889 ns)
+	'store' operation ('store_ln8', blake2s.cpp:8) of variable 'rhs.V', blake2s.cpp:8 on array 'v_V' [22]  (0.79 ns)
+
+ <State 3>: 0.79ns
+The critical path consists of the following:
+	wire read on port 'd' (blake2s.cpp:7) [10]  (0 ns)
+	'getelementptr' operation ('v_V_addr_6', blake2s.cpp:9) [24]  (0 ns)
+	'load' operation ('lhs.V', blake2s.cpp:9) on array 'v_V' [25]  (0.79 ns)
+
+ <State 4>: 1.98ns
+The critical path consists of the following:
+	'load' operation ('lhs.V', blake2s.cpp:9) on array 'v_V' [25]  (0.79 ns)
+	'xor' operation ('ret.V', blake2s.cpp:9) [26]  (0.401 ns)
+	'store' operation ('store_ln9', blake2s.cpp:9) of variable 'ret.V', blake2s.cpp:4->blake2s.cpp:9 on array 'v_V' [30]  (0.79 ns)
+
+ <State 5>: 0.79ns
+The critical path consists of the following:
+	wire read on port 'c' (blake2s.cpp:7) [11]  (0 ns)
+	'getelementptr' operation ('v_V_addr_7', blake2s.cpp:10) [32]  (0 ns)
+	'load' operation ('v_V_load_5', blake2s.cpp:10) on array 'v_V' [33]  (0.79 ns)
+
+ <State 6>: 2.78ns
+The critical path consists of the following:
+	'load' operation ('v_V_load_5', blake2s.cpp:10) on array 'v_V' [33]  (0.79 ns)
+	'add' operation ('rhs.V', blake2s.cpp:10) [34]  (1.2 ns)
+	'store' operation ('store_ln10', blake2s.cpp:10) of variable 'rhs.V', blake2s.cpp:10 on array 'v_V' [35]  (0.79 ns)
+
+ <State 7>: 0.79ns
+The critical path consists of the following:
+	'load' operation ('lhs.V', blake2s.cpp:11) on array 'v_V' [36]  (0.79 ns)
+
+ <State 8>: 1.98ns
+The critical path consists of the following:
+	'load' operation ('lhs.V', blake2s.cpp:11) on array 'v_V' [36]  (0.79 ns)
+	'xor' operation ('ret.V', blake2s.cpp:11) [37]  (0.401 ns)
+	'store' operation ('store_ln11', blake2s.cpp:11) of variable 'ret.V', blake2s.cpp:4->blake2s.cpp:11 on array 'v_V' [41]  (0.79 ns)
+
+ <State 9>: 0.79ns
+The critical path consists of the following:
+	'load' operation ('v_V_load_7', blake2s.cpp:12) on array 'v_V' [42]  (0.79 ns)
+
+ <State 10>: 2.47ns
+The critical path consists of the following:
+	'load' operation ('v_V_load_7', blake2s.cpp:12) on array 'v_V' [42]  (0.79 ns)
+	'add' operation ('rhs.V', blake2s.cpp:12) [44]  (0.889 ns)
+	'store' operation ('store_ln12', blake2s.cpp:12) of variable 'rhs.V', blake2s.cpp:12 on array 'v_V' [45]  (0.79 ns)
+
+ <State 11>: 0.79ns
+The critical path consists of the following:
+	'load' operation ('lhs.V', blake2s.cpp:13) on array 'v_V' [46]  (0.79 ns)
+
+ <State 12>: 1.98ns
+The critical path consists of the following:
+	'load' operation ('lhs.V', blake2s.cpp:13) on array 'v_V' [46]  (0.79 ns)
+	'xor' operation ('ret.V', blake2s.cpp:13) [47]  (0.401 ns)
+	'store' operation ('store_ln13', blake2s.cpp:13) of variable 'ret.V', blake2s.cpp:4->blake2s.cpp:13 on array 'v_V' [51]  (0.79 ns)
+
+ <State 13>: 0.79ns
+The critical path consists of the following:
+	'load' operation ('v_V_load_9', blake2s.cpp:14) on array 'v_V' [52]  (0.79 ns)
+
+ <State 14>: 2.78ns
+The critical path consists of the following:
+	'load' operation ('v_V_load_9', blake2s.cpp:14) on array 'v_V' [52]  (0.79 ns)
+	'add' operation ('rhs.V', blake2s.cpp:14) [53]  (1.2 ns)
+	'store' operation ('store_ln14', blake2s.cpp:14) of variable 'rhs.V', blake2s.cpp:14 on array 'v_V' [54]  (0.79 ns)
+
+ <State 15>: 0.79ns
+The critical path consists of the following:
+	'load' operation ('lhs.V', blake2s.cpp:15) on array 'v_V' [55]  (0.79 ns)
+
+ <State 16>: 1.98ns
+The critical path consists of the following:
+	'load' operation ('lhs.V', blake2s.cpp:15) on array 'v_V' [55]  (0.79 ns)
+	'xor' operation ('ret.V', blake2s.cpp:15) [56]  (0.401 ns)
+	'store' operation ('store_ln15', blake2s.cpp:15) of variable 'ret.V', blake2s.cpp:4->blake2s.cpp:15 on array 'v_V' [60]  (0.79 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

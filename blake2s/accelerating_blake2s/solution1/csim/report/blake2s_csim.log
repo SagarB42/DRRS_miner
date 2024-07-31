@@ -1,0 +1,56 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../blake2s_tb.cpp in debug mode
+csim.mk:69: recipe for target 'obj/blake2s_tb.o' failed
+In file included from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/hls_fpo.h:186,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/hls_half.h:44,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/etc/ap_private.h:90,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/ap_common.h:641,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/ap_fixed.h:54,
+                 from ../../../../blake2.h:4,
+                 from ../../../../blake2s_tb.cpp:2:
+D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/hls_fpo.h:186:0,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/hls_half.h:44,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/etc/ap_private.h:90,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/ap_common.h:641,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/ap_fixed.h:54,
+                 from ../../../../blake2.h:4,
+                 from ../../../../blake2s_tb.cpp:2:
+D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+../../../../blake2s_tb.cpp:12:9: warning: integer constant is too large for its type
+         0x6162636461626364616263646162636461626364616263646162636461626364,
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../blake2s_tb.cpp:13:9: warning: integer constant is too large for its type
+         0x000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../blake2s_tb.cpp: In function 'int main()':
+../../../../blake2s_tb.cpp:10:5: error: 'apuint512_t' was not declared in this scope
+     apuint512_t test_data[3] = {
+     ^~~~~~~~~~~
+../../../../blake2s_tb.cpp:16:5: error: 'apuint32_t' was not declared in this scope
+     apuint32_t expected_hash[3][8] = {
+     ^~~~~~~~~~
+../../../../blake2s_tb.cpp:22:16: error: expected ';' before 'hash'
+     apuint32_t hash[8];
+                ^~~~
+../../../../blake2s_tb.cpp:25:17: error: 'test_data' was not declared in this scope
+         blake2s(test_data[i], hash);
+                 ^~~~~~~~~
+../../../../blake2s_tb.cpp:25:35: error: missing template arguments before ')' token
+         blake2s(test_data[i], hash);
+                                   ^
+../../../../blake2s_tb.cpp:30:21: error: missing template arguments before '[' token
+             if (hash[j] != expected_hash[i][j]) {
+                     ^
+../../../../blake2s_tb.cpp:30:28: error: 'expected_hash' was not declared in this scope
+             if (hash[j] != expected_hash[i][j]) {
+                            ^~~~~~~~~~~~~
+make: *** [obj/blake2s_tb.o] Error 1
+ERR: [SIM 100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************

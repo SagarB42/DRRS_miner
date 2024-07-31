@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="blake2s.cpp" path="D:\Sagar\UNSW\study\comp4601\project\DRRS_miner\blake2s\blake2s.cpp"/>
+    <originFiles name="blake2.h" path="D:\Sagar\UNSW\study\comp4601\project\DRRS_miner\blake2s\blake2.h"/>
+  </source>
+  <testbench>
+    <originFiles name="blake2s_tb.cpp" path="D:\Sagar\UNSW\study\comp4601\project\DRRS_miner\blake2s\blake2s_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

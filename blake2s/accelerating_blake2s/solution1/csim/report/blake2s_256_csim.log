@@ -1,0 +1,98 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../blake2s_tb.cpp in debug mode
+csim.mk:69: recipe for target 'obj/blake2s_tb.o' failed
+In file included from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/hls_fpo.h:186,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/hls_half.h:44,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/etc/ap_private.h:90,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/ap_common.h:641,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/ap_fixed.h:54,
+                 from ../../../../blake2.h:4,
+                 from ../../../../blake2s_tb.cpp:9:
+D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/hls_fpo.h:186:0,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/hls_half.h:44,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/etc/ap_private.h:90,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/ap_common.h:641,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/ap_fixed.h:54,
+                 from ../../../../blake2.h:4,
+                 from ../../../../blake2s_tb.cpp:9:
+D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+In file included from ../../../../blake2s_tb.cpp:9:0:
+../../../../blake2.h:7:21: error: conflicting declaration 'typedef struct ap_uint<32> uint32_t'
+ typedef ap_uint<32> uint32_t;
+                     ^~~~~~~~
+In file included from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/tps/win64/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stdint.h:9:0,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/cstdint:41,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/bits/char_traits.h:420,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/ios:40,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/ostream:38,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/iostream:39,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/ap_common.h:145,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/ap_fixed.h:54,
+                 from ../../../../blake2.h:4,
+                 from ../../../../blake2s_tb.cpp:9:
+D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/tps/win64/msys64/mingw64/x86_64-w64-mingw32/include/stdint.h:40:20: note: previous declaration as 'typedef unsigned int uint32_t'
+ typedef unsigned   uint32_t;
+                    ^~~~~~~~
+In file included from ../../../../blake2s_tb.cpp:9:0:
+../../../../blake2.h:8:21: error: conflicting declaration 'typedef struct ap_uint<64> uint64_t'
+ typedef ap_uint<64> uint64_t;
+                     ^~~~~~~~
+In file included from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/tps/win64/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stdint.h:9:0,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/cstdint:41,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/bits/char_traits.h:420,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/ios:40,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/ostream:38,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/iostream:39,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/ap_common.h:145,
+                 from D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/include/ap_fixed.h:54,
+                 from ../../../../blake2.h:4,
+                 from ../../../../blake2s_tb.cpp:9:
+D:/Sagar/UNSW/study/comp4601/Vivado/2020.1/tps/win64/msys64/mingw64/x86_64-w64-mingw32/include/stdint.h:42:48: note: previous declaration as 'typedef long long unsigned int uint64_t'
+ __MINGW_EXTENSION typedef unsigned long long   uint64_t;
+                                                ^~~~~~~~
+../../../../blake2s_tb.cpp: In function 'void test_zero_length()':
+../../../../blake2s_tb.cpp:49:35: error: invalid conversion from 'int' to 'uint32_t* {aka unsigned int*}' [-fpermissive]
+   blake2s(md, 32, NULL, 0, NULL, 0);
+                                   ^
+../../../../blake2s_tb.cpp:49:35: error: too many arguments to function 'void blake2s(const uint512_t&, uint32_t*)'
+In file included from ../../../../blake2s_tb.cpp:9:0:
+../../../../blake2.h:33:6: note: declared here
+ void blake2s(const uint512_t &data, uint32_t hash[8]);
+      ^~~~~~~
+../../../../blake2s_tb.cpp: In function 'void test_abc_message()':
+../../../../blake2s_tb.cpp:67:34: error: invalid conversion from 'int' to 'uint32_t* {aka unsigned int*}' [-fpermissive]
+   blake2s(md, 32, NULL, 0, msg, 3);
+                                  ^
+../../../../blake2s_tb.cpp:67:34: error: too many arguments to function 'void blake2s(const uint512_t&, uint32_t*)'
+In file included from ../../../../blake2s_tb.cpp:9:0:
+../../../../blake2.h:33:6: note: declared here
+ void blake2s(const uint512_t &data, uint32_t hash[8]);
+      ^~~~~~~
+../../../../blake2s_tb.cpp: In function 'void test_one_block_message()':
+../../../../blake2s_tb.cpp:89:35: error: invalid conversion from 'int' to 'uint32_t* {aka unsigned int*}' [-fpermissive]
+   blake2s(md, 32, NULL, 0, msg, 64);
+                                   ^
+../../../../blake2s_tb.cpp:89:35: error: too many arguments to function 'void blake2s(const uint512_t&, uint32_t*)'
+In file included from ../../../../blake2s_tb.cpp:9:0:
+../../../../blake2.h:33:6: note: declared here
+ void blake2s(const uint512_t &data, uint32_t hash[8]);
+      ^~~~~~~
+../../../../blake2s_tb.cpp: In function 'void test_one_block_one_byte_message()':
+../../../../blake2s_tb.cpp:112:35: error: invalid conversion from 'int' to 'uint32_t* {aka unsigned int*}' [-fpermissive]
+   blake2s(md, 32, NULL, 0, msg, 65);
+                                   ^
+../../../../blake2s_tb.cpp:112:35: error: too many arguments to function 'void blake2s(const uint512_t&, uint32_t*)'
+In file included from ../../../../blake2s_tb.cpp:9:0:
+../../../../blake2.h:33:6: note: declared here
+ void blake2s(const uint512_t &data, uint32_t hash[8]);
+      ^~~~~~~
+make: *** [obj/blake2s_tb.o] Error 1
+ERR: [SIM 100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************

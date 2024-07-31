@@ -1,0 +1,249 @@
+
+
+================================================================
+== Vivado HLS Report for 'blake2s'
+================================================================
+* Date:           Sat Jul 27 13:52:51 2024
+
+* Version:        2020.1 (Build 2897737 on Wed May 27 20:21:37 MDT 2020)
+* Project:        accelerating_blake2s
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xqzu5ev-ffrb900-1-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 4.826 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+    |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+    +---------+---------+-----------+-----------+------+------+---------+
+    |     1469|     1469| 14.690 us | 14.690 us |  1469|  1469|   none  |
+    +---------+---------+-----------+-----------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |          |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |- Loop 1  |       16|       16|         2|          -|          -|     8|    no    |
+        |- Loop 2  |       16|       16|         1|          -|          -|    16|    no    |
+        |- Loop 3  |       16|       16|         2|          -|          -|     8|    no    |
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 8
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 4 
+3 --> 2 
+4 --> 5 
+5 --> 6 5 
+6 --> 7 
+7 --> 8 
+8 --> 7 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.75>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i512* %data_V), !map !104"   --->   Operation 9 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap([8 x i32]* %hash_V), !map !108"   --->   Operation 10 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([8 x i8]* @blake2s_str) nounwind"   --->   Operation 11 'spectopmodule' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%h_V = alloca [8 x i32], align 4" [blake2s.cpp:45]   --->   Operation 12 'alloca' 'h_V' <Predicate = true> <Delay = 0.00> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 8> <RAM>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%m_V = alloca [16 x i32], align 4" [blake2s.cpp:51]   --->   Operation 13 'alloca' 'm_V' <Predicate = true> <Delay = 0.00> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 8> <RAM>
+ST_1 : Operation 14 [1/1] (0.75ns)   --->   "br label %.preheader45" [blake2s.cpp:46]   --->   Operation 14 'br' <Predicate = true> <Delay = 0.75>
+
+State 2 <SV = 1> <Delay = 1.35>
+ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%i_0 = phi i4 [ %i, %0 ], [ 0, %.preheader45.preheader ]"   --->   Operation 15 'phi' 'i_0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 16 [1/1] (0.88ns)   --->   "%icmp_ln46 = icmp eq i4 %i_0, -8" [blake2s.cpp:46]   --->   Operation 16 'icmp' 'icmp_ln46' <Predicate = true> <Delay = 0.88> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.88> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 17 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 8, i64 8, i64 8)"   --->   Operation 17 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 18 [1/1] (0.86ns)   --->   "%i = add i4 %i_0, 1" [blake2s.cpp:46]   --->   Operation 18 'add' 'i' <Predicate = true> <Delay = 0.86> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.86> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 19 [1/1] (0.00ns)   --->   "br i1 %icmp_ln46, label %.preheader.preheader, label %0" [blake2s.cpp:46]   --->   Operation 19 'br' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 20 [1/1] (0.00ns)   --->   "%zext_ln47 = zext i4 %i_0 to i64" [blake2s.cpp:47]   --->   Operation 20 'zext' 'zext_ln47' <Predicate = (!icmp_ln46)> <Delay = 0.00>
+ST_2 : Operation 21 [1/1] (0.00ns)   --->   "%IV_V_addr = getelementptr [8 x i32]* @IV_V, i64 0, i64 %zext_ln47" [blake2s.cpp:47]   --->   Operation 21 'getelementptr' 'IV_V_addr' <Predicate = (!icmp_ln46)> <Delay = 0.00>
+ST_2 : Operation 22 [2/2] (1.35ns)   --->   "%IV_V_load = load i32* %IV_V_addr, align 4" [blake2s.cpp:47]   --->   Operation 22 'load' 'IV_V_load' <Predicate = (!icmp_ln46)> <Delay = 1.35> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 8> <ROM>
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%h_V_addr = getelementptr [8 x i32]* %h_V, i64 0, i64 0" [blake2s.cpp:49]   --->   Operation 23 'getelementptr' 'h_V_addr' <Predicate = (icmp_ln46)> <Delay = 0.00>
+ST_2 : Operation 24 [2/2] (0.79ns)   --->   "%h_V_load = load i32* %h_V_addr, align 16" [blake2s.cpp:49]   --->   Operation 24 'load' 'h_V_load' <Predicate = (icmp_ln46)> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 8> <RAM>
+
+State 3 <SV = 2> <Delay = 2.14>
+ST_3 : Operation 25 [1/2] (1.35ns)   --->   "%IV_V_load = load i32* %IV_V_addr, align 4" [blake2s.cpp:47]   --->   Operation 25 'load' 'IV_V_load' <Predicate = true> <Delay = 1.35> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 1.35> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 32> <Depth = 8> <ROM>
+ST_3 : Operation 26 [1/1] (0.00ns)   --->   "%h_V_addr_2 = getelementptr [8 x i32]* %h_V, i64 0, i64 %zext_ln47" [blake2s.cpp:47]   --->   Operation 26 'getelementptr' 'h_V_addr_2' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 27 [1/1] (0.79ns)   --->   "store i32 %IV_V_load, i32* %h_V_addr_2, align 4" [blake2s.cpp:47]   --->   Operation 27 'store' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 8> <RAM>
+ST_3 : Operation 28 [1/1] (0.00ns)   --->   "br label %.preheader45" [blake2s.cpp:46]   --->   Operation 28 'br' <Predicate = true> <Delay = 0.00>
+
+State 4 <SV = 2> <Delay = 1.98>
+ST_4 : Operation 29 [1/2] (0.79ns)   --->   "%h_V_load = load i32* %h_V_addr, align 16" [blake2s.cpp:49]   --->   Operation 29 'load' 'h_V_load' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 8> <RAM>
+ST_4 : Operation 30 [1/1] (0.40ns)   --->   "%xor_ln719 = xor i32 %h_V_load, 16842784" [blake2s.cpp:49]   --->   Operation 30 'xor' 'xor_ln719' <Predicate = true> <Delay = 0.40> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.44> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 31 [1/1] (0.79ns)   --->   "store i32 %xor_ln719, i32* %h_V_addr, align 16" [blake2s.cpp:49]   --->   Operation 31 'store' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 8> <RAM>
+ST_4 : Operation 32 [1/1] (0.00ns)   --->   "%p_Val2_s = call i512 @_ssdm_op_Read.ap_auto.i512P(i512* %data_V)" [blake2s.cpp:53]   --->   Operation 32 'read' 'p_Val2_s' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 33 [1/1] (0.75ns)   --->   "br label %.preheader" [blake2s.cpp:52]   --->   Operation 33 'br' <Predicate = true> <Delay = 0.75>
+
+State 5 <SV = 3> <Delay = 4.82>
+ST_5 : Operation 34 [1/1] (0.00ns)   --->   "%i2_0 = phi i5 [ %i_3, %1 ], [ 0, %.preheader.preheader ]"   --->   Operation 34 'phi' 'i2_0' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 35 [1/1] (0.87ns)   --->   "%icmp_ln52 = icmp eq i5 %i2_0, -16" [blake2s.cpp:52]   --->   Operation 35 'icmp' 'icmp_ln52' <Predicate = true> <Delay = 0.87> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.88> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 36 [1/1] (0.00ns)   --->   "%empty_9 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 16, i64 16, i64 16)"   --->   Operation 36 'speclooptripcount' 'empty_9' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 37 [1/1] (0.87ns)   --->   "%i_3 = add i5 %i2_0, 1" [blake2s.cpp:52]   --->   Operation 37 'add' 'i_3' <Predicate = true> <Delay = 0.87> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.86> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 38 [1/1] (0.00ns)   --->   "br i1 %icmp_ln52, label %2, label %1" [blake2s.cpp:52]   --->   Operation 38 'br' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 39 [1/1] (0.00ns)   --->   "%zext_ln53 = zext i5 %i2_0 to i64" [blake2s.cpp:53]   --->   Operation 39 'zext' 'zext_ln53' <Predicate = (!icmp_ln52)> <Delay = 0.00>
+ST_5 : Operation 40 [1/1] (0.00ns)   --->   "%trunc_ln53 = trunc i5 %i2_0 to i4" [blake2s.cpp:53]   --->   Operation 40 'trunc' 'trunc_ln53' <Predicate = (!icmp_ln52)> <Delay = 0.00>
+ST_5 : Operation 41 [1/1] (0.00ns)   --->   "%Lo_assign = call i9 @_ssdm_op_BitConcatenate.i9.i4.i5(i4 %trunc_ln53, i5 0)" [blake2s.cpp:53]   --->   Operation 41 'bitconcatenate' 'Lo_assign' <Predicate = (!icmp_ln52)> <Delay = 0.00>
+ST_5 : Operation 42 [1/1] (0.00ns)   --->   "%or_ln53 = or i9 %Lo_assign, 31" [blake2s.cpp:53]   --->   Operation 42 'or' 'or_ln53' <Predicate = (!icmp_ln52)> <Delay = 0.00>
+ST_5 : Operation 43 [1/1] (0.85ns)   --->   "%icmp_ln665 = icmp ugt i9 %Lo_assign, %or_ln53" [blake2s.cpp:53]   --->   Operation 43 'icmp' 'icmp_ln665' <Predicate = (!icmp_ln52)> <Delay = 0.85> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.88> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 44 [1/1] (0.00ns)   --->   "%zext_ln665 = zext i9 %Lo_assign to i10" [blake2s.cpp:53]   --->   Operation 44 'zext' 'zext_ln665' <Predicate = (!icmp_ln52)> <Delay = 0.00>
+ST_5 : Operation 45 [1/1] (0.00ns)   --->   "%zext_ln665_1 = zext i9 %or_ln53 to i10" [blake2s.cpp:53]   --->   Operation 45 'zext' 'zext_ln665_1' <Predicate = (!icmp_ln52)> <Delay = 0.00>
+ST_5 : Operation 46 [1/1] (0.00ns) (grouped into LUT with out node lshr_ln665)   --->   "%tmp = call i512 @llvm.part.select.i512(i512 %p_Val2_s, i32 511, i32 0)" [blake2s.cpp:53]   --->   Operation 46 'partselect' 'tmp' <Predicate = (!icmp_ln52)> <Delay = 0.00>
+ST_5 : Operation 47 [1/1] (0.92ns)   --->   "%sub_ln665 = sub i10 %zext_ln665, %zext_ln665_1" [blake2s.cpp:53]   --->   Operation 47 'sub' 'sub_ln665' <Predicate = (!icmp_ln52)> <Delay = 0.92> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.86> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 48 [1/1] (0.00ns) (grouped into LUT with out node lshr_ln665)   --->   "%xor_ln665 = xor i10 %zext_ln665, 511" [blake2s.cpp:53]   --->   Operation 48 'xor' 'xor_ln665' <Predicate = (!icmp_ln52)> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.44> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 49 [1/1] (0.92ns)   --->   "%sub_ln665_1 = sub i10 %zext_ln665_1, %zext_ln665" [blake2s.cpp:53]   --->   Operation 49 'sub' 'sub_ln665_1' <Predicate = (!icmp_ln52)> <Delay = 0.92> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.86> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 50 [1/1] (0.00ns) (grouped into LUT with out node sub_ln665_2)   --->   "%select_ln665 = select i1 %icmp_ln665, i10 %sub_ln665, i10 %sub_ln665_1" [blake2s.cpp:53]   --->   Operation 50 'select' 'select_ln665' <Predicate = (!icmp_ln52)> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.47> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_5 : Operation 51 [1/1] (0.00ns) (grouped into LUT with out node lshr_ln665)   --->   "%select_ln665_1 = select i1 %icmp_ln665, i512 %tmp, i512 %p_Val2_s" [blake2s.cpp:53]   --->   Operation 51 'select' 'select_ln665_1' <Predicate = (!icmp_ln52)> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.47> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_5 : Operation 52 [1/1] (0.00ns) (grouped into LUT with out node lshr_ln665)   --->   "%select_ln665_2 = select i1 %icmp_ln665, i10 %xor_ln665, i10 %zext_ln665" [blake2s.cpp:53]   --->   Operation 52 'select' 'select_ln665_2' <Predicate = (!icmp_ln52)> <Delay = 0.00> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.47> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_5 : Operation 53 [1/1] (0.93ns) (out node of the LUT)   --->   "%sub_ln665_2 = sub i10 511, %select_ln665" [blake2s.cpp:53]   --->   Operation 53 'sub' 'sub_ln665_2' <Predicate = (!icmp_ln52)> <Delay = 0.93> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.86> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 54 [1/1] (0.00ns) (grouped into LUT with out node lshr_ln665)   --->   "%zext_ln665_2 = zext i10 %select_ln665_2 to i512" [blake2s.cpp:53]   --->   Operation 54 'zext' 'zext_ln665_2' <Predicate = (!icmp_ln52)> <Delay = 0.00>
+ST_5 : Operation 55 [1/1] (0.00ns) (grouped into LUT with out node p_Result_s)   --->   "%zext_ln665_3 = zext i10 %sub_ln665_2 to i512" [blake2s.cpp:53]   --->   Operation 55 'zext' 'zext_ln665_3' <Predicate = (!icmp_ln52)> <Delay = 0.00>
+ST_5 : Operation 56 [1/1] (2.13ns) (out node of the LUT)   --->   "%lshr_ln665 = lshr i512 %select_ln665_1, %zext_ln665_2" [blake2s.cpp:53]   --->   Operation 56 'lshr' 'lshr_ln665' <Predicate = (!icmp_ln52)> <Delay = 2.13> <Core = "Shift">   --->   Core 28 'Shift' <Latency = 0> <II = 1> <Delay = 1.04> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 57 [1/1] (0.00ns) (grouped into LUT with out node p_Result_s)   --->   "%lshr_ln665_1 = lshr i512 -1, %zext_ln665_3" [blake2s.cpp:53]   --->   Operation 57 'lshr' 'lshr_ln665_1' <Predicate = (!icmp_ln52)> <Delay = 0.00> <Core = "Shift">   --->   Core 28 'Shift' <Latency = 0> <II = 1> <Delay = 1.04> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 58 [1/1] (1.04ns) (out node of the LUT)   --->   "%p_Result_s = and i512 %lshr_ln665, %lshr_ln665_1" [blake2s.cpp:53]   --->   Operation 58 'and' 'p_Result_s' <Predicate = (!icmp_ln52)> <Delay = 1.04> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.44> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 59 [1/1] (0.00ns)   --->   "%trunc_ln665 = trunc i512 %p_Result_s to i32" [blake2s.cpp:53]   --->   Operation 59 'trunc' 'trunc_ln665' <Predicate = (!icmp_ln52)> <Delay = 0.00>
+ST_5 : Operation 60 [1/1] (0.00ns)   --->   "%m_V_addr = getelementptr [16 x i32]* %m_V, i64 0, i64 %zext_ln53" [blake2s.cpp:53]   --->   Operation 60 'getelementptr' 'm_V_addr' <Predicate = (!icmp_ln52)> <Delay = 0.00>
+ST_5 : Operation 61 [1/1] (0.79ns)   --->   "store i32 %trunc_ln665, i32* %m_V_addr, align 4" [blake2s.cpp:53]   --->   Operation 61 'store' <Predicate = (!icmp_ln52)> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 8> <RAM>
+ST_5 : Operation 62 [1/1] (0.00ns)   --->   "br label %.preheader" [blake2s.cpp:52]   --->   Operation 62 'br' <Predicate = (!icmp_ln52)> <Delay = 0.00>
+ST_5 : Operation 63 [2/2] (0.00ns)   --->   "call fastcc void @compress([8 x i32]* %h_V, [16 x i32]* %m_V)" [blake2s.cpp:56]   --->   Operation 63 'call' <Predicate = (icmp_ln52)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 6 <SV = 4> <Delay = 0.75>
+ST_6 : Operation 64 [1/2] (0.00ns)   --->   "call fastcc void @compress([8 x i32]* %h_V, [16 x i32]* %m_V)" [blake2s.cpp:56]   --->   Operation 64 'call' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_6 : Operation 65 [1/1] (0.75ns)   --->   "br label %3" [blake2s.cpp:58]   --->   Operation 65 'br' <Predicate = true> <Delay = 0.75>
+
+State 7 <SV = 5> <Delay = 0.88>
+ST_7 : Operation 66 [1/1] (0.00ns)   --->   "%i3_0 = phi i4 [ 0, %2 ], [ %i_4, %4 ]"   --->   Operation 66 'phi' 'i3_0' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 67 [1/1] (0.88ns)   --->   "%icmp_ln58 = icmp eq i4 %i3_0, -8" [blake2s.cpp:58]   --->   Operation 67 'icmp' 'icmp_ln58' <Predicate = true> <Delay = 0.88> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.88> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 68 [1/1] (0.00ns)   --->   "%empty_10 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 8, i64 8, i64 8)"   --->   Operation 68 'speclooptripcount' 'empty_10' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 69 [1/1] (0.86ns)   --->   "%i_4 = add i4 %i3_0, 1" [blake2s.cpp:58]   --->   Operation 69 'add' 'i_4' <Predicate = true> <Delay = 0.86> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 0.86> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_7 : Operation 70 [1/1] (0.00ns)   --->   "br i1 %icmp_ln58, label %5, label %4" [blake2s.cpp:58]   --->   Operation 70 'br' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 71 [1/1] (0.00ns)   --->   "%zext_ln59 = zext i4 %i3_0 to i64" [blake2s.cpp:59]   --->   Operation 71 'zext' 'zext_ln59' <Predicate = (!icmp_ln58)> <Delay = 0.00>
+ST_7 : Operation 72 [1/1] (0.00ns)   --->   "%h_V_addr_3 = getelementptr [8 x i32]* %h_V, i64 0, i64 %zext_ln59" [blake2s.cpp:59]   --->   Operation 72 'getelementptr' 'h_V_addr_3' <Predicate = (!icmp_ln58)> <Delay = 0.00>
+ST_7 : Operation 73 [2/2] (0.79ns)   --->   "%h_V_load_2 = load i32* %h_V_addr_3, align 4" [blake2s.cpp:59]   --->   Operation 73 'load' 'h_V_load_2' <Predicate = (!icmp_ln58)> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 8> <RAM>
+ST_7 : Operation 74 [1/1] (0.00ns)   --->   "ret void" [blake2s.cpp:61]   --->   Operation 74 'ret' <Predicate = (icmp_ln58)> <Delay = 0.00>
+
+State 8 <SV = 6> <Delay = 1.58>
+ST_8 : Operation 75 [1/2] (0.79ns)   --->   "%h_V_load_2 = load i32* %h_V_addr_3, align 4" [blake2s.cpp:59]   --->   Operation 75 'load' 'h_V_load_2' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 8> <RAM>
+ST_8 : Operation 76 [1/1] (0.00ns)   --->   "%hash_V_addr = getelementptr [8 x i32]* %hash_V, i64 0, i64 %zext_ln59" [blake2s.cpp:59]   --->   Operation 76 'getelementptr' 'hash_V_addr' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 77 [1/1] (0.79ns)   --->   "store i32 %h_V_load_2, i32* %hash_V_addr, align 4" [blake2s.cpp:59]   --->   Operation 77 'store' <Predicate = true> <Delay = 0.79> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 0.79> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 8> <RAM>
+ST_8 : Operation 78 [1/1] (0.00ns)   --->   "br label %3" [blake2s.cpp:58]   --->   Operation 78 'br' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 0.755ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('i') with incoming values : ('i', blake2s.cpp:46) [44]  (0.755 ns)
+
+ <State 2>: 1.35ns
+The critical path consists of the following:
+	'phi' operation ('i') with incoming values : ('i', blake2s.cpp:46) [44]  (0 ns)
+	'getelementptr' operation ('IV_V_addr', blake2s.cpp:47) [51]  (0 ns)
+	'load' operation ('IV_V_load', blake2s.cpp:47) on array 'IV_V' [52]  (1.35 ns)
+
+ <State 3>: 2.14ns
+The critical path consists of the following:
+	'load' operation ('IV_V_load', blake2s.cpp:47) on array 'IV_V' [52]  (1.35 ns)
+	'store' operation ('store_ln47', blake2s.cpp:47) of variable 'IV_V_load', blake2s.cpp:47 on array 'h.V', blake2s.cpp:45 [54]  (0.79 ns)
+
+ <State 4>: 1.98ns
+The critical path consists of the following:
+	'load' operation ('h_V_load', blake2s.cpp:49) on array 'h.V', blake2s.cpp:45 [58]  (0.79 ns)
+	'xor' operation ('xor_ln719', blake2s.cpp:49) [59]  (0.401 ns)
+	'store' operation ('store_ln49', blake2s.cpp:49) of variable 'xor_ln719', blake2s.cpp:49 on array 'h.V', blake2s.cpp:45 [60]  (0.79 ns)
+
+ <State 5>: 4.83ns
+The critical path consists of the following:
+	'phi' operation ('i') with incoming values : ('i', blake2s.cpp:52) [64]  (0 ns)
+	'icmp' operation ('icmp_ln665', blake2s.cpp:53) [74]  (0.857 ns)
+	'select' operation ('select_ln665_1', blake2s.cpp:53) [82]  (0 ns)
+	'lshr' operation ('lshr_ln665', blake2s.cpp:53) [87]  (2.13 ns)
+	'and' operation ('__Result__', blake2s.cpp:53) [89]  (1.05 ns)
+	'store' operation ('store_ln53', blake2s.cpp:53) of variable 'val', blake2s.cpp:53 on array 'm.V', blake2s.cpp:51 [92]  (0.79 ns)
+
+ <State 6>: 0.755ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('i') with incoming values : ('i', blake2s.cpp:58) [98]  (0.755 ns)
+
+ <State 7>: 0.884ns
+The critical path consists of the following:
+	'phi' operation ('i') with incoming values : ('i', blake2s.cpp:58) [98]  (0 ns)
+	'icmp' operation ('icmp_ln58', blake2s.cpp:58) [99]  (0.884 ns)
+
+ <State 8>: 1.58ns
+The critical path consists of the following:
+	'load' operation ('h_V_load_2', blake2s.cpp:59) on array 'h.V', blake2s.cpp:45 [106]  (0.79 ns)
+	'store' operation ('store_ln59', blake2s.cpp:59) of variable 'h_V_load_2', blake2s.cpp:59 on array 'hash_V' [108]  (0.79 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
