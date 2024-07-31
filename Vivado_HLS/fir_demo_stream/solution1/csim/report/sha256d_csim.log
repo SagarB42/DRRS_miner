@@ -1,0 +1,23 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../sources/fir.cpp in debug mode
+   Generating csim.exe
+Test passed
+hash[0] = 852c9804
+expected_hash[0] = 852c9804
+hash[1] = 4fb00507
+expected_hash[1] = 4fb00507
+hash[2] = 122ff63b
+expected_hash[2] = 122ff63b
+hash[3] = da7b5295
+expected_hash[3] = da7b5295
+hash[4] = 66348fc2
+expected_hash[4] = 66348fc2
+hash[5] = 4f72b00
+expected_hash[5] = 4f72b00
+hash[6] = dff1afd7
+expected_hash[6] = dff1afd7
+hash[7] = b40501e4
+expected_hash[7] = b40501e4
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

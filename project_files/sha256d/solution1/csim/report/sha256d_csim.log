@@ -1,0 +1,32 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../sha256d_test.cpp in debug mode
+csim.mk:69: recipe for target 'obj/sha256d_test.o' failed
+../../../sha256d_test.cpp:5:52: error: 'uint8_t' has not been declared
+ void hex_string_to_byte_array(const char *hex_str, uint8_t *byte_array, size_t byte_array_len) {
+                                                    ^~~~~~~
+../../../sha256d_test.cpp: In function 'void test_sha256d()':
+../../../sha256d_test.cpp:13:5: error: 'uint8_t' was not declared in this scope
+     uint8_t input[80] = {
+     ^~~~~~~
+../../../sha256d_test.cpp:27:13: error: expected ';' before 'output'
+     uint8_t output[32];
+             ^~~~~~
+../../../sha256d_test.cpp:31:13: error: expected ';' before 'expected_hash'
+     uint8_t expected_hash[32];
+             ^~~~~~~~~~~~~
+../../../sha256d_test.cpp:32:49: error: 'expected_hash' was not declared in this scope
+     hex_string_to_byte_array(expected_hash_str, expected_hash, sizeof(expected_hash));
+                                                 ^~~~~~~~~~~~~
+../../../sha256d_test.cpp:35:13: error: 'input' was not declared in this scope
+     sha256d(input, output);
+             ^~~~~
+../../../sha256d_test.cpp:35:20: error: 'output' was not declared in this scope
+     sha256d(input, output);
+                    ^~~~~~
+../../../sha256d_test.cpp:35:26: error: 'sha256d' was not declared in this scope
+     sha256d(input, output);
+                          ^
+make: *** [obj/sha256d_test.o] Error 1
+ERR: [SIM 100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************

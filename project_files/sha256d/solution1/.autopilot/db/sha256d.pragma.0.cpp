@@ -6357,7 +6357,7 @@ inline bool operator!=(
 # 3 "sha256d/sha256d.h" 2
 
 
-typedef ap_uint<32> uint64_t;
+typedef ap_uint<64> uint64_t;
 typedef ap_uint<32> uint32_t;
 typedef ap_uint<8> uint8_t;
 # 2 "sha256d/sha256d.cpp" 2
@@ -6381,13 +6381,117 @@ static const uint32_t K[] = {
     0x748f82ee, 0x78a5636f, 0x84c87814, 0x8cc70208,
     0x90befffa, 0xa4506ceb, 0xbef9a3f7, 0xc67178f2
 };
-# 33 "sha256d/sha256d.cpp"
-void sha256_transform(uint32_t state[8], const uint8_t data[64]) {_ssdm_SpecArrayDimSize(state, 8);_ssdm_SpecArrayDimSize(data, 64);
+# 34 "sha256d/sha256d.cpp"
+void sha256d(const uint8_t input[80], uint32_t output[8]) {_ssdm_SpecArrayDimSize(input, 80);_ssdm_SpecArrayDimSize(output, 8);
+
+    uint32_t state[8];
+
+    state[0] = 0x6a09e667;
+    state[1] = 0xbb67ae85;
+    state[2] = 0x3c6ef372;
+    state[3] = 0xa54ff53a;
+    state[4] = 0x510e527f;
+    state[5] = 0x9b05688c;
+    state[6] = 0x1f83d9ab;
+    state[7] = 0x5be0cd19;
+
+
+    uint8_t data1[128];
+    Load_Input: for (int i = 0; i < 80; i++) {
+        data1[i] = input[i];
+    }
+    data1[80] = 0x80;
+
+    Append_Zero: for (int i = 81; i < 128; i++) {
+        data1[i] = 0x00;
+    }
+
+    uint64_t length = 640;
+    Appened_Original_Size: for (int i = 0; i < 8; i++) {
+        data1[127 - i] = (length >> (i * 8)) & 0xff;
+    }
+
+    uint8_t data[2][64];
+    Store_first_block: for (int i = 0; i < 64; i++) {
+        data[0][i] = data1[i];
+    }
+    Store_second_block: for (int i = 0; i < 64; i++) {
+        data[1][i] = data1[i + 64];
+    }
+
+
+    Transfrom: for (int t = 0; t < 2; t++) {
+        uint32_t a, b, c, d, e, f, g, h, i, j, t1, t2, m[64];
+
+        Load_Message_Schedule: for (i = 0, j = 0; i < 16; ++i, j += 4)
+            m[i] = (data[t][j] << 24) | (data[t][j + 1] << 16) | (data[t][j + 2] << 8) | (data[t][j + 3]);
+        Extend_Message_Schedule: for (; i < 64; ++i)
+            m[i] = ((((m[i - 2]) >> (17)) | ((m[i - 2]) << (32 -(17)))) ^ (((m[i - 2]) >> (19)) | ((m[i - 2]) << (32 -(19)))) ^ ((m[i - 2]) >> 10)) + m[i - 7] + ((((m[i - 15]) >> (7)) | ((m[i - 15]) << (32 -(7)))) ^ (((m[i - 15]) >> (18)) | ((m[i - 15]) << (32 -(18)))) ^ ((m[i - 15]) >> 3)) + m[i - 16];
+
+        a = state[0];
+        b = state[1];
+        c = state[2];
+        d = state[3];
+        e = state[4];
+        f = state[5];
+        g = state[6];
+        h = state[7];
+
+        Updates: for (i = 0; i < 64; ++i) {
+            t1 = h + ((((e) >> (6)) | ((e) << (32 -(6)))) ^ (((e) >> (11)) | ((e) << (32 -(11)))) ^ (((e) >> (25)) | ((e) << (32 -(25))))) + (((e) & (f)) ^ (~(e) & (g))) + K[i] + m[i];
+            t2 = ((((a) >> (2)) | ((a) << (32 -(2)))) ^ (((a) >> (13)) | ((a) << (32 -(13)))) ^ (((a) >> (22)) | ((a) << (32 -(22))))) + (((a) & (b)) ^ ((a) & (c)) ^ ((b) & (c)));
+            h = g;
+            g = f;
+            f = e;
+            e = d + t1;
+            d = c;
+            c = b;
+            b = a;
+            a = t1 + t2;
+        }
+
+        state[0] += a;
+        state[1] += b;
+        state[2] += c;
+        state[3] += d;
+        state[4] += e;
+        state[5] += f;
+        state[6] += g;
+        state[7] += h;
+    }
+
+
+    uint8_t data2[64];
+    Store_Input_2: for (int i = 0; i < 32; i++) {
+        data2[i] = (state[i / 4] >> (24 - 8 * (i % 4))) & 0xff;
+    }
+    data2[32] = 0x80;
+
+    Append_Zero_2: for (int i = 33; i < 63; i++) {
+        data2[i] = 0x00;
+    }
+
+    length = 256;
+    Append_Orignal_Size_2: for (int i = 0; i < 8; i++) {
+        data2[63 - i] = (length >> (i * 8)) & 0xff;
+    }
+
+
+    state[0] = 0x6a09e667;
+    state[1] = 0xbb67ae85;
+    state[2] = 0x3c6ef372;
+    state[3] = 0xa54ff53a;
+    state[4] = 0x510e527f;
+    state[5] = 0x9b05688c;
+    state[6] = 0x1f83d9ab;
+    state[7] = 0x5be0cd19;
+
+
     uint32_t a, b, c, d, e, f, g, h, i, j, t1, t2, m[64];
 
-    for (i = 0, j = 0; i < 16; ++i, j += 4)
-        m[i] = (data[j] << 24) | (data[j + 1] << 16) | (data[j + 2] << 8) | (data[j + 3]);
-    for (; i < 64; ++i)
+    Load_Message_Schedule_2: for (i = 0, j = 0; i < 16; ++i, j += 4)
+        m[i] = (data2[j] << 24) | (data2[j + 1] << 16) | (data2[j + 2] << 8) | (data2[j + 3]);
+    Extend_Message_Schedule_2: for (; i < 64; ++i)
         m[i] = ((((m[i - 2]) >> (17)) | ((m[i - 2]) << (32 -(17)))) ^ (((m[i - 2]) >> (19)) | ((m[i - 2]) << (32 -(19)))) ^ ((m[i - 2]) >> 10)) + m[i - 7] + ((((m[i - 15]) >> (7)) | ((m[i - 15]) << (32 -(7)))) ^ (((m[i - 15]) >> (18)) | ((m[i - 15]) << (32 -(18)))) ^ ((m[i - 15]) >> 3)) + m[i - 16];
 
     a = state[0];
@@ -6399,7 +6503,7 @@ void sha256_transform(uint32_t state[8], const uint8_t data[64]) {_ssdm_SpecArra
     g = state[6];
     h = state[7];
 
-    for (i = 0; i < 64; ++i) {
+    Updates_2: for (i = 0; i < 64; ++i) {
         t1 = h + ((((e) >> (6)) | ((e) << (32 -(6)))) ^ (((e) >> (11)) | ((e) << (32 -(11)))) ^ (((e) >> (25)) | ((e) << (32 -(25))))) + (((e) & (f)) ^ (~(e) & (g))) + K[i] + m[i];
         t2 = ((((a) >> (2)) | ((a) << (32 -(2)))) ^ (((a) >> (13)) | ((a) << (32 -(13)))) ^ (((a) >> (22)) | ((a) << (32 -(22))))) + (((a) & (b)) ^ ((a) & (c)) ^ ((b) & (c)));
         h = g;
@@ -6420,71 +6524,8 @@ void sha256_transform(uint32_t state[8], const uint8_t data[64]) {_ssdm_SpecArra
     state[5] += f;
     state[6] += g;
     state[7] += h;
-}
 
-
-void sha256_init(uint32_t state[8]) {_ssdm_SpecArrayDimSize(state, 8);
-    state[0] = 0x6a09e667;
-    state[1] = 0xbb67ae85;
-    state[2] = 0x3c6ef372;
-    state[3] = 0xa54ff53a;
-    state[4] = 0x510e527f;
-    state[5] = 0x9b05688c;
-    state[6] = 0x1f83d9ab;
-    state[7] = 0x5be0cd19;
-}
-
-
-void sha256_update(uint32_t state[8], const uint8_t data[80]) {_ssdm_SpecArrayDimSize(state, 8);_ssdm_SpecArrayDimSize(data, 80);
-    uint8_t block[64];
-
-
-    for (int i = 0; i < 64; i++) {
-        block[i] = data[i];
+    Rewiring_Output: for (int i = 0; i < 8; i++) {
+        output[i] = state[i];
     }
-    sha256_transform(state, block);
-
-
-    for (int i = 0; i < 64; i++) {
-        block[i] = 0;
-    }
-    for (int i = 0; i < 16; i++) {
-        block[i] = data[64 + i];
-    }
-
-
-    block[16] = 0x80;
-    for (int i = 17; i < 56; i++) {
-        block[i] = 0;
-    }
-    uint64_t len_be = __builtin_bswap64(80 * 8);
-    for (int i = 0; i < 8; i++) {
-        block[56 + i] = (len_be >> (56 - 8 * i)) & 0xFF;
-    }
-    sha256_transform(state, block);
-}
-
-
-void sha256_final(uint32_t state[8], uint8_t hash[32]) {_ssdm_SpecArrayDimSize(state, 8);_ssdm_SpecArrayDimSize(hash, 32);
-    for (int i = 0; i < 8; ++i) {
-        hash[i * 4] = (state[i] >> 24) & 0xff;
-        hash[i * 4 + 1] = (state[i] >> 16) & 0xff;
-        hash[i * 4 + 2] = (state[i] >> 8) & 0xff;
-        hash[i * 4 + 3] = state[i] & 0xff;
-    }
-}
-
-
-void sha256(const uint8_t data[80], uint8_t hash[32]) {_ssdm_SpecArrayDimSize(data, 80);_ssdm_SpecArrayDimSize(hash, 32);
-    uint32_t state[8];
-    sha256_init(state);
-    sha256_update(state, data);
-    sha256_final(state, hash);
-}
-
-
-void sha256d(const uint8_t input[80], uint8_t output[32]) {_ssdm_SpecArrayDimSize(input, 80);_ssdm_SpecArrayDimSize(output, 32);
-    uint8_t hash1[32];
-    sha256(input, hash1);
-    sha256(hash1, output);
 }

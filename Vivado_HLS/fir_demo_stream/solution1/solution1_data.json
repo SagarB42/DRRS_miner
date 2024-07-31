@@ -1,0 +1,440 @@
+{
+  "Top": "sha256d",
+  "RtlTop": "sha256d",
+  "RtlPrefix": "",
+  "SourceLanguage": "cpp",
+  "ResetStyle": "control",
+  "GenerateBdFiles": "1",
+  "HostMachineBits": "64",
+  "Target": {
+    "Family": "zynquplus",
+    "Device": "xczu5eg",
+    "Package": "-fbvb900",
+    "Speed": "-1-e"
+  },
+  "HlsSolution": {
+    "Config": [
+      "config_export -format=ip_catalog",
+      "config_export -rtl=vhdl"
+    ],
+    "DirectiveTcl": [
+      "set_directive_array_partition fir_stream ",
+      "set_directive_interface fir_stream ",
+      "set_directive_interface fir_stream ",
+      "set_directive_interface fir_stream ",
+      "set_directive_array_partition fir_stream ",
+      "set_directive_interface sha256d ",
+      "set_directive_interface sha256d ",
+      "set_directive_array_partition sha256d ",
+      "set_directive_array_partition sha256d ",
+      "set_directive_array_partition sha256d ",
+      "set_directive_array_partition sha256d ",
+      "set_directive_array_partition sha256d ",
+      "set_directive_array_partition sha256d ",
+      "set_directive_unroll sha256d\/Load_Input ",
+      "set_directive_unroll sha256d\/Append_Zero ",
+      "set_directive_unroll sha256d\/Appened_Original_Size ",
+      "set_directive_unroll sha256d\/Store_first_block ",
+      "set_directive_unroll sha256d\/Store_second_block ",
+      "set_directive_array_partition sha256d\/Transfrom ",
+      "set_directive_unroll sha256d\/Load_Message_Schedule ",
+      "set_directive_unroll sha256d\/Extend_Message_Schedule ",
+      "set_directive_pipeline sha256d\/Updates ",
+      "set_directive_unroll sha256d\/Store_Input_2 ",
+      "set_directive_unroll sha256d\/Append_Zero_2 ",
+      "set_directive_unroll sha256d\/Append_Orignal_Size_2 ",
+      "set_directive_unroll sha256d\/Load_Message_Schedule_2 ",
+      "set_directive_unroll sha256d\/Extend_Message_Schedule_2 ",
+      "set_directive_pipeline sha256d\/Updates_2 "
+    ],
+    "DirectiveInfo": [
+      "array_partition fir_stream {{partition positionBooleanCmd} {variable positionBooleanTextRequiredfilter} {complete positionBoolean0type} {dim 1}} {}",
+      "interface fir_stream {{axis positionBoolean0mode} {register positionBoolean1} {port positionBooleanTextRequiredinput}} {}",
+      "interface fir_stream {{s_axilite positionBoolean0mode} {port positionBooleanTextRequiredfilter}} {}",
+      "interface fir_stream {{axis positionBoolean0mode} {register positionBoolean1} {port positionBooleanTextRequiredoutput}} {}",
+      "array_partition fir_stream {{partition positionBooleanCmd} {variable positionBooleanTextRequiredsignal} {complete positionBoolean0type} {dim 1}} {}",
+      "interface sha256d {{axis positionBoolean0mode} {register positionBoolean1} {both positionBoolean0register_mode} {port positionBooleanTextRequiredinput}} {}",
+      "interface sha256d {{axis positionBoolean0mode} {register positionBoolean1} {both positionBoolean0register_mode} {port positionBooleanTextRequiredoutput}} {}",
+      "array_partition sha256d {{partition positionBooleanCmd} {variable positionBooleanTextRequiredinput_data} {complete positionBoolean0type} {dim 1}} {}",
+      "array_partition sha256d {{partition positionBooleanCmd} {variable positionBooleanTextRequiredstate} {complete positionBoolean0type} {dim 1}} {}",
+      "array_partition sha256d {{partition positionBooleanCmd} {variable positionBooleanTextRequireddata1} {complete positionBoolean0type} {dim 1}} {}",
+      "array_partition sha256d {{partition positionBooleanCmd} {variable positionBooleanTextRequireddata} {complete positionBoolean0type} {dim 1}} {}",
+      "array_partition sha256d {{partition positionBooleanCmd} {variable positionBooleanTextRequireddata2} {complete positionBoolean0type} {dim 1}} {}",
+      "array_partition sha256d {{partition positionBooleanCmd} {variable positionBooleanTextRequiredm} {complete positionBoolean0type} {dim 1}} {}",
+      "unroll sha256d\/Load_Input {} {}",
+      "unroll sha256d\/Append_Zero {} {}",
+      "unroll sha256d\/Appened_Original_Size {} {}",
+      "unroll sha256d\/Store_first_block {} {}",
+      "unroll sha256d\/Store_second_block {} {}",
+      "array_partition sha256d\/Transfrom {{partition positionBooleanCmd} {variable positionBooleanTextRequiredm} {complete positionBoolean0type} {dim 1}} {}",
+      "unroll sha256d\/Load_Message_Schedule {} {}",
+      "unroll sha256d\/Extend_Message_Schedule {} {}",
+      "pipeline sha256d\/Updates {} {}",
+      "unroll sha256d\/Store_Input_2 {} {}",
+      "unroll sha256d\/Append_Zero_2 {} {}",
+      "unroll sha256d\/Append_Orignal_Size_2 {} {}",
+      "unroll sha256d\/Load_Message_Schedule_2 {} {}",
+      "unroll sha256d\/Extend_Message_Schedule_2 {} {}",
+      "pipeline sha256d\/Updates_2 {} {}"
+    ]
+  },
+  "Args": {
+    "input": {
+      "index": "0",
+      "type": {
+        "kinds": ["struct"],
+        "dataType": "ap_axiu<640, 0, 0, 0>",
+        "structImpl": "flat-interface",
+        "fields": {
+          "data": {
+            "order": "0",
+            "dataType": "ap_uint"
+          },
+          "keep": {
+            "order": "1",
+            "dataType": "ap_uint"
+          },
+          "strb": {
+            "order": "2",
+            "dataType": "ap_uint"
+          },
+          "last": {
+            "order": "3",
+            "dataType": "ap_uint"
+          }
+        }
+      }
+    },
+    "output": {
+      "index": "1",
+      "type": {
+        "kinds": ["struct"],
+        "dataType": "ap_axiu<256, 0, 0, 0>",
+        "structImpl": "flat-interface",
+        "fields": {
+          "data": {
+            "order": "0",
+            "dataType": "ap_uint"
+          },
+          "keep": {
+            "order": "1",
+            "dataType": "ap_uint"
+          },
+          "strb": {
+            "order": "2",
+            "dataType": "ap_uint"
+          },
+          "last": {
+            "order": "3",
+            "dataType": "ap_uint"
+          }
+        }
+      }
+    }
+  },
+  "Return": {
+    
+  },
+  "ClockInfo": {
+    "ClockName": "ap_clk",
+    "ClockPeriod": "10",
+    "IsCombLogic": "0",
+    "II": "x",
+    "Latency": "441",
+    "Uncertainty": "1.25"
+  },
+  "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 10.000 [get_ports ap_clk]"]},
+  "Ipx": {
+    "Vendor": "xilinx.com",
+    "Library": "hls",
+    "Name": "sha256d",
+    "Version": "1.0",
+    "DisplayName": "Sha256d",
+    "Revision": "",
+    "Description": "An IP generated by Vivado HLS",
+    "Taxonomy": "\/VIVADO_HLS_IP",
+    "AutoFamilySupport": ""
+  },
+  "Files": {
+    "CSource": ["..\/sources\/fir.cpp"],
+    "Vhdl": [
+      "impl\/vhdl\/regslice_core.vhd",
+      "impl\/vhdl\/sha256d_K.vhd",
+      "impl\/vhdl\/sha256d_m.vhd",
+      "impl\/vhdl\/sha256d_mux_83_32cud.vhd",
+      "impl\/vhdl\/sha256d_mux_646_3bkb.vhd",
+      "impl\/vhdl\/sha256d.vhd"
+    ],
+    "Verilog": [
+      "impl\/verilog\/regslice_core.v",
+      "impl\/verilog\/sha256d_K.v",
+      "impl\/verilog\/sha256d_K_rom.dat",
+      "impl\/verilog\/sha256d_m.v",
+      "impl\/verilog\/sha256d_mux_83_32cud.v",
+      "impl\/verilog\/sha256d_mux_646_3bkb.v",
+      "impl\/verilog\/sha256d.v"
+    ],
+    "Misc": ["impl\/misc\/logo.png"],
+    "DesignXml": "C:\/comp4601\/deliver\/Vivado_HLS\/fir_demo_stream\/solution1\/.autopilot\/db\/sha256d.design.xml",
+    "DebugDir": "C:\/comp4601\/deliver\/Vivado_HLS\/fir_demo_stream\/solution1\/.debug",
+    "ProtoInst": [
+      "C:\/comp4601\/deliver\/Vivado_HLS\/fir_demo_stream\/solution1\/.debug\/fir_stream.protoinst",
+      "C:\/comp4601\/deliver\/Vivado_HLS\/fir_demo_stream\/solution1\/.debug\/sha256d.protoinst"
+    ]
+  },
+  "SubcoreInfo": {
+    "HasXpmMemory": false,
+    "HasClockedDsp": false,
+    "IP": []
+  },
+  "Interfaces": {
+    "ap_clk": {
+      "type": "clock",
+      "ctype": {"CLK": {"Type": "bool"}},
+      "bundle_name": "ap_clk",
+      "bundle_role": "default",
+      "buses": "input_r output_r",
+      "reset": "ap_rst_n"
+    },
+    "ap_ctrl": {
+      "type": "ap_ctrl",
+      "ctrl_ports": "ap_start ap_done ap_idle ap_ready",
+      "ctype": {
+        "start": {"Type": "bool"},
+        "done": {"Type": "bool"},
+        "idle": {"Type": "bool"},
+        "ready": {"Type": "bool"}
+      }
+    },
+    "ap_rst_n": {
+      "type": "reset",
+      "polarity": "ACTIVE_LOW",
+      "ctype": {"RST": {"Type": "bool"}},
+      "bundle_name": "ap_rst_n",
+      "bundle_role": "default"
+    },
+    "input_r": {
+      "type": "axi4stream",
+      "mode": "slave",
+      "port_prefix": "input_r",
+      "has_tready": "1",
+      "ctype": {
+        "TDATA": {
+          "Type": "integer unsigned",
+          "Width": "640"
+        },
+        "TVALID": {"Type": "bool"},
+        "TREADY": {"Type": "bool"},
+        "TLAST": {
+          "Type": "integer unsigned",
+          "Width": "1"
+        },
+        "TKEEP": {
+          "Type": "integer unsigned",
+          "Width": "80"
+        },
+        "TSTRB": {
+          "Type": "integer unsigned",
+          "Width": "80"
+        }
+      },
+      "port_width": {
+        "TDATA": "640",
+        "TKEEP": "80",
+        "TLAST": "1",
+        "TSTRB": "80"
+      }
+    },
+    "output_r": {
+      "type": "axi4stream",
+      "mode": "master",
+      "port_prefix": "output_r",
+      "has_tready": "1",
+      "ctype": {
+        "TDATA": {
+          "Type": "integer unsigned",
+          "Width": "256"
+        },
+        "TVALID": {"Type": "bool"},
+        "TREADY": {"Type": "bool"},
+        "TLAST": {
+          "Type": "integer unsigned",
+          "Width": "1"
+        },
+        "TKEEP": {
+          "Type": "integer unsigned",
+          "Width": "32"
+        },
+        "TSTRB": {
+          "Type": "integer unsigned",
+          "Width": "32"
+        }
+      },
+      "port_width": {
+        "TDATA": "256",
+        "TKEEP": "32",
+        "TLAST": "1",
+        "TSTRB": "32"
+      }
+    }
+  },
+  "RtlPorts": {
+    "ap_clk": {
+      "dir": "in",
+      "width": "1"
+    },
+    "ap_rst_n": {
+      "dir": "in",
+      "width": "1"
+    },
+    "ap_start": {
+      "dir": "in",
+      "width": "1"
+    },
+    "ap_done": {
+      "dir": "out",
+      "width": "1"
+    },
+    "ap_idle": {
+      "dir": "out",
+      "width": "1"
+    },
+    "ap_ready": {
+      "dir": "out",
+      "width": "1"
+    },
+    "input_r_TDATA": {
+      "dir": "in",
+      "width": "640"
+    },
+    "input_r_TVALID": {
+      "dir": "in",
+      "width": "1"
+    },
+    "input_r_TREADY": {
+      "dir": "out",
+      "width": "1"
+    },
+    "input_r_TLAST": {
+      "dir": "in",
+      "width": "1",
+      "isVector": "true"
+    },
+    "input_r_TKEEP": {
+      "dir": "in",
+      "width": "80"
+    },
+    "input_r_TSTRB": {
+      "dir": "in",
+      "width": "80"
+    },
+    "output_r_TDATA": {
+      "dir": "out",
+      "width": "256"
+    },
+    "output_r_TVALID": {
+      "dir": "out",
+      "width": "1"
+    },
+    "output_r_TREADY": {
+      "dir": "in",
+      "width": "1"
+    },
+    "output_r_TLAST": {
+      "dir": "out",
+      "width": "1",
+      "isVector": "true"
+    },
+    "output_r_TKEEP": {
+      "dir": "out",
+      "width": "32"
+    },
+    "output_r_TSTRB": {
+      "dir": "out",
+      "width": "32"
+    }
+  },
+  "ModuleInfo": {
+    "Hierarchy": {"ModuleName": "sha256d"},
+    "Info": {"sha256d": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "1",
+        "isPipelined": "0",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      }},
+    "Metrics": {"sha256d": {
+        "Latency": {
+          "LatencyBest": "441",
+          "LatencyAvg": "441",
+          "LatencyWorst": "441",
+          "PipelineII": "442",
+          "PipelineDepth": "",
+          "PipelineType": "none"
+        },
+        "Timing": {
+          "Target": "10.00",
+          "Uncertainty": "1.25",
+          "Estimate": "8.629"
+        },
+        "Loops": [
+          {
+            "Name": "Loop 1",
+            "TripCount": "80",
+            "Latency": "160",
+            "PipelineII": "",
+            "PipelineDepth": "2"
+          },
+          {
+            "Name": "Transfrom",
+            "TripCount": "2",
+            "Latency": "198",
+            "PipelineII": "",
+            "PipelineDepth": "99",
+            "Loops": [{
+                "Name": "Updates",
+                "TripCount": "64",
+                "Latency": "65",
+                "PipelineII": "1",
+                "PipelineDepth": "2"
+              }]
+          },
+          {
+            "Name": "Updates_2",
+            "TripCount": "64",
+            "Latency": "65",
+            "PipelineII": "1",
+            "PipelineDepth": "2"
+          },
+          {
+            "Name": "Loop 4",
+            "TripCount": "8",
+            "Latency": "8",
+            "PipelineII": "",
+            "PipelineDepth": "1"
+          }
+        ],
+        "Area": {
+          "BRAM_18K": "3",
+          "FF": "10009",
+          "LUT": "34695",
+          "URAM": "0",
+          "DSP48E": "0"
+        }
+      }}
+  },
+  "Sdx": {
+    "Target": "none",
+    "ProfileOption": "0",
+    "ProfileType": "none",
+    "XO": "",
+    "KernelName": "sha256d",
+    "EnableXoSwEmu": "1"
+  },
+  "GenData": {
+    "DataVersion": "0.2",
+    "Time": "2024-07-31 15:24:21 +1000",
+    "ToolName": "vivado_hls",
+    "ToolVersion": "2020.1"
+  }
+}

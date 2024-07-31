@@ -1,0 +1,80 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../../sha256d_test/test.cpp in debug mode
+   Compiling ../../../sha256d.cpp in debug mode
+csim.mk:75: recipe for target 'obj/sha256d.o' failed
+In file included from C:/Xilinx/Vivado/2020.1/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from C:/Xilinx/Vivado/2020.1/include/hls_fpo.h:186,
+                 from C:/Xilinx/Vivado/2020.1/include/hls_half.h:44,
+                 from C:/Xilinx/Vivado/2020.1/include/etc/ap_private.h:90,
+                 from C:/Xilinx/Vivado/2020.1/include/ap_common.h:641,
+                 from C:/Xilinx/Vivado/2020.1/include/ap_fixed.h:54,
+                 from ../../../sha256d.h:3,
+                 from ../../../sha256d.cpp:1:
+C:/Xilinx/Vivado/2020.1/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from C:/Xilinx/Vivado/2020.1/include/hls_fpo.h:186:0,
+                 from C:/Xilinx/Vivado/2020.1/include/hls_half.h:44,
+                 from C:/Xilinx/Vivado/2020.1/include/etc/ap_private.h:90,
+                 from C:/Xilinx/Vivado/2020.1/include/ap_common.h:641,
+                 from C:/Xilinx/Vivado/2020.1/include/ap_fixed.h:54,
+                 from ../../../sha256d.h:3,
+                 from ../../../sha256d.cpp:1:
+C:/Xilinx/Vivado/2020.1/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+In file included from ../../../sha256d.cpp:1:0:
+../../../sha256d.h:5:21: error: conflicting declaration 'typedef struct ap_uint<64> uint64_t'
+ typedef ap_uint<64> uint64_t;
+                     ^~~~~~~~
+In file included from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stdint.h:9:0,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/cstdint:41,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/bits/char_traits.h:420,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/ios:40,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/ostream:38,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/iostream:39,
+                 from C:/Xilinx/Vivado/2020.1/include/ap_common.h:145,
+                 from C:/Xilinx/Vivado/2020.1/include/ap_fixed.h:54,
+                 from ../../../sha256d.h:3,
+                 from ../../../sha256d.cpp:1:
+C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/x86_64-w64-mingw32/include/stdint.h:42:48: note: previous declaration as 'typedef long long unsigned int uint64_t'
+ __MINGW_EXTENSION typedef unsigned long long   uint64_t;
+                                                ^~~~~~~~
+In file included from ../../../sha256d.cpp:1:0:
+../../../sha256d.h:6:21: error: conflicting declaration 'typedef struct ap_uint<32> uint32_t'
+ typedef ap_uint<32> uint32_t;
+                     ^~~~~~~~
+In file included from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stdint.h:9:0,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/cstdint:41,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/bits/char_traits.h:420,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/ios:40,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/ostream:38,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/iostream:39,
+                 from C:/Xilinx/Vivado/2020.1/include/ap_common.h:145,
+                 from C:/Xilinx/Vivado/2020.1/include/ap_fixed.h:54,
+                 from ../../../sha256d.h:3,
+                 from ../../../sha256d.cpp:1:
+C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/x86_64-w64-mingw32/include/stdint.h:40:20: note: previous declaration as 'typedef unsigned int uint32_t'
+ typedef unsigned   uint32_t;
+                    ^~~~~~~~
+In file included from ../../../sha256d.cpp:1:0:
+../../../sha256d.h:7:20: error: conflicting declaration 'typedef struct ap_uint<8> uint8_t'
+ typedef ap_uint<8> uint8_t;
+                    ^~~~~~~
+In file included from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stdint.h:9:0,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/cstdint:41,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/bits/char_traits.h:420,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/ios:40,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/ostream:38,
+                 from C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/include/c++/6.2.0/iostream:39,
+                 from C:/Xilinx/Vivado/2020.1/include/ap_common.h:145,
+                 from C:/Xilinx/Vivado/2020.1/include/ap_fixed.h:54,
+                 from ../../../sha256d.h:3,
+                 from ../../../sha256d.cpp:1:
+C:/Xilinx/Vivado/2020.1/tps/win64/msys64/mingw64/x86_64-w64-mingw32/include/stdint.h:36:25: note: previous declaration as 'typedef unsigned char uint8_t'
+ typedef unsigned char   uint8_t;
+                         ^~~~~~~
+make: *** [obj/sha256d.o] Error 1
+ERR: [SIM 100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************

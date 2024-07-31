@@ -9,7 +9,7 @@ add_files sha256d/sha256d.cpp
 open_solution "solution1"
 set_part {xqzu5ev-ffrb900-1-i}
 create_clock -period 10 -name default
-#source "./sha256d/solution1/directives.tcl"
+source "./sha256d/solution1/directives.tcl"
 #csim_design
 csynth_design
 #cosim_design
