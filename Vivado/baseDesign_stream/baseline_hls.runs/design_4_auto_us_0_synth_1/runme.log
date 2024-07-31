@@ -1,0 +1,342 @@
+
+*** Running vivado
+    with args -log design_4_auto_us_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_4_auto_us_0.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source design_4_auto_us_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1336.562 ; gain = 112.438
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/comp4601/deliver/Vivado_HLS/fir_demo_stream'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:hls:sha256d:1.0'. The one found in IP location 'c:/comp4601/deliver/Vivado_HLS/fir_demo_stream/solution1/impl/ip' will take precedence over the same IP in location c:/comp4601/deliver/Vivado_HLS/fir_demo_stream/xilinx_com_hls_sha256d_1_0
+Command: synth_design -top design_4_auto_us_0 -part xck26-sfvc784-2LV-c -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3696
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:24 . Memory (MB): peak = 1626.941 ; gain = 246.852
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_4_auto_us_0' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ip/design_4_auto_us_0/synth/design_4_auto_us_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_25_top' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14462]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_25_axi_upsizer' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7038]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_25_w_upsizer' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5563]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_25_w_upsizer' (1#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:5563]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_25_a_upsizer' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:655]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_0_command_fifo' (2#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v:655]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_25_a_upsizer' (3#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_25_r_upsizer' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:4653]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_25_r_upsizer' (4#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:4653]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_25_axi_register_slice' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:3726]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (5#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (6#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_25_axic_register_slice' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_25_axic_register_slice' (7#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_25_axic_register_slice__parameterized0' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_25_axic_register_slice__parameterized0' (7#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_25_axic_register_slice__parameterized1' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_25_axic_register_slice__parameterized1' (7#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_25_axic_register_slice__parameterized2' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_25_axic_register_slice__parameterized2' (7#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_25_axi_register_slice' (8#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:3726]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_25_axi_register_slice' is unconnected for instance 'mi_register_slice_inst' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:8475]
+WARNING: [Synth 8-7023] instance 'mi_register_slice_inst' of module 'axi_register_slice_v2_1_25_axi_register_slice' has 93 connections declared, but only 92 given [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:8475]
+INFO: [Synth 8-6157] synthesizing module 'axi_dwidth_converter_v2_1_25_a_upsizer__parameterized0' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_25_a_upsizer__parameterized0' (8#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:3603]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_25_axi_register_slice__parameterized0' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:3726]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (8#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (8#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:474]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_25_axic_register_slice__parameterized3' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_25_axic_register_slice__parameterized3' (8#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_25_axic_register_slice__parameterized4' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_25_axic_register_slice__parameterized4' (8#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:1498]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_25_axi_register_slice__parameterized0' (8#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/e1e6/hdl/axi_register_slice_v2_1_vl_rfs.v:3726]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_25_axi_register_slice' is unconnected for instance 'si_register_slice_inst' [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7379]
+WARNING: [Synth 8-7023] instance 'si_register_slice_inst' of module 'axi_register_slice_v2_1_25_axi_register_slice' has 93 connections declared, but only 92 given [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7379]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_25_axi_upsizer' (9#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:7038]
+INFO: [Synth 8-6155] done synthesizing module 'axi_dwidth_converter_v2_1_25_top' (10#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/38b4/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v:14462]
+INFO: [Synth 8-6155] done synthesizing module 'design_4_auto_us_0' (11#1) [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ip/design_4_auto_us_0/synth/design_4_auto_us_0.v:58]
+WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_infrastructure_v1_1_0_vector2axi__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[0] in module axi_infrastructure_v1_1_0_vector2axi__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_infrastructure_v1_1_0_axi2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk2x in module axi_register_slice_v2_1_25_axi_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_id_ready in module axi_dwidth_converter_v2_1_25_a_upsizer__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AID[0] in module axi_dwidth_converter_v2_1_25_a_upsizer__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk2x in module axi_register_slice_v2_1_25_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cmd_id_ready in module axi_dwidth_converter_v2_1_25_a_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AID[0] in module axi_dwidth_converter_v2_1_25_a_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awlock[1] in module axi_dwidth_converter_v2_1_25_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arlock[1] in module axi_dwidth_converter_v2_1_25_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_aresetn in module axi_dwidth_converter_v2_1_25_axi_upsizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_aclk in module axi_dwidth_converter_v2_1_25_axi_upsizer is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:01:05 . Memory (MB): peak = 1922.910 ; gain = 542.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:01:06 . Memory (MB): peak = 1922.910 ; gain = 542.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:01:06 . Memory (MB): peak = 1922.910 ; gain = 542.820
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.242 . Memory (MB): peak = 1922.910 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ip/design_4_auto_us_0/design_4_auto_us_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ip/design_4_auto_us_0/design_4_auto_us_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.runs/design_4_auto_us_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.runs/design_4_auto_us_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1937.824 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.286 . Memory (MB): peak = 1938.125 ; gain = 0.301
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:01:21 . Memory (MB): peak = 1938.125 ; gain = 558.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:01:21 . Memory (MB): peak = 1938.125 ; gain = 558.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.runs/design_4_auto_us_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:01:21 . Memory (MB): peak = 1938.125 ; gain = 558.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:01:25 . Memory (MB): peak = 1938.125 ; gain = 558.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 6     
+	   2 Input    7 Bit       Adders := 4     
+	   2 Input    5 Bit       Adders := 2     
++---Registers : 
+	             1153 Bit    Registers := 2     
+	             1028 Bit    Registers := 2     
+	             1024 Bit    Registers := 1     
+	               62 Bit    Registers := 4     
+	               50 Bit    Registers := 2     
+	               37 Bit    Registers := 2     
+	               36 Bit    Registers := 2     
+	                8 Bit    Registers := 258   
+	                7 Bit    Registers := 4     
+	                5 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 11    
+	                1 Bit    Registers := 293   
++---Muxes : 
+	   2 Input 1153 Bit        Muxes := 2     
+	   2 Input 1028 Bit        Muxes := 2     
+	   2 Input   37 Bit        Muxes := 2     
+	   2 Input   36 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 7     
+	   2 Input    8 Bit        Muxes := 262   
+	   8 Input    8 Bit        Muxes := 4     
+	   2 Input    7 Bit        Muxes := 9     
+	   8 Input    7 Bit        Muxes := 6     
+	   2 Input    3 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 7     
+	   2 Input    1 Bit        Muxes := 659   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:01:52 . Memory (MB): peak = 1949.098 ; gain = 569.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:02:03 . Memory (MB): peak = 2364.527 ; gain = 984.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:02:08 . Memory (MB): peak = 2545.938 ; gain = 1165.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:02:10 . Memory (MB): peak = 2562.969 ; gain = 1182.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:02:14 . Memory (MB): peak = 2562.969 ; gain = 1182.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:02:14 . Memory (MB): peak = 2562.969 ; gain = 1182.879
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:02:14 . Memory (MB): peak = 2562.969 ; gain = 1182.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:02:14 . Memory (MB): peak = 2562.969 ; gain = 1182.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:02:15 . Memory (MB): peak = 2562.969 ; gain = 1182.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:02:15 . Memory (MB): peak = 2562.969 ; gain = 1182.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Dynamic Shift Register Report:
++------------+-------------------------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name                      | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+-------------------------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | USE_RTL_FIFO.data_srl_reg[31] | 50     | 50         | 0      | 50      | 0      | 0      | 0      | 
++------------+-------------------------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY8  |     2|
+|2     |LUT1    |    12|
+|3     |LUT2    |    76|
+|4     |LUT3    |  1212|
+|5     |LUT4    |   181|
+|6     |LUT5    |  1121|
+|7     |LUT6    |  1011|
+|8     |MUXF7   |   263|
+|9     |MUXF8   |    28|
+|10    |SRLC32E |    96|
+|11    |FDRE    |  5677|
+|12    |FDSE    |     6|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:02:15 . Memory (MB): peak = 2562.969 ; gain = 1182.879
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:02:06 . Memory (MB): peak = 2562.969 ; gain = 1167.664
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:02:15 . Memory (MB): peak = 2562.969 ; gain = 1182.879
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.141 . Memory (MB): peak = 2562.969 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 293 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2571.777 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 5daed70b
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 39 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:02:33 . Memory (MB): peak = 2571.777 ; gain = 1193.906
+INFO: [Common 17-1381] The checkpoint 'C:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.runs/design_4_auto_us_0_synth_1/design_4_auto_us_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_4_auto_us_0, cache-ID = d2beeb96f885d894
+INFO: [Coretcl 2-1174] Renamed 13 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.runs/design_4_auto_us_0_synth_1/design_4_auto_us_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_4_auto_us_0_utilization_synth.rpt -pb design_4_auto_us_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 31 21:14:05 2024...

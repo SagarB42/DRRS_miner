@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Jul 31 21:15:58 2024
+# Process ID: 12088
+# Current directory: C:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.runs/impl_1
+# Command line: vivado.exe -log design_4_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_4_wrapper.tcl -notrace
+# Log file: C:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.runs/impl_1/design_4_wrapper.vdi
+# Journal file: C:/comp4601/deliver/Vivado/baseDesign_stream/baseline_hls.runs/impl_1\vivado.jou
+# Running On: LAPTOP-5IM3UC4N, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16831 MB
+#-----------------------------------------------------------
+source design_4_wrapper.tcl -notrace

@@ -1,0 +1,74 @@
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "C:/Xilinx/Vivado/2020.1/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_sha256d_top glbl -prj sha256d.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile C:/Xilinx/Vivado/2020.1/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s sha256d 
+Multi-threading is on. Using 18 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/comp4601/deliver/Vivado_HLS/fir_demo_stream/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/comp4601/deliver/Vivado_HLS/fir_demo_stream/solution1/sim/verilog/AESL_axi_s_input_r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_input_r
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/comp4601/deliver/Vivado_HLS/fir_demo_stream/solution1/sim/verilog/AESL_axi_s_output_r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_output_r
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/comp4601/deliver/Vivado_HLS/fir_demo_stream/solution1/sim/verilog/AESL_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/comp4601/deliver/Vivado_HLS/fir_demo_stream/solution1/sim/verilog/regslice_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regslice_both
+INFO: [VRFC 10-311] analyzing module regslice_forward
+INFO: [VRFC 10-311] analyzing module regslice_reverse
+INFO: [VRFC 10-311] analyzing module regslice_both_w1
+INFO: [VRFC 10-311] analyzing module regslice_forward_w1
+INFO: [VRFC 10-311] analyzing module regslice_reverse_w1
+INFO: [VRFC 10-311] analyzing module ibuf
+INFO: [VRFC 10-311] analyzing module obuf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/comp4601/deliver/Vivado_HLS/fir_demo_stream/solution1/sim/verilog/sha256d.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_sha256d_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/comp4601/deliver/Vivado_HLS/fir_demo_stream/solution1/sim/verilog/sha256d.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sha256d
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/comp4601/deliver/Vivado_HLS/fir_demo_stream/solution1/sim/verilog/sha256d_K.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sha256d_K_rom
+INFO: [VRFC 10-311] analyzing module sha256d_K
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/comp4601/deliver/Vivado_HLS/fir_demo_stream/solution1/sim/verilog/sha256d_m.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sha256d_m_ram
+INFO: [VRFC 10-311] analyzing module sha256d_m
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/comp4601/deliver/Vivado_HLS/fir_demo_stream/solution1/sim/verilog/sha256d_mux_646_3bkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sha256d_mux_646_3bkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/comp4601/deliver/Vivado_HLS/fir_demo_stream/solution1/sim/verilog/sha256d_mux_83_32cud.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sha256d_mux_83_32cud
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sha256d_K_rom
+Compiling module xil_defaultlib.sha256d_K(DataWidth=32,AddressRa...
+Compiling module xil_defaultlib.sha256d_m_ram
+Compiling module xil_defaultlib.sha256d_m(DataWidth=32,AddressRa...
+Compiling module xil_defaultlib.sha256d_mux_646_3bkb(ID=1,din64_...
+Compiling module xil_defaultlib.sha256d_mux_83_32cud(ID=1,din8_W...
+Compiling module xil_defaultlib.ibuf(W=641)
+Compiling module xil_defaultlib.obuf(W=641)
+Compiling module xil_defaultlib.regslice_both(DataWidth=640)
+Compiling module xil_defaultlib.ibuf(W=81)
+Compiling module xil_defaultlib.obuf(W=81)
+Compiling module xil_defaultlib.regslice_both(DataWidth=80)
+Compiling module xil_defaultlib.ibuf(W=2)
+Compiling module xil_defaultlib.obuf(W=2)
+Compiling module xil_defaultlib.regslice_both(DataWidth=1)
+Compiling module xil_defaultlib.ibuf(W=257)
+Compiling module xil_defaultlib.obuf(W=257)
+Compiling module xil_defaultlib.regslice_both(DataWidth=256)
+Compiling module xil_defaultlib.ibuf(W=33)
+Compiling module xil_defaultlib.obuf(W=33)
+Compiling module xil_defaultlib.regslice_both_default
+Compiling module xil_defaultlib.sha256d
+Compiling module xil_defaultlib.fifo(DEPTH=1,WIDTH=640)
+Compiling module xil_defaultlib.fifo(DEPTH=1,WIDTH=80)
+Compiling module xil_defaultlib.fifo(DEPTH=1,WIDTH=1)
+Compiling module xil_defaultlib.AESL_axi_s_input_r
+Compiling module xil_defaultlib.fifo(DEPTH=1,WIDTH=256)
+Compiling module xil_defaultlib.fifo(DEPTH=1,WIDTH=32)
+Compiling module xil_defaultlib.AESL_axi_s_output_r
+Compiling module xil_defaultlib.apatb_sha256d_top
+Compiling module work.glbl
+Built simulation snapshot sha256d
