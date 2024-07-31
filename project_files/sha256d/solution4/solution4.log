@@ -1878,3 +1878,594 @@ INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:07 
 INFO: [VHDL 208-304] Generating VHDL RTL for sha256d.
 INFO: [VLOG 209-307] Generating Verilog RTL for sha256d.
 INFO: [HLS 200-112] Total elapsed time: 26.697 seconds; peak allocated memory: 189.701 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2020.1 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xqzu5ev-ffrb900-1-i'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'sha256d/sha256d.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 979.473 ; gain = 883.277
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 979.473 ; gain = 883.277
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 979.473 ; gain = 883.277
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 979.473 ; gain = 883.277
+INFO: [HLS 200-489] Unrolling loop 'Load_Input' (sha256d/sha256d.cpp:49) in function 'sha256d' completely with a factor of 80.
+INFO: [HLS 200-489] Unrolling loop 'Append_Zero' (sha256d/sha256d.cpp:54) in function 'sha256d' completely with a factor of 47.
+INFO: [HLS 200-489] Unrolling loop 'Appened_Original_Size' (sha256d/sha256d.cpp:59) in function 'sha256d' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Store_first_block' (sha256d/sha256d.cpp:64) in function 'sha256d' completely with a factor of 64.
+INFO: [HLS 200-489] Unrolling loop 'Store_second_block' (sha256d/sha256d.cpp:67) in function 'sha256d' completely with a factor of 64.
+INFO: [HLS 200-489] Unrolling loop 'Load_Message_Schedule' (sha256d/sha256d.cpp:76) in function 'sha256d' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Extend_Message_Schedule' (sha256d/sha256d.cpp:78) in function 'sha256d' completely with a factor of 48.
+INFO: [HLS 200-489] Unrolling loop 'Store_Input_2' (sha256d/sha256d.cpp:114) in function 'sha256d' completely with a factor of 32.
+INFO: [HLS 200-489] Unrolling loop 'Append_Zero_2' (sha256d/sha256d.cpp:119) in function 'sha256d' completely with a factor of 30.
+INFO: [HLS 200-489] Unrolling loop 'Append_Orignal_Size_2' (sha256d/sha256d.cpp:124) in function 'sha256d' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Load_Message_Schedule_2' (sha256d/sha256d.cpp:142) in function 'sha256d' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Extend_Message_Schedule_2' (sha256d/sha256d.cpp:144) in function 'sha256d' completely with a factor of 48.
+INFO: [HLS 200-489] Unrolling loop 'Rewiring_Output' (sha256d/sha256d.cpp:177) in function 'sha256d' completely with a factor of 8.
+INFO: [XFORM 203-101] Partitioning array 'input.V' (sha256d/sha256d.cpp:34) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'output.V' (sha256d/sha256d.cpp:34) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'state.V' (sha256d/sha256d.cpp:36) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'data1.V' (sha256d/sha256d.cpp:48) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'data.V' (sha256d/sha256d.cpp:63) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'data2.V' (sha256d/sha256d.cpp:113) in dimension 1 completely.
+WARNING: [XFORM 203-104] Completely partitioning array 'm.V.1' (sha256d/sha256d.cpp:139) accessed through non-constant indices on dimension 1 (sha256d/sha256d.cpp:156:178), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead.
+INFO: [XFORM 203-101] Partitioning array 'm.V.1' (sha256d/sha256d.cpp:139) in dimension 1 completely.
+INFO: [XFORM 203-102] Partitioning array 'data.V.0' (sha256d/sha256d.cpp:63) automatically.
+INFO: [XFORM 203-102] Partitioning array 'data.V.1' (sha256d/sha256d.cpp:63) automatically.
+INFO: [XFORM 203-11] Balancing expressions in function 'sha256d' (sha256d/sha256d.cpp:34)...248 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 979.473 ; gain = 883.277
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Transfrom' (sha256d/sha256d.cpp:72:45) in function 'sha256d' : 
+
+the outer loop is not a perfect loop.
+INFO: [HLS 200-472] Inferring partial write operation for 'm.V' (sha256d/sha256d.cpp:76:99)
+INFO: [HLS 200-472] Inferring partial write operation for 'm.V' (sha256d/sha256d.cpp:78)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 979.473 ; gain = 883.277
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'sha256d' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sha256d' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Updates'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-61] Pipelining loop 'Updates_2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 18.992 seconds; current allocated memory: 167.476 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.877 seconds; current allocated memory: 175.161 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sha256d' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_2_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_3_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_4_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_5_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_6_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_7_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_8_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_9_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_10_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_11_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_12_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_13_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_14_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_15_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_16_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_17_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_18_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_19_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_20_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_21_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_22_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_23_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_24_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_25_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_26_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_27_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_28_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_29_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_30_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_31_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_32_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_33_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_34_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_35_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_36_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_37_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_38_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_39_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_40_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_41_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_42_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_43_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_44_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_45_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_46_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_47_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_48_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_49_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_50_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_51_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_52_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_53_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_54_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_55_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_56_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_57_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_58_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_59_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_60_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_61_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_62_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_63_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_64_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_65_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_66_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_67_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_68_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_69_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_70_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_71_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_72_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_73_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_74_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_75_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_76_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_77_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_78_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_79_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_0_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_1_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_2_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_3_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_4_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_5_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_6_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_7_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'sha256d' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'sha256d_mux_646_32_1_1' to 'sha256d_mux_646_3bkb' due to the length limit 20
+WARNING: [RTGEN 206-101] Port 'sha256d/input_0_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_1_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_2_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_4_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_5_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_6_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_8_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_9_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_10_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_12_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_13_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_14_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_16_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_17_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_18_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_20_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_21_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_22_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_24_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_25_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_26_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_28_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_29_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_30_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_32_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_33_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_34_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_36_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_37_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_38_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_40_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_41_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_42_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_44_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_45_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_46_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_48_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_49_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_50_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_52_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_53_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_54_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_56_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_57_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_58_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_60_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_61_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_62_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_64_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_65_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_66_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_68_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_69_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_70_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_72_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_73_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_74_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_76_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_77_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_78_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+INFO: [RTGEN 206-100] Generating core module 'sha256d_mux_646_3bkb': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sha256d'.
+INFO: [HLS 200-111]  Elapsed time: 3.159 seconds; current allocated memory: 189.671 MB.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 116.35 MHz
+INFO: [RTMG 210-279] Implementing memory 'sha256d_K_V_rom' using auto ROMs.
+INFO: [RTMG 210-278] Implementing memory 'sha256d_m_V_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:07 ; elapsed = 00:00:29 . Memory (MB): peak = 979.473 ; gain = 883.277
+INFO: [VHDL 208-304] Generating VHDL RTL for sha256d.
+INFO: [VLOG 209-307] Generating Verilog RTL for sha256d.
+INFO: [HLS 200-112] Total elapsed time: 29.091 seconds; peak allocated memory: 189.671 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2020.1 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xqzu5ev-ffrb900-1-i'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2020.1 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xqzu5ev-ffrb900-1-i'
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file 'sha256d/sha256d.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 979.762 ; gain = 883.566
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 979.762 ; gain = 883.566
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 979.762 ; gain = 883.566
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 979.762 ; gain = 883.566
+INFO: [HLS 200-489] Unrolling loop 'Load_Input' (sha256d/sha256d.cpp:49) in function 'sha256d' completely with a factor of 80.
+INFO: [HLS 200-489] Unrolling loop 'Append_Zero' (sha256d/sha256d.cpp:54) in function 'sha256d' completely with a factor of 47.
+INFO: [HLS 200-489] Unrolling loop 'Appened_Original_Size' (sha256d/sha256d.cpp:59) in function 'sha256d' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Store_first_block' (sha256d/sha256d.cpp:64) in function 'sha256d' completely with a factor of 64.
+INFO: [HLS 200-489] Unrolling loop 'Store_second_block' (sha256d/sha256d.cpp:67) in function 'sha256d' completely with a factor of 64.
+INFO: [HLS 200-489] Unrolling loop 'Load_Message_Schedule' (sha256d/sha256d.cpp:76) in function 'sha256d' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Extend_Message_Schedule' (sha256d/sha256d.cpp:78) in function 'sha256d' completely with a factor of 48.
+INFO: [HLS 200-489] Unrolling loop 'Store_Input_2' (sha256d/sha256d.cpp:114) in function 'sha256d' completely with a factor of 32.
+INFO: [HLS 200-489] Unrolling loop 'Append_Zero_2' (sha256d/sha256d.cpp:119) in function 'sha256d' completely with a factor of 30.
+INFO: [HLS 200-489] Unrolling loop 'Append_Orignal_Size_2' (sha256d/sha256d.cpp:124) in function 'sha256d' completely with a factor of 8.
+INFO: [HLS 200-489] Unrolling loop 'Load_Message_Schedule_2' (sha256d/sha256d.cpp:142) in function 'sha256d' completely with a factor of 16.
+INFO: [HLS 200-489] Unrolling loop 'Extend_Message_Schedule_2' (sha256d/sha256d.cpp:144) in function 'sha256d' completely with a factor of 48.
+INFO: [HLS 200-489] Unrolling loop 'Rewiring_Output' (sha256d/sha256d.cpp:177) in function 'sha256d' completely with a factor of 8.
+INFO: [XFORM 203-101] Partitioning array 'input.V' (sha256d/sha256d.cpp:34) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'output.V' (sha256d/sha256d.cpp:34) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'state.V' (sha256d/sha256d.cpp:36) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'data1.V' (sha256d/sha256d.cpp:48) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'data.V' (sha256d/sha256d.cpp:63) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'data2.V' (sha256d/sha256d.cpp:113) in dimension 1 completely.
+WARNING: [XFORM 203-104] Completely partitioning array 'm.V.1' (sha256d/sha256d.cpp:139) accessed through non-constant indices on dimension 1 (sha256d/sha256d.cpp:156:178), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead.
+INFO: [XFORM 203-101] Partitioning array 'm.V.1' (sha256d/sha256d.cpp:139) in dimension 1 completely.
+INFO: [XFORM 203-102] Partitioning array 'data.V.0' (sha256d/sha256d.cpp:63) automatically.
+INFO: [XFORM 203-102] Partitioning array 'data.V.1' (sha256d/sha256d.cpp:63) automatically.
+INFO: [XFORM 203-11] Balancing expressions in function 'sha256d' (sha256d/sha256d.cpp:34)...248 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 979.762 ; gain = 883.566
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Transfrom' (sha256d/sha256d.cpp:72:45) in function 'sha256d' : 
+
+the outer loop is not a perfect loop.
+INFO: [HLS 200-472] Inferring partial write operation for 'm.V' (sha256d/sha256d.cpp:76:99)
+INFO: [HLS 200-472] Inferring partial write operation for 'm.V' (sha256d/sha256d.cpp:78)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 979.762 ; gain = 883.566
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'sha256d' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sha256d' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Updates'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-61] Pipelining loop 'Updates_2'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 2.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 17.012 seconds; current allocated memory: 167.426 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.876 seconds; current allocated memory: 175.096 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sha256d' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_0_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_1_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_2_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_3_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_4_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_5_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_6_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_7_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_8_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_9_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_10_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_11_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_12_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_13_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_14_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_15_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_16_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_17_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_18_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_19_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_20_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_21_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_22_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_23_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_24_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_25_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_26_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_27_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_28_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_29_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_30_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_31_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_32_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_33_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_34_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_35_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_36_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_37_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_38_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_39_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_40_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_41_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_42_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_43_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_44_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_45_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_46_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_47_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_48_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_49_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_50_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_51_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_52_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_53_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_54_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_55_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_56_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_57_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_58_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_59_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_60_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_61_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_62_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_63_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_64_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_65_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_66_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_67_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_68_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_69_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_70_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_71_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_72_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_73_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_74_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_75_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_76_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_77_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_78_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/input_79_V' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_0_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_1_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_2_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_3_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_4_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_5_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_6_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sha256d/output_7_V' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'sha256d' to 'ap_ctrl_hs'.
+INFO: [SYN 201-210] Renamed object name 'sha256d_mux_646_32_1_1' to 'sha256d_mux_646_3bkb' due to the length limit 20
+WARNING: [RTGEN 206-101] Port 'sha256d/input_0_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_1_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_2_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_4_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_5_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_6_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_8_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_9_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_10_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_12_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_13_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_14_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_16_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_17_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_18_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_20_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_21_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_22_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_24_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_25_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_26_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_28_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_29_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_30_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_32_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_33_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_34_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_36_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_37_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_38_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_40_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_41_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_42_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_44_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_45_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_46_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_48_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_49_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_50_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_52_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_53_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_54_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_56_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_57_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_58_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_60_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_61_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_62_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_64_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_65_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_66_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_68_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_69_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_70_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_72_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_73_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_74_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_76_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_77_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'sha256d/input_78_V' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+INFO: [RTGEN 206-100] Generating core module 'sha256d_mux_646_3bkb': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sha256d'.
+INFO: [HLS 200-111]  Elapsed time: 3.063 seconds; current allocated memory: 189.606 MB.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 116.35 MHz
+INFO: [RTMG 210-279] Implementing memory 'sha256d_K_V_rom' using auto ROMs.
+INFO: [RTMG 210-278] Implementing memory 'sha256d_m_V_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:07 ; elapsed = 00:00:27 . Memory (MB): peak = 979.762 ; gain = 883.566
+INFO: [VHDL 208-304] Generating VHDL RTL for sha256d.
+INFO: [VLOG 209-307] Generating Verilog RTL for sha256d.
+INFO: [HLS 200-112] Total elapsed time: 26.776 seconds; peak allocated memory: 189.606 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2020.1 (64-bit)
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xqzu5ev-ffrb900-1-i'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.

@@ -3,7 +3,5 @@
   <source>
     <originFiles name="sha256d.cpp" path="C:\DRRS_miner\project_files\sha256d\sha256d.cpp"/>
   </source>
-  <testbench>
-    <originFiles name="sha256d_test.cpp" path="C:\DRRS_miner\project_files\sha256d_test.cpp"/>
-  </testbench>
+  <testbench/>
 </autopilotfilemapping:AutoPilotFileMapping>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="sha256d" xd:componentRef="sha256d" xd:initiationInterval="272" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="input[0]" xd:originalName="input0" xd:direction="in" xd:interfaceRef="input_0_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[1]" xd:originalName="input1" xd:direction="in" xd:interfaceRef="input_1_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[2]" xd:originalName="input2" xd:direction="in" xd:interfaceRef="input_2_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[3]" xd:originalName="input3" xd:direction="in" xd:interfaceRef="input_3_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[4]" xd:originalName="input4" xd:direction="in" xd:interfaceRef="input_4_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[5]" xd:originalName="input5" xd:direction="in" xd:interfaceRef="input_5_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[6]" xd:originalName="input6" xd:direction="in" xd:interfaceRef="input_6_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[7]" xd:originalName="input7" xd:direction="in" xd:interfaceRef="input_7_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[8]" xd:originalName="input8" xd:direction="in" xd:interfaceRef="input_8_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[9]" xd:originalName="input9" xd:direction="in" xd:interfaceRef="input_9_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[10]" xd:originalName="input10" xd:direction="in" xd:interfaceRef="input_10_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[11]" xd:originalName="input11" xd:direction="in" xd:interfaceRef="input_11_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[12]" xd:originalName="input12" xd:direction="in" xd:interfaceRef="input_12_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[13]" xd:originalName="input13" xd:direction="in" xd:interfaceRef="input_13_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[14]" xd:originalName="input14" xd:direction="in" xd:interfaceRef="input_14_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[15]" xd:originalName="input15" xd:direction="in" xd:interfaceRef="input_15_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[16]" xd:originalName="input16" xd:direction="in" xd:interfaceRef="input_16_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[17]" xd:originalName="input17" xd:direction="in" xd:interfaceRef="input_17_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[18]" xd:originalName="input18" xd:direction="in" xd:interfaceRef="input_18_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[19]" xd:originalName="input19" xd:direction="in" xd:interfaceRef="input_19_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[20]" xd:originalName="input20" xd:direction="in" xd:interfaceRef="input_20_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[21]" xd:originalName="input21" xd:direction="in" xd:interfaceRef="input_21_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[22]" xd:originalName="input22" xd:direction="in" xd:interfaceRef="input_22_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[23]" xd:originalName="input23" xd:direction="in" xd:interfaceRef="input_23_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[24]" xd:originalName="input24" xd:direction="in" xd:interfaceRef="input_24_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[25]" xd:originalName="input25" xd:direction="in" xd:interfaceRef="input_25_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[26]" xd:originalName="input26" xd:direction="in" xd:interfaceRef="input_26_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[27]" xd:originalName="input27" xd:direction="in" xd:interfaceRef="input_27_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[28]" xd:originalName="input28" xd:direction="in" xd:interfaceRef="input_28_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[29]" xd:originalName="input29" xd:direction="in" xd:interfaceRef="input_29_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[30]" xd:originalName="input30" xd:direction="in" xd:interfaceRef="input_30_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[31]" xd:originalName="input31" xd:direction="in" xd:interfaceRef="input_31_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[32]" xd:originalName="input32" xd:direction="in" xd:interfaceRef="input_32_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[33]" xd:originalName="input33" xd:direction="in" xd:interfaceRef="input_33_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[34]" xd:originalName="input34" xd:direction="in" xd:interfaceRef="input_34_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[35]" xd:originalName="input35" xd:direction="in" xd:interfaceRef="input_35_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[36]" xd:originalName="input36" xd:direction="in" xd:interfaceRef="input_36_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[37]" xd:originalName="input37" xd:direction="in" xd:interfaceRef="input_37_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[38]" xd:originalName="input38" xd:direction="in" xd:interfaceRef="input_38_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[39]" xd:originalName="input39" xd:direction="in" xd:interfaceRef="input_39_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[40]" xd:originalName="input40" xd:direction="in" xd:interfaceRef="input_40_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[41]" xd:originalName="input41" xd:direction="in" xd:interfaceRef="input_41_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[42]" xd:originalName="input42" xd:direction="in" xd:interfaceRef="input_42_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[43]" xd:originalName="input43" xd:direction="in" xd:interfaceRef="input_43_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[44]" xd:originalName="input44" xd:direction="in" xd:interfaceRef="input_44_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[45]" xd:originalName="input45" xd:direction="in" xd:interfaceRef="input_45_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[46]" xd:originalName="input46" xd:direction="in" xd:interfaceRef="input_46_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[47]" xd:originalName="input47" xd:direction="in" xd:interfaceRef="input_47_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[48]" xd:originalName="input48" xd:direction="in" xd:interfaceRef="input_48_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[49]" xd:originalName="input49" xd:direction="in" xd:interfaceRef="input_49_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[50]" xd:originalName="input50" xd:direction="in" xd:interfaceRef="input_50_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[51]" xd:originalName="input51" xd:direction="in" xd:interfaceRef="input_51_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[52]" xd:originalName="input52" xd:direction="in" xd:interfaceRef="input_52_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[53]" xd:originalName="input53" xd:direction="in" xd:interfaceRef="input_53_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[54]" xd:originalName="input54" xd:direction="in" xd:interfaceRef="input_54_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[55]" xd:originalName="input55" xd:direction="in" xd:interfaceRef="input_55_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[56]" xd:originalName="input56" xd:direction="in" xd:interfaceRef="input_56_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[57]" xd:originalName="input57" xd:direction="in" xd:interfaceRef="input_57_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[58]" xd:originalName="input58" xd:direction="in" xd:interfaceRef="input_58_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[59]" xd:originalName="input59" xd:direction="in" xd:interfaceRef="input_59_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[60]" xd:originalName="input60" xd:direction="in" xd:interfaceRef="input_60_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[61]" xd:originalName="input61" xd:direction="in" xd:interfaceRef="input_61_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[62]" xd:originalName="input62" xd:direction="in" xd:interfaceRef="input_62_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[63]" xd:originalName="input63" xd:direction="in" xd:interfaceRef="input_63_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[64]" xd:originalName="input64" xd:direction="in" xd:interfaceRef="input_64_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[65]" xd:originalName="input65" xd:direction="in" xd:interfaceRef="input_65_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[66]" xd:originalName="input66" xd:direction="in" xd:interfaceRef="input_66_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[67]" xd:originalName="input67" xd:direction="in" xd:interfaceRef="input_67_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[68]" xd:originalName="input68" xd:direction="in" xd:interfaceRef="input_68_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[69]" xd:originalName="input69" xd:direction="in" xd:interfaceRef="input_69_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[70]" xd:originalName="input70" xd:direction="in" xd:interfaceRef="input_70_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[71]" xd:originalName="input71" xd:direction="in" xd:interfaceRef="input_71_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[72]" xd:originalName="input72" xd:direction="in" xd:interfaceRef="input_72_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[73]" xd:originalName="input73" xd:direction="in" xd:interfaceRef="input_73_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[74]" xd:originalName="input74" xd:direction="in" xd:interfaceRef="input_74_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[75]" xd:originalName="input75" xd:direction="in" xd:interfaceRef="input_75_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[76]" xd:originalName="input76" xd:direction="in" xd:interfaceRef="input_76_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[77]" xd:originalName="input77" xd:direction="in" xd:interfaceRef="input_77_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[78]" xd:originalName="input78" xd:direction="in" xd:interfaceRef="input_78_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="input[79]" xd:originalName="input79" xd:direction="in" xd:interfaceRef="input_79_V" xd:busTypeRef="register" xd:handshakeRef="ap_none" xd:dataWidth="8" xd:arraySize="1"/>
+  <xd:arg xd:name="output[0]" xd:originalName="output0" xd:direction="out" xd:interfaceRef="output_0_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="9" xd:arraySize="1"/>
+  <xd:arg xd:name="output[1]" xd:originalName="output1" xd:direction="out" xd:interfaceRef="output_1_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="9" xd:arraySize="1"/>
+  <xd:arg xd:name="output[2]" xd:originalName="output2" xd:direction="out" xd:interfaceRef="output_2_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="9" xd:arraySize="1"/>
+  <xd:arg xd:name="output[3]" xd:originalName="output3" xd:direction="out" xd:interfaceRef="output_3_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="9" xd:arraySize="1"/>
+  <xd:arg xd:name="output[4]" xd:originalName="output4" xd:direction="out" xd:interfaceRef="output_4_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="9" xd:arraySize="1"/>
+  <xd:arg xd:name="output[5]" xd:originalName="output5" xd:direction="out" xd:interfaceRef="output_5_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="9" xd:arraySize="1"/>
+  <xd:arg xd:name="output[6]" xd:originalName="output6" xd:direction="out" xd:interfaceRef="output_6_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="9" xd:arraySize="1"/>
+  <xd:arg xd:name="output[7]" xd:originalName="output7" xd:direction="out" xd:interfaceRef="output_7_V" xd:busTypeRef="register" xd:handshakeRef="ap_vld" xd:dataWidth="32" xd:firstOut="9" xd:arraySize="1"/>
+  <xd:latencyEstimates xd:best-case="271" xd:worst-case="271" xd:average-case="271"/>
+  <xd:resourceEstimates xd:LUT="24275" xd:FF="6514" xd:BRAM="3" xd:DSP="0"/>
+</xd:acceleratorMap>
